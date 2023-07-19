@@ -1,2 +1,2 @@
-# gateremark_portfolio
+# gateremark
 My Latest Portfolio built with React
