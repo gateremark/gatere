@@ -1,4 +1,4 @@
-import CTA from "../components/CTA";
+import Cta from "../components/CTA";
 import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { AiOutlineSwap } from "react-icons/ai";
 
@@ -9,17 +9,29 @@ const Header = () => {
 				<h5 className=" text-lg mb-2">Hello, I'm</h5>
 				<h1 className=" text-6xl mb-2">Mark Gatere</h1>
 				<h5 className=" text-lg mb-3">Frontend Developer</h5>
-				<CTA />
+				<Cta />
 			</div>
 			<div className="flex justify-around items-end">
-				<div className=" flex flex-col gap-4 text-[#690cc6] text-lg justify-center items-center mr-20 pb-2">
-					<a href="">
+				<div className=" flex flex-col gap-4 text-[#690cc6] text-xl justify-center items-center mr-20 pb-2">
+					<a
+						href="https://www.linkedin.com/in/gateremark/"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<IoLogoLinkedin />
 					</a>
-					<a href="">
+					<a
+						href="https://twitter.com/gatere_mark"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<IoLogoTwitter />
 					</a>
-					<a href="">
+					<a
+						href="https://github.com/gateremark"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<IoLogoGithub />
 					</a>
 					<AiOutlineSwap className=" rotate-90 h-15 text-4xl text-[#30144d]" />

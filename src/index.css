@@ -15,8 +15,20 @@
 	font-family: "Victor Mono", monospace;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	display: none;
+} */
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #484e5c;
+}
+::-webkit-scrollbar-thumb {
+	background: #0bd3fd;
+	opacity: 1;
 }
 
 .br {

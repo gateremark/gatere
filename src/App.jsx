@@ -46,6 +46,16 @@ function App() {
 				init={particlesInit}
 				options={{
 					autoPlay: true,
+					// background: {
+					// 	color: {
+					// 		value: "#071322",
+					// 	},
+					// 	image: "",
+					// 	position: "",
+					// 	repeat: "",
+					// 	size: "",
+					// 	opacity: 1,
+					// },
 					backgroundMask: {
 						composite: "destination-out",
 						cover: {
@@ -83,8 +93,8 @@ function App() {
 								type: "circle",
 							},
 							onHover: {
-								enable: false,
-								mode: "attract",
+								enable: true,
+								mode: "repulse",
 								parallax: {
 									enable: false,
 									force: 2,
@@ -147,9 +157,9 @@ function App() {
 								quantity: 2,
 							},
 							repulse: {
-								distance: 200,
+								distance: 100,
 								duration: 0.4,
-								speed: 1,
+								speed: 0.5,
 							},
 							slow: {
 								factor: 3,
