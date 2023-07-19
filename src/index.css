@@ -1,4 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "Victor Mono", monospace;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.br {
+	border: 1px solid #690cc6;
+}
+
+/* --color-primary: color: hsl(270, 89%, 41%); #690cc6;
+--color-white: color: hsl(0, 5%, 100%); #ffffff;
+--color-light: color: hsl(270, 5%, 94%); #f0eff0;
+--color-black: color: hsl(270, 5%, 15%); #262428;
+--color-dark: color: hsl(270, 5%, 44%); #706b76; */
