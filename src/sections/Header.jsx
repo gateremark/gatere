@@ -37,7 +37,7 @@ const Header = () => {
 					<AiOutlineSwap className=" rotate-90 h-15 text-4xl text-[#30144d]" />
 				</div>
 				<img
-					className=" w-40 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-16 px-6 pb-2"
+					className=" w-52 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-14 px-4 md:pt-16 md:px-6 pb-2"
 					src="/me_icon.png"
 					alt="Mark Gatere"
 				/>
