@@ -321,7 +321,7 @@ function App() {
 							mode: "bounce",
 						},
 						color: {
-							value: "#5FBFF9",
+							value: ["#faebd7", "#03dac6", "#ff0266"],
 							animation: {
 								enable: false,
 								speed: 100,
@@ -425,7 +425,7 @@ function App() {
 								factor: 1000,
 							},
 							limit: 0,
-							value: 100,
+							value: 150,
 						},
 						opacity: {
 							random: {
