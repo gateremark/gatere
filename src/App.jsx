@@ -20,7 +20,7 @@ function App() {
 		await loadFull(main);
 	};
 	return (
-		<div className="scroll-smooth">
+		<div className="">
 			<AnimatedCursor
 				innerSize={20}
 				outerSize={20}
@@ -511,15 +511,16 @@ function App() {
 					themes: [],
 				}}
 			/>
-
-			<Navbar />
-			<Header />
-			<About />
-			<Projects />
-			<Work />
-			<Blog />
-			<Achievements />
-			<Contact />
+			<div>
+				<Navbar />
+				<Header />
+				<About />
+				<Projects />
+				<Work />
+				<Blog />
+				<Achievements />
+				<Contact />
+			</div>
 		</div>
 	);
 }

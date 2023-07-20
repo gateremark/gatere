@@ -15,11 +15,11 @@
 	font-family: "Victor Mono", monospace;
 }
 
-/* ::-webkit-scrollbar {
-	display: none;
-} */
-
 ::-webkit-scrollbar {
+	display: none;
+}
+
+/* ::-webkit-scrollbar {
 	width: 5px;
 	height: 5px;
 }
@@ -29,10 +29,14 @@
 ::-webkit-scrollbar-thumb {
 	background: #0bd3fd;
 	opacity: 1;
-}
+} */
 
 .br {
 	border: 1px solid #690cc6;
+}
+
+html {
+	scroll-behavior: smooth !important;
 }
 
 /* --color-primary: color: hsl(270, 89%, 41%); #690cc6;
