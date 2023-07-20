@@ -4,7 +4,7 @@ import { AiOutlineSwap } from "react-icons/ai";
 
 const Header = () => {
 	return (
-		<header className="pt-28 ms-auto me-auto w-[95%] md:w-full ">
+		<header id="#" className="pt-28 ms-auto me-auto w-[95%] md:w-full ">
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
 				<h5 className=" text-base md:text-lg mb-2">Hello, I'm</h5>
 				<h1 className=" text-4xl  md:text-6xl mb-2">Mark Gatere</h1>

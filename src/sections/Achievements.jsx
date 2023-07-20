@@ -1,8 +1,13 @@
-const Projects = () => {
-  return (
-		<section id="Projects" className="mt-32 ms-auto me-auto w-[95%] md:w-full">
-			<div className=" flex flex-col justify-center items-center font-medium mb-6">
-				<h2 className="text-4xl mb-10 font-semibold">Projects</h2>
+import Testimonials from "./Testimonials";
+
+const Achievements = () => {
+	return (
+		<section
+			id="Achievements"
+			className="mt-32 ms-auto me-auto w-[95%] md:w-full"
+		>
+			<div className=" flex flex-col justify-center items-center font-medium">
+				<h2 className="text-4xl mb-10 font-semibold">Achievements</h2>
 				<div className="flex justify-between w-[90%] md:w-[80%]">
 					<div className=" w-40 md:w-72 aspect-square rounded-[2rem] bg-gradient-to-tr from-[#690cc600] via-[#430680] to-[#690cc600] flex items-center justify-center">
 						<img
@@ -14,8 +19,9 @@ const Projects = () => {
 					<div>Hello</div>
 				</div>
 			</div>
+			<Testimonials />
 		</section>
 	);
-}
+};
 
-export default Projects
+export default Achievements;

@@ -3,6 +3,12 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Navbar from "./sections/Navbar";
 import Header from "./sections/Header";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Work from "./sections/Work";
+import Blog from "./sections/Blog";
+import Achievements from "./sections/Achievements";
+import Contact from "./sections/Contact";
 
 function App() {
 	const particlesInit = async (main) => {
@@ -14,7 +20,7 @@ function App() {
 		await loadFull(main);
 	};
 	return (
-		<div className="">
+		<div className="scroll-smooth">
 			<AnimatedCursor
 				innerSize={20}
 				outerSize={20}
@@ -508,6 +514,12 @@ function App() {
 
 			<Navbar />
 			<Header />
+			<About />
+			<Projects />
+			<Work />
+			<Blog />
+			<Achievements />
+			<Contact />
 		</div>
 	);
 }

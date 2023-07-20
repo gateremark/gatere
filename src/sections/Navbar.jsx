@@ -3,7 +3,7 @@ import MG from "../assets/mglogo.png";
 
 const Navbar = () => {
 	return (
-		<nav className="m-o fixed w-[100vw] h-20 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out">
+		<nav className="m-o fixed z-10 w-[100vw] h-20 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out">
 			<div className=" w-[90%] ms-auto me-auto flex justify-between items-center">
 				<a href="#">
 					<img className="w-20 " src={MG} alt="gateremark" />
