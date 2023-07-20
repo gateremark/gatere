@@ -20,7 +20,7 @@ function App() {
 		await loadFull(main);
 	};
 	return (
-		<div className="">
+		<div className=" transition-all ease-in-out duration-500">
 			<AnimatedCursor
 				innerSize={20}
 				outerSize={20}

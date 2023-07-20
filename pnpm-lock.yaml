@@ -14,6 +14,9 @@ dependencies:
   framer-motion:
     specifier: ^10.12.22
     version: 10.12.22(react-dom@18.2.0)(react@18.2.0)
+  maath:
+    specifier: ^0.7.0
+    version: 0.7.0(@types/three@0.154.0)(three@0.154.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1877,6 +1880,16 @@ packages:
 
   /maath@0.6.0(@types/three@0.154.0)(three@0.154.0):
     resolution: {integrity: sha512-dSb2xQuP7vDnaYqfoKzlApeRcR2xtN8/f7WV/TMAkBC8552TwTLtOO0JTcSygkYMjNDPoo6V01jTw/aPi4JrMw==}
+    peerDependencies:
+      '@types/three': '>=0.144.0'
+      three: '>=0.144.0'
+    dependencies:
+      '@types/three': 0.154.0
+      three: 0.154.0
+    dev: false
+
+  /maath@0.7.0(@types/three@0.154.0)(three@0.154.0):
+    resolution: {integrity: sha512-JQ1JZrQLDgJ59snCk2AcSb/jdGwNgGQXlLcfZChN8lmpMR7g3bpMM3ugcqGfU1ROwjVvX5CvcVJHc8TkxljG8Q==}
     peerDependencies:
       '@types/three': '>=0.144.0'
       three: '>=0.144.0'

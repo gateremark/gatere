@@ -5,7 +5,7 @@ import { FaAnglesDown } from "react-icons/fa6";
 
 const Header = () => {
 	return (
-		<header id="#" className="pt-28 ms-auto me-auto w-[95%] md:w-full ">
+		<header id="#" className="pt-28 ms-auto me-auto w-[95%] md:w-full">
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
 				<h5 className=" text-base md:text-lg mb-2">Hello, I'm</h5>
 				<h1 className=" text-4xl  md:text-6xl mb-2">Mark Gatere</h1>
@@ -13,7 +13,7 @@ const Header = () => {
 				<Cta />
 			</div>
 			<div className="flex justify-evenly md:justify-around items-end">
-				<div className=" flex flex-col gap-4 text-[#690cc6] text-sm md:text-xl justify-center items-center mr-10 md:mr-24 pb-2">
+				<div className=" flex flex-col gap-4 text-[#690cc6] text-sm md:text-xl justify-center items-center md:mr-[3rem] pb-2">
 					<a
 						href="https://www.linkedin.com/in/gateremark/"
 						target="_blank"
@@ -42,15 +42,15 @@ const Header = () => {
 					src="/me_icon.png"
 					alt="Mark Gatere"
 				/>
-				<a
+				{/* <a
 					href="#About"
 					className=" hidden md:block rotate-90 text-sm md:text-lg md:mb-12 text-[#30144d]"
 				>
 					Scroll Down
-				</a>
+				</a> */}
 				<a
 					href="#About"
-					className="  block md:hidden animate-bounce text-2xl md:text-lg md:mb-12 text-[#30144d]"
+					className=" animate-bounce text-2xl md:text-3xl text-[#30144d]"
 				>
 					<FaAnglesDown />
 				</a>
