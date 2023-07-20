@@ -1,6 +1,7 @@
 import Cta from "../components/CTA";
 import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { AiOutlineSwap } from "react-icons/ai";
+import { FaAnglesDown } from "react-icons/fa6";
 
 const Header = () => {
 	return (
@@ -11,7 +12,7 @@ const Header = () => {
 				<h5 className=" text-base mb:text-lg mb-3">Frontend Developer</h5>
 				<Cta />
 			</div>
-			<div className="flex justify-center md:justify-around items-end">
+			<div className="flex justify-evenly md:justify-around items-end">
 				<div className=" flex flex-col gap-4 text-[#690cc6] text-sm md:text-xl justify-center items-center mr-10 md:mr-24 pb-2">
 					<a
 						href="https://www.linkedin.com/in/gateremark/"
@@ -38,14 +39,20 @@ const Header = () => {
 				</div>
 				<img
 					className=" w-52 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-14 px-4 md:pt-16 md:px-6 pb-2"
-					src="/me_iconc.png"
+					src="/me_icon.png"
 					alt="Mark Gatere"
 				/>
 				<a
 					href="#About"
-					className="rotate-90 text-sm md:text-lg md:mb-12 text-[#30144d]"
+					className=" hidden md:block rotate-90 text-sm md:text-lg md:mb-12 text-[#30144d]"
 				>
 					Scroll Down
+				</a>
+				<a
+					href="#About"
+					className="  block md:hidden animate-bounce text-2xl md:text-lg md:mb-12 text-[#30144d]"
+				>
+					<FaAnglesDown />
 				</a>
 			</div>
 		</header>
