@@ -13,7 +13,7 @@ const Header = () => {
 				<Cta />
 			</div>
 			<div className="flex justify-evenly md:justify-around items-end">
-				<div className=" flex flex-col gap-4 text-[#690cc6] text-sm md:text-xl justify-center items-center md:mr-[2.5rem] pb-2 mb-0 md:mb-4">
+				<div className=" flex flex-col gap-4 text-[#690cc6] text-sm md:text-xl justify-center items-center mb-0 md:mb-6">
 					<a
 						href="https://www.linkedin.com/in/gateremark/"
 						target="_blank"
