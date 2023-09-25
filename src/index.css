@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -37,6 +37,9 @@
 
 html {
 	scroll-behavior: smooth !important;
+}
+body {
+	background-color: #ecf0f3;
 }
 
 /* --color-primary: color: hsl(270, 89%, 41%); #690cc6;
