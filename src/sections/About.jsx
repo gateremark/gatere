@@ -13,6 +13,8 @@ const About = () => {
 							className="w-48 md:w-72 rounded-[2rem] overflow-hidden rotate-[10deg] hover:rotate-0 transition ease-in-out duration-500"
 							src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751252/new_portfolio/gmark_j4ggfo.webp"
 							alt="Mark Gatere"
+							width="288px"
+							height="438.922px"
 						/>
 					</div>
 
@@ -23,6 +25,8 @@ const About = () => {
 								className="w-48 md:w-72 rounded-[2rem] overflow-hidden rotate-[10deg] hover:rotate-0 transition ease-in-out duration-500"
 								src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751252/new_portfolio/gmark_j4ggfo.webp"
 								alt="Mark Gatere"
+								width="288px"
+								height="438.922px"
 							/>
 						</div>
 						<div className=" my-2 grid grid-cols-2 gap-5 justify-between items-center">
