@@ -1,5 +1,5 @@
 import { IoColorFill } from "react-icons/io5";
-import MG from "../assets/mainlogo.png";
+import MG from "../assets/mainlogo.webp";
 
 const Navbar = () => {
 	return (

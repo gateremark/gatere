@@ -3,7 +3,7 @@ import Cta from "../components/CTA";
 import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { AiOutlineSwap } from "react-icons/ai";
 import { FaAnglesDown } from "react-icons/fa6";
-import myself from "../assets/myself.png";
+import myself from "../assets/myself.webp";
 
 const Header = () => {
 	return (
