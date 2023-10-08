@@ -3,7 +3,6 @@ import Cta from "../components/CTA";
 import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { AiOutlineSwap } from "react-icons/ai";
 import { FaAnglesDown } from "react-icons/fa6";
-import myself from "../assets/myself.webp";
 
 const Header = () => {
 	return (
@@ -41,7 +40,7 @@ const Header = () => {
 				</div>
 				<img
 					className=" w-52 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-12 px-2 md:pt-14"
-					src={myself}
+					src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751292/myself_ovbc7w.webp"
 					alt="Mark Gatere"
 				/>
 				{/* <a

@@ -2,7 +2,6 @@ import { FaAnglesDown } from "react-icons/fa6";
 import data from "../components/AboutData";
 import Card from "../components/AboutCard";
 import Skills from "./Skills";
-import gmark from "../assets/gmark.webp";
 
 const About = () => {
 	return (
@@ -12,7 +11,7 @@ const About = () => {
 					<div className="w-48 hidden md:w-72 py-[0.3rem] aspect-square rounded-[2rem] bg-gradient-to-tr from-[#690cc600] via-[#430680] to-[#690cc600] hover:bg-[#430680] transition ease-in-out duration-[500ms] md:flex items-center justify-center">
 						<img
 							className="w-48 md:w-72 rounded-[2rem] overflow-hidden rotate-[10deg] hover:rotate-0 transition ease-in-out duration-500"
-							src={gmark}
+							src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751252/gmark_j4ggfo.webp"
 							alt="Mark Gatere"
 						/>
 					</div>
@@ -22,7 +21,7 @@ const About = () => {
 						<div className="md:hidden w-48 py-1 mt-5 md:my-5 md:w-72 aspect-square rounded-[2rem] bg-gradient-to-tr from-[#690cc600] via-[#430680] to-[#690cc600] hover:bg-[#430680] transition ease-in-out duration-[500ms] flex items-center justify-center">
 							<img
 								className="w-48 md:w-72 rounded-[2rem] overflow-hidden rotate-[10deg] hover:rotate-0 transition ease-in-out duration-500"
-								src={gmark}
+								src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751252/gmark_j4ggfo.webp"
 								alt="Mark Gatere"
 							/>
 						</div>
