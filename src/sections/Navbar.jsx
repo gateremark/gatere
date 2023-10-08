@@ -8,7 +8,7 @@ const Navbar = () => {
 				<a href="#">
 					<img
 						className=" w-16 "
-						src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751220/mainlogo_ovacwq.webp"
+						src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751220/new_portfolio/mainlogo_ovacwq.webp"
 						alt="gateremark"
 					/>
 				</a>

@@ -40,7 +40,7 @@ const Header = () => {
 				</div>
 				<img
 					className=" w-52 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-12 px-2 md:pt-14"
-					src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751292/myself_ovbc7w.webp"
+					src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751292/new_portfolio/myself_ovbc7w.webp"
 					alt="Mark Gatere"
 				/>
 				{/* <a
