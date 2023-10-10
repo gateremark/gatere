@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
+@import "exodusfont/exodusfont.css";
 
 @tailwind base;
 @tailwind components;
@@ -58,4 +59,3 @@ body {
 	-webkit-backdrop-filter: blur(4px);
 	border: 1px solid rgba(255, 255, 255, 0.18);
 }
-
