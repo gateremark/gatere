@@ -12,7 +12,7 @@ const Work = () => {
 			viewport={{ once: false, amount: 0.25 }}
 			className="ms-auto me-auto w-[95%] md:w-full"
 		>
-			<div className="pt-28 flex flex-col justify-center items-center font-medium">
+			<div className=" pt-14 flex flex-col justify-center items-center font-medium">
 				<TypingText
 					title="| Work"
 					textStyles="text-4xl mb-10 font-semibold"
