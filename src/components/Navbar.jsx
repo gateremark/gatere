@@ -8,16 +8,16 @@ const Navbar = () => {
 			variants={navVariants}
 			initial="hidden"
 			whileInView="show"
-			className="m-o fixed z-10 w-[100vw] h-20 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out"
+			className="m-o fixed z-10 w-[100vw] h-16 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out"
 		>
 			<div className=" w-[90%] ms-auto me-auto flex justify-between items-center">
 				<a href="#">
 					<img
-						className=" w-16 "
+						className="w-14"
 						src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751220/new_portfolio/mainlogo_ovacwq.webp"
 						alt="gateremark"
-						width="64px"
-						height="68.813px"
+						width="56px"
+						height="60.219px"
 					/>
 				</a>
 				<ul className="w-[70%] md:flex items-center justify-between hidden text-[#FBF2A3] text-xl">

@@ -13,7 +13,7 @@ const Header = () => {
 			animate={{ opacity: 1, y: 0 }}
 			exit={{ opacity: 0, y: 30 }}
 			transition={{ duration: 3 }}
-			className="pt-[6.5rem] ms-auto me-auto w-[95%] md:w-full"
+			className="pt-[5.5rem] ms-auto me-auto w-[95%] md:w-full"
 		>
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
 				<h5 className=" text-base md:text-lg mb-2">Hello, I'm</h5>
