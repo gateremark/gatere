@@ -29,7 +29,7 @@ const ProjectCard = ({
 				{title}
 			</h3>
 		) : (
-			<div className="absolute bottom-0 p-5 md:p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+			<div className="absolute bottom-0 px-5 md:px-8 pb-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
 				<h2 className="font-semibold sm:text-[32px] text-[24px] text-white">
 					{title}
 				</h2>
@@ -38,20 +38,20 @@ const ProjectCard = ({
 					{desc}
 				</p>
 
-				<div className="flex w-full text-[#ffffff] justify-between items-center h-[60px] glassmorphism">
+				<div className="flex w-full text-[#ffffff] justify-between items-center px-2 h-[65px] glassmorphism rounded-full">
 					<a
 						href="https://github.com/gateremark"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<IoLogoGithub className="text-5xl" />
+						<IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150" />
 					</a>
 					<a
 						href="https://twitter.com/gatere_mark"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<BsFillArrowUpRightCircleFill className="text-5xl" />
+						<BsFillArrowUpRightCircleFill className="text-5xl hover:scale-110 transition ease-in-out duration-150" />
 					</a>
 				</div>
 			</div>

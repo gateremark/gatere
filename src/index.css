@@ -32,6 +32,14 @@
 	opacity: 1;
 } */
 
+/* ----------------------------------------- */
+
+/* --color-primary: color: hsl(270, 89%, 41%); #690cc6;
+--color-white: color: hsl(0, 5%, 100%); #ffffff;
+--color-light: color: hsl(270, 5%, 94%); #f0eff0;
+--color-black: color: hsl(270, 5%, 15%); #262428;
+--color-dark: color: hsl(270, 5%, 44%); #706b76; */
+
 .br {
 	border: 1px solid #690cc6;
 }
@@ -43,8 +51,11 @@ body {
 	background-color: #ecf0f3;
 }
 
-/* --color-primary: color: hsl(270, 89%, 41%); #690cc6;
---color-white: color: hsl(0, 5%, 100%); #ffffff;
---color-light: color: hsl(270, 5%, 94%); #f0eff0;
---color-black: color: hsl(270, 5%, 15%); #262428;
---color-dark: color: hsl(270, 5%, 44%); #706b76; */
+.glassmorphism {
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
