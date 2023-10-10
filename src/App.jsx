@@ -1,7 +1,7 @@
 import AnimatedCursor from "react-animated-cursor";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import Navbar from "./sections/Navbar";
+import Navbar from "./components/Navbar";
 import Header from "./sections/Header";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
@@ -321,7 +321,7 @@ function App() {
 							mode: "bounce",
 						},
 						color: {
-							value: ["#faebd7", "#03dac6", "#ff0266"],
+							value: ["#690cc6", "#03dac6"],
 							animation: {
 								enable: false,
 								speed: 100,

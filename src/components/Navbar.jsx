@@ -1,8 +1,15 @@
 import { IoColorFill } from "react-icons/io5";
+import { motion } from "framer-motion";
+import { navVariants } from "../motion";
 
 const Navbar = () => {
 	return (
-		<nav className="m-o fixed z-10 w-[100vw] h-20 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out">
+		<motion.nav
+			variants={navVariants}
+			initial="hidden"
+			whileInView="show"
+			className="m-o fixed z-10 w-[100vw] h-20 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out"
+		>
 			<div className=" w-[90%] ms-auto me-auto flex justify-between items-center">
 				<a href="#">
 					<img
@@ -49,7 +56,7 @@ const Navbar = () => {
 				</ul>
 				<IoColorFill className="customize text-4xl text-[#FBF2A3] hover:scale-110 transition ease-in-out duration-150" />
 			</div>
-		</nav>
+		</motion.nav>
 	);
 };
 
