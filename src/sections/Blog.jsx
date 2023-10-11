@@ -3,6 +3,7 @@ import { TypingText } from "../components/TypingText";
 import { staggerContainer } from "../motion";
 import BlogCard from "../components/BlogCard";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
 	const blogData = [
@@ -44,18 +45,13 @@ const Blog = () => {
 						<BlogCard key={`blog-${index}`} {...item} index={index + 1} />
 					))}
 				</div>
-				<a
-					href="https://github.com/gateremark"
-					target="_blank"
-					rel="noreferrer"
+				<Link
+					to="/blogspage"
 					className="flex flex-col justify-center items-center mt-10 text-xl font-semibold hover:scale-110 transition ease-in-out duration-200"
 				>
 					<BsFillArrowUpRightCircleFill />
-					<TypingText
-						title="More Blogs"
-						textStyles=""
-					/>
-				</a>
+					<TypingText title="More Blogs" textStyles="" />
+				</Link>
 			</div>
 		</motion.div>
 	);

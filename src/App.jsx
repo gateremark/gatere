@@ -1,18 +1,14 @@
 import AnimatedCursor from "react-animated-cursor";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import Navbar from "./components/Navbar";
-import Header from "./sections/Header";
-import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Work from "./sections/Work";
-import Blog from "./sections/Blog";
-import Achievements from "./sections/Achievements";
-import Contact from "./sections/Contact";
+import Home from "./sections/Home";
+import BlogsPage from "./sections/BlogsPage";
+import ErrorPage from "./sections/ErrorPage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
 	const particlesInit = async (main) => {
-		console.log(main);
+		// console.log(main);
 
 		// you can initialize the tsParticles instance (main) here, adding custom shapes or presets
 		// this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -21,6 +17,11 @@ function App() {
 	};
 	return (
 		<div className=" transition-all ease-in-out duration-500">
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/blogspage" element={<BlogsPage />} />
+				<Route path="/*" element={<ErrorPage />} />
+			</Routes>
 			<AnimatedCursor
 				innerSize={20}
 				outerSize={20}
@@ -46,7 +47,6 @@ function App() {
 					".customize",
 				]}
 			/>
-
 			<Particles
 				id="tsparticles"
 				init={particlesInit}
@@ -511,16 +511,6 @@ function App() {
 					themes: [],
 				}}
 			/>
-			<div>
-				<Navbar />
-				<Header />
-				<About />
-				<Projects />
-				<Work />
-				<Blog />
-				<Achievements />
-				<Contact />
-			</div>
 		</div>
 	);
 }
