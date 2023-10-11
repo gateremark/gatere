@@ -32,9 +32,6 @@ dependencies:
   react-router-dom:
     specifier: ^6.16.0
     version: 6.16.0(react-dom@18.2.0)(react@18.2.0)
-  react-scroll-to-top:
-    specifier: ^3.0.0
-    version: 3.0.0(react@18.2.0)
   react-tsparticles:
     specifier: ^2.11.0
     version: 2.11.0(react@18.2.0)
@@ -2299,14 +2296,6 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.9.0
-      react: 18.2.0
-    dev: false
-
-  /react-scroll-to-top@3.0.0(react@18.2.0):
-    resolution: {integrity: sha512-I/k45Ujai097du59tHBbzGxN7Lyc6K8Uc3IChq6HMXaBfB8N/rrfm055T5Yv0DWfVpf6pOFaBmhD3LOfH5unGw==}
-    peerDependencies:
-      react: ^16.8.0 || 17.x || ^18
-    dependencies:
       react: 18.2.0
     dev: false
 
