@@ -13,12 +13,16 @@ const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (
 			className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
 		/>
 		<div className="w-full flex justify-between items-center">
-			<div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-				<h4 className="font-normal lg:text-[42px] text-[26px]">{title}</h4>
-				<p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-					{subtitle}
-				</p>
-			</div>
+			<a href={url} target="_blank" rel="noreferrer" className="">
+				<div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px] md:hover:scale-100 hover:scale-105 transition ease-in-out duration-500">
+					<h4 className="font-normal lg:text-[42px] text-[26px] flex items-center justify-between">
+						{title} <BsArrowUpRightSquare className="md:hidden text-xl" />{" "}
+					</h4>
+					<p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
+						{subtitle}
+					</p>
+				</div>
+			</a>
 
 			<div className="md:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
 				<a href={url} target="_blank" rel="noreferrer">

@@ -16,25 +16,25 @@ const Projects = () => {
 		{
 			id: "proj-2",
 			imgUrl: "plan2.png",
-			title: "Tuongee",
+			title: "Tubonge",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-3",
 			imgUrl: "plan3.png",
-			title: "Hashnerd",
+			title: "StoryScribe",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-4",
 			imgUrl: "plan4.png",
-			title: "Instagroove",
+			title: "Pixagram",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-5",
 			imgUrl: "plan5.png",
-			title: "Netclips",
+			title: "NetClips",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 	];

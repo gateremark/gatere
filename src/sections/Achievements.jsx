@@ -1,5 +1,3 @@
-import Testimonials from "./Testimonials";
-
 import { motion } from "framer-motion";
 import { TypingText } from "../components/TypingText";
 import { staggerContainer } from "../motion";
@@ -30,7 +28,6 @@ const Achievements = () => {
 					<div>Hello</div>
 				</div>
 			</div>
-			<Testimonials />
 		</motion.div>
 	);
 };
