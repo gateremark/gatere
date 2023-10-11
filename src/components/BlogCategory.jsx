@@ -10,7 +10,7 @@ const BlogCategory = ({ categories, onFilterBlogs }) => {
 	};
 
 	return (
-		<div className="flex gap-8 mb-3">
+		<div className="flex gap-6 md:gap-8 mb-3 mx-2 md:mx-0">
 			{categories.map((category) => (
 				<CategoryButton
 					key={category}
@@ -20,7 +20,7 @@ const BlogCategory = ({ categories, onFilterBlogs }) => {
 						activeCategory == category
 							? "bg-[#430680] text-[#ffffff]"
 							: "bg-[#ffffff]"
-					} rounded-lg hover:scale-110 hover:bg-[#b6b6b6] transition ease-in-out duration-200`}
+					} rounded-lg hover:scale-110 hover:bg-[#b6b6b6] transition ease-in-out duration-150 active:hover:bg-[#858585]`}
 				/>
 			))}
 		</div>
