@@ -2,7 +2,7 @@ import Testimonials from "./Testimonials";
 
 import { motion } from "framer-motion";
 import { TypingText } from "../components/TypingText";
-import { fadeIn, staggerContainer } from "../motion";
+import { staggerContainer } from "../motion";
 
 const Achievements = () => {
 	return (
@@ -11,7 +11,7 @@ const Achievements = () => {
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"
-			viewport={{ once: false, amount: 0.25 }}
+			viewport={{ once: false, amount: 0.1 }}
 			className="ms-auto me-auto w-[95%] md:w-full"
 		>
 			<div className="pt-28 flex flex-col justify-center items-center font-medium">

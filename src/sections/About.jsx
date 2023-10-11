@@ -13,7 +13,7 @@ const About = () => {
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"
-			viewport={{ once: false, amount: 0.25 }}
+			viewport={{ once: false, amount: 0.1 }}
 			className="ms-auto me-auto md:w-full"
 		>
 			<div className=" pt-28 flex flex-col justify-center items-center font-medium">
