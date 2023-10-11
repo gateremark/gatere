@@ -12,7 +12,7 @@ const ErrorPage = () => {
 				<GiReturnArrow className="text-xl sm:text-3xl md:text-5xl" />
 				<span className="text-xl sm:text-2xl md:text-4xl ">Home</span>
 			</Link>
-			<img src={error} alt="404 Error" />
+			<img src={error} alt="404 Error" className="mt-14 md:mt-0" />
 		</div>
 	);
 };
