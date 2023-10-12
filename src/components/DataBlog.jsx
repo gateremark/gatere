@@ -1,6 +1,6 @@
 export const blogData = [
 	{
-		category: "JavaScript",
+		category: "frontend",
 		imgUrl: "blog1.png",
 		title: "ReactJS 101: Let's Build Robust Web Applications with React.",
 		subtitle:
@@ -8,7 +8,7 @@ export const blogData = [
 		url: "https://github.com/gateremark",
 	},
 	{
-		category: "python",
+		category: "backend",
 		imgUrl: "blog2.png",
 		title: "Python from the word ...Go",
 		subtitle:
