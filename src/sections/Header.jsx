@@ -13,12 +13,12 @@ const Header = () => {
 			animate={{ opacity: 1, y: 0 }}
 			exit={{ opacity: 0, y: 30 }}
 			transition={{ duration: 3 }}
-			className="pt-[2rem] ms-auto me-auto w-[95%] md:w-full"
+			className="pt-[1.8rem] ms-auto me-auto w-[95%] md:w-full"
 		>
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
 				<h5 className=" text-base md:text-lg mb-2">Hello, I'm</h5>
 				<h1 className=" text-4xl  md:text-6xl mb-2 head">Mark Gatere</h1>
-				<h5 className=" text-base mb:text-lg mb-3">Frontend Developer</h5>
+				<h5 className=" text-base md:text-xl mb-3">Frontend Developer</h5>
 				<Cta />
 			</div>
 			<div className="flex justify-evenly md:justify-around items-end">

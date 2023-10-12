@@ -16,7 +16,7 @@ const Contact = () => {
 			className="py-10 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full"
 		>
 			<TypingText title="| Contact" textStyles="text-4xl mb-10 font-semibold" />
-			<div className="w-[90%] md:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
+			<div className="w-[90%] md:w-[65%] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32">
 				<div className=" flex flex-col items-center gap-5">
 					<article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-3xl hover:bg-[#00000010] hover:translate-y-1 transition ease-in-out duration-200">
 						<MdOutlineLocationOn className="text-3xl text-[#430680] font-bold" />
@@ -92,21 +92,21 @@ const Contact = () => {
 							name="Name"
 							placeholder="Full Name"
 							required
-							className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff90]"
+							className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
 						/>
 						<input
 							type="text"
 							name="Email"
 							placeholder="Email Address"
 							required
-							className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff90]"
+							className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
 						/>
 						<input
 							type="text"
 							name="Subject"
 							placeholder="Subject"
 							required
-							className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff90]"
+							className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
 						/>
 						<textarea
 							name="Message"
@@ -114,7 +114,7 @@ const Contact = () => {
 							rows="6"
 							placeholder="Message"
 							required
-							className="text-[#430680] resize-none w-[100%] py-6 px-4 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff90]"
+							className="text-[#430680] resize-none w-[100%] py-6 px-4 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
 						></textarea>
 						<button
 							type="submit"
