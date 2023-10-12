@@ -1,6 +1,6 @@
 const AchievementCard = ({ imgUrl, title }) => {
 	return (
-		<div className="bg-[#ffffff] p-5 rounded-xl flex flex-col justify-center items-center mb-16 achieve">
+		<div className="bg-[#ffffff] h-[200px] rounded-xl flex flex-col justify-center items-center mb-16 hover:bg-[#dddddd] hover:translate-y-1 transition ease-in-out duration-200">
 			<img
 				src={imgUrl}
 				alt=""
