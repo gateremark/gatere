@@ -16,7 +16,7 @@ const About = () => {
 			viewport={{ once: false, amount: 0.1 }}
 			className="ms-auto me-auto md:w-full"
 		>
-			<div className=" pt-28 flex flex-col justify-center items-center font-medium">
+			<div className=" pt-16 flex flex-col justify-center items-center font-medium">
 				<div className="md:flex justify-between w-[90%] md:w-[90%] lg:w-[75%]">
 					<div className="w-48 hidden md:w-72 py-[0.3rem] aspect-square rounded-[2rem] bg-gradient-to-tr from-[#690cc600] via-[#430680] to-[#690cc600] hover:bg-[#430680] transition ease-in-out duration-[500ms] md:flex items-center justify-center">
 						<img

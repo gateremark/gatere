@@ -12,7 +12,7 @@ const Work = () => {
 			viewport={{ once: false, amount: 0.1 }}
 			className="ms-auto me-auto w-[95%] md:w-full"
 		>
-			<div className="pt-28 flex flex-col justify-center items-center font-medium">
+			<div className="pt-12 flex flex-col justify-center items-center font-medium">
 				<TypingText title="| Work" textStyles="text-4xl mb-10 font-semibold" />
 				<div className="bg-[#ccc] h-[300px] flex justify-between w-[90%] md:w-[80%]">
 					{/* <div className=" w-40 md:w-72 aspect-square rounded-[2rem] bg-gradient-to-tr from-[#690cc600] via-[#430680] to-[#690cc600] flex items-center justify-center">

@@ -14,14 +14,14 @@ const Navbar = () => {
 				<a href="#">
 					<img
 						className="w-[85px] hidden md:block"
-						src="gatlogo.png"
+						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697058396/new_portfolio/gatlogo_cvz9ve.webp"
 						alt="gateremark"
 						width="56px"
 						height="60.219px"
 					/>
 					<img
 						className="w-48 md:hidden"
-						src="gatlogo1.png"
+						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697058420/new_portfolio/gatlogo1_gazfcb.webp"
 						alt="gateremark"
 						width="56px"
 						height="60.219px"

@@ -38,7 +38,7 @@ const Blog = () => {
 			viewport={{ once: false, amount: 0.1 }}
 			className="ms-auto me-auto w-[95%] md:w-full"
 		>
-			<div className="pt-28 flex flex-col justify-center items-center font-medium">
+			<div className="pt-16 flex flex-col justify-center items-center font-medium">
 				<TypingText title="| Blog" textStyles="text-4xl mb-8 font-semibold" />
 				<div className="w-[85%] flex flex-col gap-[30px]">
 					{blogData.map((item, index) => (

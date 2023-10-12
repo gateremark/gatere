@@ -16,11 +16,11 @@ const BlogCategory = ({ categories, onFilterBlogs }) => {
 					key={category}
 					category={category}
 					onChangeCategory={() => changeCategory(category)}
-					className={`px-4 py-2 capitalize ${
+					className={`px-[14px] py-[6px] capitalize ${
 						activeCategory == category
-							? "bg-[#430680] text-[#ffffff]"
+							? "bg-[#430680] text-[#ffffff] border-2 border-solid border-[#430680]"
 							: "bg-[#ffffff]"
-					} rounded-lg hover:scale-110 hover:bg-[#b6b6b6] transition ease-in-out duration-150 active:hover:bg-[#858585]`}
+					} rounded-lg hover:scale-110 hover:bg-[#b6b6b6] transition ease-in-out duration-150 active:bg-[#858585]`}
 				/>
 			))}
 		</div>
