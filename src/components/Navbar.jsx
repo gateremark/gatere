@@ -20,14 +20,14 @@ const Navbar = () => {
 						height="60.219px"
 					/>
 					<img
-						className="w-48 md:hidden"
+						className="w-64 md:hidden"
 						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697058420/new_portfolio/gatlogo1_gazfcb.webp"
 						alt="gateremark"
 						width="56px"
 						height="60.219px"
 					/>
 				</a>
-				<ul className="w-[60%] md:flex items-center justify-between hidden text-[#ffffff] text-xl">
+				<ul className="w-[70%] md:flex items-center justify-between hidden text-[#ffffff] text-xl">
 					{/* <li>
 						{" "}
 						<a href="#">Home</a>
@@ -61,7 +61,6 @@ const Navbar = () => {
 						<a href="#contact">Contact</a>
 					</li>
 				</ul>
-				<IoColorFill className="customize text-4xl text-[#ffffff] hover:scale-110 transition ease-in-out duration-150" />
 			</div>
 		</motion.nav>
 	);

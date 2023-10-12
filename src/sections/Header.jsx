@@ -60,7 +60,7 @@ const Header = () => {
 					Scroll Down
 				</a> */}
 				<a
-					href="#About"
+					href="#about"
 					className=" animate-bounce text-2xl md:text-3xl text-[#30144d] mb-0 md:mb-10"
 				>
 					<FaAnglesDown />
