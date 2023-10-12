@@ -1,6 +1,6 @@
 export const blogData = [
 	{
-		category: "web",
+		category: "JavaScript",
 		imgUrl: "blog1.png",
 		title: "ReactJS 101: Let's Build Robust Web Applications with React.",
 		subtitle:
@@ -8,7 +8,7 @@ export const blogData = [
 		url: "https://github.com/gateremark",
 	},
 	{
-		category: "design",
+		category: "python",
 		imgUrl: "blog2.png",
 		title: "Python from the word ...Go",
 		subtitle:
@@ -16,7 +16,7 @@ export const blogData = [
 		url: "https://twitter.com/gatere_mark",
 	},
 	{
-		category: "rust",
+		category: "design",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -24,7 +24,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -32,7 +32,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -40,7 +40,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -48,7 +48,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -56,7 +56,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -64,7 +64,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:
@@ -72,7 +72,7 @@ export const blogData = [
 		url: "https://www.linkedin.com/in/gateremark/",
 	},
 	{
-		category: "rust",
+		category: "others",
 		imgUrl: "blog3.png",
 		title: "Mastering the Art of Web Design (Part 1)",
 		subtitle:

@@ -10,16 +10,16 @@ const BlogCategory = ({ categories, onFilterBlogs }) => {
 	};
 
 	return (
-		<div className="flex gap-6 md:gap-8 mb-3 mx-2 md:mx-0">
+		<div className="flex flex-wrap gap-6 md:gap-8 mb-3 mx-2 md:mx-0">
 			{categories.map((category) => (
 				<CategoryButton
 					key={category}
 					category={category}
 					onChangeCategory={() => changeCategory(category)}
-					className={`px-[14px] py-[6px] capitalize ${
+					className={` capitalize ${
 						activeCategory == category
-							? "bg-[#430680] text-[#ffffff] border-2 border-solid border-[#430680]"
-							: "bg-[#ffffff]"
+							? "bg-[#430680] text-[#ffffff] border-2 border-solid border-[#430680] px-[10px] py-[2px] md:px-[12px] md:py-[4px]"
+							: "bg-[#ffffff] px-[12px] py-[4px] md:px-[14px] md:py-[6px]"
 					} rounded-lg hover:scale-110 hover:bg-[#b6b6b6] transition ease-in-out duration-150 active:bg-[#858585]`}
 				/>
 			))}
