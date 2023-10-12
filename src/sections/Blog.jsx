@@ -31,7 +31,7 @@ const Blog = () => {
 	];
 	return (
 		<motion.div
-			id="Blog"
+			id="blog"
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"

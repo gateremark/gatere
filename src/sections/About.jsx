@@ -9,7 +9,7 @@ import { fadeIn, staggerContainer } from "../motion";
 const About = () => {
 	return (
 		<motion.div
-			id="About"
+			id="about"
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"

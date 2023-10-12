@@ -5,8 +5,40 @@ import Home from "./sections/Home";
 import BlogsPage from "./sections/BlogsPage";
 import ErrorPage from "./sections/ErrorPage";
 import { Routes, Route } from "react-router-dom";
+import FloatingNav from "./components/FloatingNav";
+import { useRef, useState, useEffect } from "react";
 
 function App() {
+	const mainRef = useRef();
+
+	const [showFloatingNav, setShowFloatingNav] = useState(true);
+	const [siteYPosition, setSiteYPosition] = useState(0);
+
+	const showFloatingNavHandler = () => {
+		setShowFloatingNav(true);
+	};
+	const hideFloatingNavHandler = () => {
+		setShowFloatingNav(false);
+	};
+
+	const floatingNavToggleHandler = () => {
+		if (
+			siteYPosition < mainRef?.current?.getBoundingClientRect().y - 5 ||
+			siteYPosition > mainRef?.current?.getBoundingClientRect().y + 5
+		) {
+			showFloatingNavHandler();
+		} else {
+			hideFloatingNavHandler();
+		}
+
+		setSiteYPosition(mainRef?.current?.getBoundingClientRect().y);
+	};
+
+	useEffect(() => {
+		const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
+		return () => clearInterval(checkYPosition);
+	}, [siteYPosition]);
+
 	const particlesInit = async (main) => {
 		// console.log(main);
 
@@ -16,12 +48,14 @@ function App() {
 		await loadFull(main);
 	};
 	return (
-		<div className=" transition-all ease-in-out duration-500">
+		<div className=" transition-all ease-in-out duration-500" ref={mainRef}>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/blogspage" element={<BlogsPage />} />
 				<Route path="/*" element={<ErrorPage />} />
 			</Routes>
+			{showFloatingNav && <FloatingNav />}
+
 			<AnimatedCursor
 				innerSize={20}
 				outerSize={20}

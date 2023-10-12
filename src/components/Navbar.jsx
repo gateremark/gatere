@@ -34,23 +34,23 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#About">About Me</a>
+						<a href="#about">About Me</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#Projects">Projects</a>
+						<a href="#projects">Projects</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#Work">Work</a>
+						<a href="#work">Work</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#Blog">Blog</a>
+						<a href="#blog">Blog</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#Achievements">Achievements</a>
+						<a href="#achievements">Achievements</a>
 					</li>
 					{/* <li>
 						{" "}
@@ -58,7 +58,7 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#Contact">Contact</a>
+						<a href="#contact">Contact</a>
 					</li>
 				</ul>
 				<IoColorFill className="customize text-4xl text-[#ffffff] hover:scale-110 transition ease-in-out duration-150" />

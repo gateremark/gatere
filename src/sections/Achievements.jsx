@@ -54,12 +54,12 @@ const Achievements = () => {
 
 	return (
 		<motion.div
-			id="Achievements"
+			id="achievements"
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"
 			viewport={{ once: false, amount: 0.1 }}
-			className="pt-12 flex flex-col ms-auto me-auto w-[95%] md:w-full"
+			className="pt-12 flex flex-col ms-auto me-auto w-[95%] md:w-full z-10"
 		>
 			<div className="flex flex-col justify-center items-center font-medium">
 				<TypingText

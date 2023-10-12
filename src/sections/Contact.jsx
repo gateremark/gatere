@@ -5,7 +5,7 @@ import { staggerContainer } from "../motion";
 const Contact = () => {
 	return (
 		<motion.div
-			id="Contact"
+			id="contact"
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"

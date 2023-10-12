@@ -42,7 +42,7 @@ const Projects = () => {
 	const [active, setActive] = useState("proj-2");
 	return (
 		<motion.div
-			id="Projects"
+			id="projects"
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"
