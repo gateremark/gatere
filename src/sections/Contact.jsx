@@ -13,10 +13,10 @@ const Contact = () => {
 			initial="hidden"
 			whileInView="show"
 			viewport={{ once: false, amount: 0.1 }}
-			className="py-10 mb-2 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full"
+			className="py-10 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full"
 		>
 			<TypingText title="| Contact" textStyles="text-4xl mb-10 font-semibold" />
-			<div className="w-[90%] md:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-[12%]">
+			<div className="w-[90%] md:w-[60%] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
 				<div className=" flex flex-col items-center gap-5">
 					<article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-3xl hover:bg-[#00000010] hover:translate-y-1 transition ease-in-out duration-200">
 						<MdOutlineLocationOn className="text-3xl text-[#430680] font-bold" />
@@ -48,7 +48,7 @@ const Contact = () => {
 						</h5>
 					</article>
 				</div>
-				<div className="flex flex-col ">
+				<div className="flex flex-col">
 					<div className="flex justify-between items-center mb-3">
 						<a
 							href="https://hashnode.com/@gateremark"
@@ -85,7 +85,7 @@ const Contact = () => {
 					<form
 						action="https://formspree.io/f/xgebporq"
 						method="post"
-						className="flex flex-col gap-5 mt-1"
+						className="flex flex-col items-center md:items-start gap-5 mt-1"
 					>
 						<input
 							type="text"
@@ -118,7 +118,7 @@ const Contact = () => {
 						></textarea>
 						<button
 							type="submit"
-							className="mb-10 md:mb-0 w-fit flex justify-center gap-2 items-center text-sm md:text-lg text-[#fff] bg-[#690cc6] px-2 py-2 md:py-2 br border-[#690cc6] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500"
+							className=" w-fit flex justify-center gap-2 items-center md:text-lg text-[#fff] bg-[#690cc6] px-2 py-2 md:py-2 br border-[#690cc6] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500"
 						>
 							{" "}
 							Send Message
