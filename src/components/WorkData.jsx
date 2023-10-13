@@ -1,7 +1,7 @@
-import starbucks from "../assets/company/starbucks.png"
-import tesla from "../assets/company/tesla.png"
-import shopify from "../assets/company/shopify.png"
-import meta from "../assets/company/meta.png"
+import starbucks from "../assets/company/starbucks.png";
+import tesla from "../assets/company/tesla.png";
+import shopify from "../assets/company/shopify.png";
+import meta from "../assets/company/meta.png";
 
 export const workData = [
 	{

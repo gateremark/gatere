@@ -1,6 +1,5 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
-
 const WorkCard = ({ work }) => {
 	return (
 		<VerticalTimelineElement
