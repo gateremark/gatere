@@ -26,7 +26,12 @@ const StartPage = () => {
 				<p className="pt-5 text-[#ffffff] text-base md:text-2xl text-center p__alert">
 					If you're eager for the full interstellar experience, I recommend
 					visiting my{" "}
-					<a href="https://gatere.vercel.app" className="text-[#f0ed40]">
+					<a
+						href="https://gatere.vercel.app"
+						target="_blank"
+						rel="noreferrer"
+						className="text-[#f0ed40]"
+					>
 						previous portfolio
 					</a>
 					. <br /> However, if you're ready to embark on this cosmic adventure,
