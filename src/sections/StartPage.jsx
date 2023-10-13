@@ -30,7 +30,7 @@ const StartPage = () => {
 						href="https://gatere.vercel.app"
 						target="_blank"
 						rel="noreferrer"
-						className="text-[#f0ed40]"
+						className="text-[#f0ed40] p__alert"
 					>
 						previous portfolio
 					</a>
@@ -47,9 +47,9 @@ const StartPage = () => {
 				<p className="pt-3 text-[#ffffff] text-base md:text-2xl text-center">
 					<a
 						href="https://gateremark.vercel.app"
-						className="text-[#f0ed40] curly__name"
+						className="text-[#f0ed40] text-3xl curly__name"
 					>
-						gateremark 😉
+						gateremark😉
 					</a>
 				</p>
 				<button onClick={() => setPageHidden(true)}>

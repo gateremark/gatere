@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-/* font-family: 'Press Start 2P', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 @import "exodusfont/exodusfont.css";
 
 @tailwind base;
@@ -62,7 +62,7 @@ body {
 }
 
 .curly__name {
-	font-family: cursive;
+	font-family: 'Zeyada', cursive;
 }
 
 
