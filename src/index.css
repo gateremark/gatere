@@ -60,3 +60,17 @@ body {
 	border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.vertical-timeline-element .vertical-timeline-element-icon {
+	box-shadow: 0 0 0 4px #1d1836, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+		0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element .vertical-timeline-element-date {
+	color: #000000;
+}
+
+@media only screen and (max-width: 1000px) {
+	.vertical-timeline-element .vertical-timeline-element-date {
+		color: #ffffff;
+	}
+}
