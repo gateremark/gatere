@@ -9,31 +9,36 @@ const Projects = () => {
 	const projectData = [
 		{
 			id: "proj-1",
-			imgUrl: "plan1.png",
+			imgUrl:
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206829/plan1_as9lz6.webp",
 			title: "Jambo Chat",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-2",
-			imgUrl: "plan2.png",
+			imgUrl:
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207197/plan2_forovj.webp",
 			title: "Tubonge",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-3",
-			imgUrl: "plan3.png",
+			imgUrl:
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207195/plan3_sjiki7.webp",
 			title: "StoryScribe",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-4",
-			imgUrl: "plan4.png",
+			imgUrl:
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207025/plan4_tuiyjj.webp",
 			title: "Pixagram",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
 		{
 			id: "proj-5",
-			imgUrl: "plan5.png",
+			imgUrl:
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207036/plan5_pkbwsu.webp",
 			title: "NetClips",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 		},
