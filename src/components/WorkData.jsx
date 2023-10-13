@@ -54,7 +54,7 @@ export const workData = [
 	{
 		title: "React.js Developer",
 		company_name: "Microsoft",
-		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/ms_yixnxm.webp"a,
+		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/ms_yixnxm.webp",
 		iconBg: "#383E56",
 		date: "March 2020 - April 2021",
 		points: [
