@@ -38,6 +38,9 @@ dependencies:
   react-scrollspy:
     specifier: ^3.4.3
     version: 3.4.3(react-dom@18.2.0)(react@18.2.0)
+  react-tilt:
+    specifier: ^1.0.2
+    version: 1.0.2(@types/react-dom@18.2.6)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
   react-tsparticles:
     specifier: ^2.11.0
     version: 2.11.0(react@18.2.0)
@@ -723,7 +726,6 @@ packages:
     resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
     dependencies:
       '@types/react': 18.2.14
-    dev: true
 
   /@types/react-reconciler@0.26.7:
     resolution: {integrity: sha512-mBDYl8x+oyPX/VBb3E638N0B7xG+SPk/EAMcVPeexqus/5aTpTphQi0curhhshOqRrc9t6OPoJfEUkbymse/lQ==}
@@ -2336,6 +2338,20 @@ packages:
       babel-runtime: 6.26.0
       classnames: 2.3.2
       prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /react-tilt@1.0.2(@types/react-dom@18.2.6)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-21tUUsmuw5id/6NDtKqwYTG4taVnw+BoUwIG6YsgPC9GI6cx4BnBuSqgriQYAYcv3bdGNzecaBL+rvQRAm28bg==}
+    peerDependencies:
+      '@types/react': ^18.0.29
+      '@types/react-dom': ^18.0.11
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@types/react': 18.2.14
+      '@types/react-dom': 18.2.6
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false

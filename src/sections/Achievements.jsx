@@ -64,7 +64,7 @@ const Achievements = () => {
 			<div className="flex flex-col justify-center items-center font-medium">
 				<TypingText
 					title="| Achievements"
-					textStyles="text-4xl mb-10 font-semibold"
+					textStyles="text-4xl mb-4 font-semibold"
 				/>
 
 				<Swiper
@@ -74,7 +74,6 @@ const Achievements = () => {
 						601: { slidesPerView: 2 },
 						1025: { slidesPerView: 3 },
 					}}
-					grabCursor={true}
 					// loop={true}
 					pagination={{
 						clickable: true,
@@ -84,7 +83,7 @@ const Achievements = () => {
 					className=" w-[80%] mySwiper"
 				>
 					{achievementData.map((achievement, index) => (
-						<SwiperSlide key={`achievement-${index}`}>
+						<SwiperSlide key={`achievement-${index}`} className="pt-6 px-6">
 							<AchievementCard {...achievement} />
 						</SwiperSlide>
 					))}

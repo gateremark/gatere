@@ -6,11 +6,7 @@ import BlogsPage from "./sections/BlogsPage";
 import ErrorPage from "./sections/ErrorPage";
 import { Routes, Route } from "react-router-dom";
 
-
-
 function App() {
-
-
 	const particlesInit = async (main) => {
 		// console.log(main);
 
@@ -26,7 +22,6 @@ function App() {
 				<Route path="/blogspage" element={<BlogsPage />} />
 				<Route path="/*" element={<ErrorPage />} />
 			</Routes>
-			
 
 			<AnimatedCursor
 				innerSize={20}
@@ -51,6 +46,7 @@ function App() {
 					"button",
 					".link",
 					".customize",
+					".achCard",
 				]}
 			/>
 			<Particles
