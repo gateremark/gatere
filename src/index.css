@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', sans-serif; */
 @import "exodusfont/exodusfont.css";
 
 @tailwind base;
@@ -51,6 +53,18 @@ html {
 body {
 	background-color: #ecf0f3;
 }
+.new__alert {
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+.p__alert{
+	font-family: "Victor Mono", monospace;
+}
+
+.curly__name {
+	font-family: cursive;
+}
+
 
 .glassmorphism {
 	background: rgba(255, 255, 255, 0.25);

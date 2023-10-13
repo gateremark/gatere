@@ -1,3 +1,4 @@
+import StartPage from "./StartPage";
 import Navbar from "../components/Navbar";
 import Header from "./Header";
 import About from "./About";
@@ -42,6 +43,7 @@ function Home() {
 	return (
 		<div className=" transition-all ease-in-out duration-500" ref={mainRef}>
 			<div>
+				<StartPage />
 				<Navbar />
 				<Header />
 				<About />
