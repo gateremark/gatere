@@ -1,5 +1,5 @@
 const Skills = () => {
-  return (
+	return (
 		<section className="mt-6 ms-auto me-auto w-[95%] md:w-full">
 			<div className=" flex flex-col justify-center items-center font-medium">
 				<h2 className="text-2xl mb-10">Skills</h2>
@@ -11,11 +11,11 @@ const Skills = () => {
 							alt="Mark Gatere"
 						/>
 					</div> */}
-					<div>Hello</div>
+					<div>Incomplete</div>
 				</div>
 			</div>
 		</section>
 	);
-}
+};
 
-export default Skills
+export default Skills;
