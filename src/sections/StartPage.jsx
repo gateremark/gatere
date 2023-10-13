@@ -49,8 +49,9 @@ const StartPage = () => {
 						href="https://gateremark.vercel.app"
 						className="text-[#f0ed40] text-3xl curly__name"
 					>
-						gateremark😉
-					</a>
+						gateremark
+					</a>{" "}
+					😉
 				</p>
 				<button onClick={() => setPageHidden(true)}>
 					<Tilt className="mt-10 md:mt-6 text-[#1300bb] new__alert text-lg md:text-xl text-center bg-[#ffffff] px-2 py-1 rounded-md">
