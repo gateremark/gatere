@@ -18,8 +18,8 @@ const BlogCategory = ({ categories, onFilterBlogs }) => {
 					onChangeCategory={() => changeCategory(category)}
 					className={` capitalize ${
 						activeCategory == category
-							? "bg-[#430680] text-[#ffffff] border-2 border-solid border-[#430680] px-[10px] py-[2px] md:px-[12px] md:py-[4px]"
-							: "bg-[#ffffff] px-[12px] py-[4px] md:px-[14px] md:py-[6px]"
+							? "bg-[#430680] text-[#ffffff] border-2 border-solid border-[#430680] px-[12px] py-[4px]"
+							: "bg-[#ffffff] px-[14px] py-[6px]"
 					} rounded-lg hover:scale-110 hover:bg-[#b6b6b6] transition ease-in-out duration-150 active:bg-[#858585]`}
 				/>
 			))}

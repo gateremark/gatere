@@ -75,6 +75,7 @@ const Achievements = () => {
 						1025: { slidesPerView: 3 },
 					}}
 					grabCursor={true}
+					// loop={true}
 					pagination={{
 						clickable: true,
 					}}
