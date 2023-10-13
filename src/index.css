@@ -69,7 +69,7 @@ body {
 	color: #000000;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1170px) {
 	.vertical-timeline-element .vertical-timeline-element-date {
 		color: #ffffff;
 	}
