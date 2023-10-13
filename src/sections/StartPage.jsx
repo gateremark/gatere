@@ -34,7 +34,7 @@ const StartPage = () => {
 					>
 						previous portfolio
 					</a>
-					. <br /> However, if you're ready to embark on this cosmic adventure,
+					<br /> However, if you're ready to embark on this cosmic adventure,
 					hit that <span className="new__alert text-[#1300bb]">Continue</span>{" "}
 					button below!
 				</p>
