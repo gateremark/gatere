@@ -81,7 +81,7 @@ export const blogData = [
 		url: "https://dev.to/gateremark/the-ultimate-guide-to-getting-started-in-data-science-2c7a",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "Typescript to the Rescue...",
@@ -90,7 +90,7 @@ export const blogData = [
 		url: "#",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "ReactJS 102",
@@ -99,7 +99,7 @@ export const blogData = [
 		url: "#",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "A Comprehensive Guide to MySQL",
@@ -108,7 +108,7 @@ export const blogData = [
 		url: "#",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "Mastering the Art of Web Design (Pt2)",
@@ -117,7 +117,7 @@ export const blogData = [
 		url: "#",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "Rust 102",
@@ -126,7 +126,7 @@ export const blogData = [
 		url: "#",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "Linked Lists",
@@ -135,7 +135,7 @@ export const blogData = [
 		url: "#",
 	},
 	{
-		category: "draft",
+		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 		title: "Why Numpy?",
