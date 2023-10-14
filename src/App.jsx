@@ -6,7 +6,7 @@ import BlogsPage from "./sections/BlogsPage";
 import ErrorPage from "./sections/ErrorPage";
 import { Routes, Route } from "react-router-dom";
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics, logEvent } from "firebase/analytics";
 
 function App() {
 	const firebaseConfig = {
@@ -22,6 +22,7 @@ function App() {
 	// Initialize Firebase
 	const app = initializeApp(firebaseConfig);
 	const analytics = getAnalytics(app);
+	logEvent(analytics, "notification_received");
 	// ----------------------------------------------------
 	const particlesInit = async (main) => {
 		// console.log(main);
