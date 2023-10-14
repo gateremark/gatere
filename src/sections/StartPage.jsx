@@ -42,7 +42,7 @@ const StartPage = () => {
 					button below!
 				</p>
 				<p className="pt-5 text-[#ffffff] text-base md:text-2xl text-center p__alert">
-					See you among the stars 🫡
+					See you among the stars 👩🏾‍🚀
 				</p>
 				<p className="pt-3 text-[#ffffff] text-base md:text-2xl text-center">
 					<a

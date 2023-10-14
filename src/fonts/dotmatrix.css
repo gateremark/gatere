@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Dot Matrix';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dot Matrix'), url('https://fonts.cdnfonts.com/s/71612/DOTMATRI.woff') format('woff');
+}
+@font-face {
+    font-family: 'Dot Matrix';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Dot Matrix'), url('https://fonts.cdnfonts.com/s/71612/DOTMBold.woff') format('woff');
+}
+
+
