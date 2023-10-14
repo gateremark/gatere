@@ -12,7 +12,7 @@ const Blog = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206762/blog1_x1t6g5.webp",
 			title: "ReactJS 101: Let's Build Robust Web Applications with React.",
 			subtitle:
-				"Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+				"Unlock the potential of ReactJS to create web applications that are not just robust but also highly dynamic and user-friendly.",
 			url: "https://gateremark.hashnode.dev/reactjs-101-lets-build-robust-web-applications-with-react",
 		},
 		{
@@ -20,7 +20,7 @@ const Blog = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206761/blog2_xlzwpr.webp",
 			title: "Python from the word ...Go",
 			subtitle:
-				"Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+				"Begin your exciting coding adventure from the very first step as you delve into the world of Python.",
 			url: "https://dev.to/gateremark/python-from-the-word-go-pt2-31k0",
 		},
 		{
@@ -28,7 +28,7 @@ const Blog = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
 			title: "Mastering the Art of Web Design",
 			subtitle:
-				"Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+				"Not many people are good at both writing code and designing, therefore, this will set you apart from many developers out there.",
 			url: "https://gateremark.hashnode.dev/mastering-the-art-of-web-design-part-1",
 		},
 	];
