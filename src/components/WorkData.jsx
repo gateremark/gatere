@@ -27,8 +27,8 @@ export const workData = [
 	},
 	{
 		title: "Web Developer",
-		company_name: "Shopify",
-		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/shopify_c90yun.webp",
+		company_name: "Netflix",
+		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697320452/netflix_g8v48j.webp",
 		iconBg: "#383E56",
 		date: "Jan 2022 - Jan 2023",
 		points: [
