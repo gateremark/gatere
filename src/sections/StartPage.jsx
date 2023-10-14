@@ -53,8 +53,8 @@ const StartPage = () => {
 					</a>{" "}
 					😉
 				</p>
-				<button onClick={() => setPageHidden(true)}>
-					<Tilt className="mt-10 md:mt-6 text-[#1300bb] other__alert text-lg md:text-xl text-center bg-[#ffffff] px-2 py-1 rounded-md">
+				<button onClick={() => setPageHidden(true)} className="mt-10 md:mt-6">
+					<Tilt className=" text-[#1300bb] other__alert text-lg md:text-xl text-center bg-[#ffffff] px-2 py-1 rounded-md">
 						Continue
 					</Tilt>
 				</button>
