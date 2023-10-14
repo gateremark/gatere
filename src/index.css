@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url("https://fonts.cdnfonts.com/css/dot-matrix");
 @import "exodusfont/exodusfont.css";
 
 @tailwind base;
@@ -54,17 +55,20 @@ body {
 	background-color: #ecf0f3;
 }
 .new__alert {
-	font-family: 'Press Start 2P', sans-serif;
+	font-family: "Dot Matrix" !important;
+	font-weight: bold !important;
+}
+.other__alert {
+	font-family: "Press Start 2P", sans-serif;
 }
 
-.p__alert{
+.p__alert {
 	font-family: "Victor Mono", monospace;
 }
 
 .curly__name {
-	font-family: 'Zeyada', cursive;
+	font-family: "Zeyada", cursive;
 }
-
 
 .glassmorphism {
 	background: rgba(255, 255, 255, 0.25);

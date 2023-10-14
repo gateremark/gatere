@@ -13,10 +13,10 @@ const StartPage = () => {
 			}`}
 		>
 			<div className="flex flex-col items-center w-[90%]">
-				<p className="pt-5 md:pt-10 text-[#ffffff] new__alert text-lg text-center md:text-5xl">
+				<p className="pt-5 md:pt-10 text-[#ffffff] new__alert text-3xl text-center md:text-5xl">
 					Welcome to My Out-of-This-World Portfolio...
 				</p>
-				<p className="pt-5 text-[#ffffff] new__alert text-lg md:text-xl text-center">
+				<p className="pt-6 text-[#ffffff] other__alert text-base md:text-xl text-center">
 					Yeah, it's right behind this 'galaxy' 😂
 				</p>
 				<p className="pt-8 md:pt-14 text-[#ffffff] text-base md:text-2xl text-center p__alert">
@@ -36,7 +36,7 @@ const StartPage = () => {
 					</a>
 					;
 					<br /> However, if you're ready to embark on this cosmic adventure,
-					hit that <span className="new__alert text-[#1300bb]">
+					hit that <span className="other__alert text-[#1300bb]">
 						Continue
 					</span>{" "}
 					button below!
@@ -54,7 +54,7 @@ const StartPage = () => {
 					😉
 				</p>
 				<button onClick={() => setPageHidden(true)}>
-					<Tilt className="mt-10 md:mt-6 text-[#1300bb] new__alert text-lg md:text-xl text-center bg-[#ffffff] px-2 py-1 rounded-md">
+					<Tilt className="mt-10 md:mt-6 text-[#1300bb] other__alert text-lg md:text-xl text-center bg-[#ffffff] px-2 py-1 rounded-md">
 						Continue
 					</Tilt>
 				</button>
