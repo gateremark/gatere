@@ -21,7 +21,7 @@ function App() {
 
 	// Initialize Firebase
 	const app = initializeApp(firebaseConfig);
-	getAnalytics(app);
+	const analytics = getAnalytics(app);
 	// ----------------------------------------------------
 	const particlesInit = async (main) => {
 		// console.log(main);
