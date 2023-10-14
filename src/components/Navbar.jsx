@@ -22,8 +22,8 @@ const Navbar = () => {
 						className="w-64 md:hidden"
 						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318468/new_portfolio/logogm2_hid3vb.webp"
 						alt="gateremark"
-						width="56px"
-						height="60.219px"
+						width="860px"
+						height="142px"
 					/>
 				</a>
 				<ul className="w-[70%] md:flex items-center justify-around hidden text-[#430680] text-xl font-bold">
