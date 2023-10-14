@@ -7,26 +7,26 @@ const Navbar = () => {
 			variants={navVariants}
 			initial="hidden"
 			whileInView="show"
-			className="m-o z-10 w-[100vw] h-16 flex items-center bg-gradient-to-r from-[#430680] to-[#690cc6] shadow-xl shadow-[#6b22b466] transition ease-in-out"
+			className="m-o z-10 w-[100vw] h-16 flex items-center transition ease-in-out"
 		>
 			<div className=" w-[95%] md:w-[90%] ms-auto me-auto flex justify-between items-center">
 				<a href="#">
 					<img
 						className="w-[85px] hidden md:block"
-						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697058396/new_portfolio/gatlogo_cvz9ve.webp"
+						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318467/new_portfolio/logogm_gyayg9.webp"
 						alt="gateremark"
 						width="56px"
 						height="60.219px"
 					/>
 					<img
 						className="w-64 md:hidden"
-						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697058420/new_portfolio/gatlogo1_gazfcb.webp"
+						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318468/new_portfolio/logogm2_hid3vb.webp"
 						alt="gateremark"
 						width="56px"
 						height="60.219px"
 					/>
 				</a>
-				<ul className="w-[70%] md:flex items-center justify-between hidden text-[#ffffff] text-xl">
+				<ul className="w-[70%] md:flex items-center justify-around hidden text-[#430680] text-xl font-bold">
 					{/* <li>
 						{" "}
 						<a href="#">Home</a>

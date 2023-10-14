@@ -6,7 +6,7 @@ import BlogsPage from "./sections/BlogsPage";
 import ErrorPage from "./sections/ErrorPage";
 import { Routes, Route } from "react-router-dom";
 import { initializeApp } from "firebase/app";
-import { getAnalytics, logEvent } from "firebase/analytics";
+import { getAnalytics} from "firebase/analytics";
 
 function App() {
 	const firebaseConfig = {
