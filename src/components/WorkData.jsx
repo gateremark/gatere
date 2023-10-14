@@ -4,7 +4,7 @@ export const workData = [
 		company_name: "Starbucks",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/starbucks_rvw1dt.webp",
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "March 2020 - Present",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -43,7 +43,7 @@ export const workData = [
 		company_name: "Meta",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/meta_v3qda5.webp",
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "Jan 2023 - Feb 2024",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -56,7 +56,7 @@ export const workData = [
 		company_name: "Microsoft",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/ms_yixnxm.webp",
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "March 2020 - April 2025",
 		points: [
 			"Developing and maintaining web apps using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
