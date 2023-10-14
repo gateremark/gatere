@@ -1,8 +1,8 @@
 export const workData = [
 	{
 		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/starbucks_rvw1dt.webp",
+		company_name: "Google",
+		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697319684/google_bsro6q.webp",
 		iconBg: "#383E56",
 		date: "March 2020 - Present",
 		points: [
