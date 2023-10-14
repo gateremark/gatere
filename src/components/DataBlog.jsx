@@ -3,7 +3,7 @@ export const blogData = [
 		category: "frontend",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
-		title: "ReactJS 101: Let's Build Robust Web Applications with React.",
+		title: "ReactJS 101: Let's Build Robust Web Applications with React",
 		subtitle:
 			"Unlock the potential of ReactJS to create web applications that are not just robust but also highly dynamic and user-friendly.",
 		url: "https://gateremark.hashnode.dev/reactjs-101-lets-build-robust-web-applications-with-react",
