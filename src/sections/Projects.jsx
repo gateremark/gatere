@@ -13,6 +13,8 @@ const Projects = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206829/plan1_as9lz6.webp",
 			title: "Jambo Chat",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
+			github: "https://github.com/gateremark",
+			live: "https://github.com/gateremark",
 		},
 		{
 			id: "proj-2",
@@ -20,6 +22,8 @@ const Projects = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207197/plan2_forovj.webp",
 			title: "Tubonge",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
+			github: "https://github.com/gateremark",
+			live: "https://github.com/gateremark",
 		},
 		{
 			id: "proj-3",
@@ -27,6 +31,8 @@ const Projects = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207195/plan3_sjiki7.webp",
 			title: "StoryScribe",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
+			github: "https://github.com/gateremark",
+			live: "https://github.com/gateremark",
 		},
 		{
 			id: "proj-4",
@@ -34,6 +40,8 @@ const Projects = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207025/plan4_tuiyjj.webp",
 			title: "Pixagram",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
+			github: "https://github.com/gateremark",
+			live: "https://github.com/gateremark",
 		},
 		{
 			id: "proj-5",
@@ -41,6 +49,8 @@ const Projects = () => {
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207036/plan5_pkbwsu.webp",
 			title: "NetClips",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
+			github: "https://github.com/gateremark",
+			live: "https://github.com/gateremark",
 		},
 	];
 

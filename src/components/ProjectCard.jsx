@@ -11,12 +11,14 @@ const ProjectCard = ({
 	index,
 	active,
 	handleClick,
+	github,
+	live,
 }) => (
 	<motion.div
 		variants={fadeIn("right", "spring", index * 0.5, 0.75)}
 		className={`relative ${
 			active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-		} flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+		} flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex`}
 		onClick={() => handleClick(id)}
 	>
 		<img
@@ -39,19 +41,11 @@ const ProjectCard = ({
 				</p>
 
 				<div className="flex w-full text-[#ffffff] justify-between items-center px-2 h-[65px] glassmorphism rounded-full">
-					<a
-						href="https://github.com/gateremark"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150" />
+					<a href={github} target="_blank" rel="noreferrer">
+						<IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
 					</a>
-					<a
-						href="https://twitter.com/gatere_mark"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<BsFillArrowUpRightCircleFill className="text-5xl hover:scale-110 transition ease-in-out duration-150" />
+					<a href={live} target="_blank" rel="noreferrer">
+						<BsFillArrowUpRightCircleFill className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
 					</a>
 				</div>
 			</div>

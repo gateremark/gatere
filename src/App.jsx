@@ -22,7 +22,6 @@ function App() {
 	// Initialize Firebase
 	const app = initializeApp(firebaseConfig);
 	const analytics = getAnalytics(app);
-	logEvent(analytics, "notification_received");
 	// ----------------------------------------------------
 	const particlesInit = async (main) => {
 		// console.log(main);
@@ -63,6 +62,7 @@ function App() {
 					".link",
 					".customize",
 					".achCard",
+					".have__cursor",
 				]}
 			/>
 			<Particles
