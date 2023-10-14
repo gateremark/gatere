@@ -93,7 +93,7 @@ export const blogData = [
 		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
-		title: "ReactJS 102",
+		title: "ReactJS 102: A Deeper Dive into React",
 		subtitle:
 			"Dive deeper into the world of React as we explore advanced concepts and techniques.",
 		url: "#",
@@ -120,7 +120,7 @@ export const blogData = [
 		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
-		title: "Rust 102",
+		title: "Rust 102: Beyond the Fundamentals",
 		subtitle:
 			"Explore the advanced realms of Rust programming, moving beyond the fundamentals.",
 		url: "#",
@@ -138,7 +138,7 @@ export const blogData = [
 		category: "in-draft",
 		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
-		title: "Why Numpy?",
+		title: "Why NumPy?",
 		subtitle:
 			"Discover the importance and versatility of NumPy in scientific computing and data analysis.",
 		url: "#",
