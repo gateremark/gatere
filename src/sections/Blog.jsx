@@ -13,7 +13,7 @@ const Blog = () => {
 			title: "ReactJS 101: Let's Build Robust Web Applications with React.",
 			subtitle:
 				"Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
-			url: "https://github.com/gateremark",
+			url: "https://gateremark.hashnode.dev/reactjs-101-lets-build-robust-web-applications-with-react",
 		},
 		{
 			imgUrl:
@@ -21,15 +21,15 @@ const Blog = () => {
 			title: "Python from the word ...Go",
 			subtitle:
 				"Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
-			url: "https://twitter.com/gatere_mark",
+			url: "https://dev.to/gateremark/python-from-the-word-go-pt2-31k0",
 		},
 		{
 			imgUrl:
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
-			title: "Mastering the Art of Web Design (Part 1)",
+			title: "Mastering the Art of Web Design",
 			subtitle:
 				"Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
-			url: "https://www.linkedin.com/in/gateremark/",
+			url: "https://gateremark.hashnode.dev/mastering-the-art-of-web-design-part-1",
 		},
 	];
 	return (
