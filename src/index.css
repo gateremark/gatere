@@ -56,7 +56,7 @@ body {
 	background-color: #ecf0f3;
 }
 .new__alert {
-	font-family: "Dot Matrix" !important;
+	font-family: "Dot Matrix", "Eudoxus Sans" !important;
 	font-weight: bold !important;
 }
 .other__alert {
