@@ -5,8 +5,24 @@ import Home from "./sections/Home";
 import BlogsPage from "./sections/BlogsPage";
 import ErrorPage from "./sections/ErrorPage";
 import { Routes, Route } from "react-router-dom";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 function App() {
+	const firebaseConfig = {
+		apiKey: "AIzaSyAuAKF6IQdM5s_fp8c4qp2fDfwRTe8GHeo",
+		authDomain: "gateremark.firebaseapp.com",
+		projectId: "gateremark",
+		storageBucket: "gateremark.appspot.com",
+		messagingSenderId: "651139787571",
+		appId: "1:651139787571:web:1c2d9ec540da30bff3ac46",
+		measurementId: "G-N9EJ1HXKXQ",
+	};
+
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+	// ----------------------------------------------------
 	const particlesInit = async (main) => {
 		// console.log(main);
 
@@ -22,7 +38,6 @@ function App() {
 				<Route path="/blogspage" element={<BlogsPage />} />
 				<Route path="/*" element={<ErrorPage />} />
 			</Routes>
-
 			<AnimatedCursor
 				innerSize={20}
 				outerSize={20}
