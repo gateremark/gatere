@@ -10,10 +10,10 @@ const Navbar = () => {
 			className="m-o z-10 w-[100vw] h-16 flex items-center transition ease-in-out"
 		>
 			<div className=" w-[95%] md:w-[90%] ms-auto me-auto flex justify-between items-center">
-				<a href="#" >
+				<a href="#">
 					<img
-						className="w-[85px] hidden md:block"
-						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318467/new_portfolio/logogm_gyayg9.webp"
+						className="w-20 p-[10px] hidden md:block"
+						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697410111/new_portfolio/gatere_purple_n4o6be.webp"
 						alt="gateremark"
 						width="56px"
 						height="60.219px"
@@ -33,36 +33,23 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#about" >
-							About Me
-						</a>
+						<a href="#about">About Me</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#projects" >
-							Projects
-						</a>
+						<a href="#projects">Projects</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#work" >
-							Work
-						</a>
+						<a href="#work">Work</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#blog" >
-							Blog
-						</a>
+						<a href="#blog">Blog</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a
-							href="#achievements"
-							
-						>
-							Achievements
-						</a>
+						<a href="#achievements">Achievements</a>
 					</li>
 					{/* <li>
 						{" "}
@@ -70,9 +57,7 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#contact" >
-							Contact
-						</a>
+						<a href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
