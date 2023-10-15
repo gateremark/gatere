@@ -1,6 +1,6 @@
 export const workData = [
 	{
-		title: "React.js Developer",
+		title: "Frontend Developer",
 		company_name: "Google",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697319684/google_bsro6q.webp",
 		iconBg: "#383E56",
@@ -39,7 +39,7 @@ export const workData = [
 		],
 	},
 	{
-		title: "Full stack Developer",
+		title: "Full-Stack Developer",
 		company_name: "Meta",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/meta_v3qda5.webp",
 		iconBg: "#E6DEDD",
@@ -52,7 +52,7 @@ export const workData = [
 		],
 	},
 	{
-		title: "React.js Developer",
+		title: "ReactJS Developer",
 		company_name: "Microsoft",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697220933/ms_yixnxm.webp",
 		iconBg: "#383E56",
