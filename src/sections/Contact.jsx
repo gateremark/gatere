@@ -35,7 +35,6 @@ const Contact = () => {
 							target="_blank"
 							rel="noreferrer"
 							className="font-semibold hover:scale-105 transition ease-in-out duration-200"
-							aria-label="Email"
 						>
 							<h5>mark5gatere@gmail.com</h5>
 						</a>
