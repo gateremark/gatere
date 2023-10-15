@@ -30,7 +30,7 @@ export const workData = [
 		company_name: "Netflix",
 		icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697320452/netflix_g8v48j.webp",
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "Jan 2022 - April 2023",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
