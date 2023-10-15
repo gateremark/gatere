@@ -17,6 +17,8 @@ const WorkCard = ({ work }) => {
 						src={work.icon}
 						alt={work.company_name}
 						className="w-[60%] h-[60%] object-contain"
+						width="36px"
+						height="36px"
 					/>
 				</div>
 			}

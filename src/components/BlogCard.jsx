@@ -11,6 +11,8 @@ const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (
 			src={imgUrl}
 			alt="planet-01"
 			className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
+			width="270px"
+			height="250px"
 		/>
 		<div className="w-full flex justify-between items-center">
 			<a
