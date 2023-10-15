@@ -47,7 +47,7 @@ const Projects = () => {
 			id: "proj-5",
 			imgUrl:
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207036/plan5_pkbwsu.webp",
-			title: "NetClips",
+			title: "Nettlix",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
 			live: "https://github.com/gateremark",
