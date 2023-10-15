@@ -31,7 +31,7 @@ const StartPage = () => {
 						target="_blank"
 						rel="noreferrer"
 						className="text-[#f0ed40] p__alert"
-						aria-label="Go to previous portfolio"
+						aria-label="Previous portfolio"
 					>
 						previous portfolio
 					</a>
@@ -49,7 +49,7 @@ const StartPage = () => {
 					<a
 						href="https://gateremark.vercel.app"
 						className="text-[#f0ed40] text-3xl curly__name"
-						aria-label="My latest portfolio"
+						aria-label="gateremark"
 					>
 						gateremark
 					</a>{" "}

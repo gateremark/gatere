@@ -20,7 +20,7 @@ const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (
 				target="_blank"
 				rel="noreferrer"
 				className=""
-				aria-label="Read more about the blog"
+				aria-label="Open blog"
 			>
 				<div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px] md:hover:scale-100 hover:scale-105 transition ease-in-out duration-500">
 					<h4 className="font-normal lg:text-[42px] text-[26px] flex items-center justify-between">
@@ -37,7 +37,7 @@ const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (
 					href={url}
 					target="_blank"
 					rel="noreferrer"
-					aria-label="Read more about the blog"
+					aria-label="Open blog"
 				>
 					<BsArrowUpRightSquare className="text-5xl hover:scale-110 transition ease-in-out duration-150" />
 				</a>

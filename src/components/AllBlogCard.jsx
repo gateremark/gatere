@@ -25,7 +25,7 @@ const AllBlogCard = ({ category, imgUrl, title, subtitle, url, index }) => (
 			href={url}
 			target="_blank"
 			rel="noreferrer"
-			aria-label="Read more about the blog"
+			aria-label="Blog Page"
 		>
 			<BsArrowUpRightSquare className="text-5xl text-[#430680] hover:scale-110 transition ease-in-out duration-150" />
 		</a>

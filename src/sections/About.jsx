@@ -71,7 +71,7 @@ const About = () => {
 						<a
 							className=" mt-4 w-fit flex justify-center gap-2 items-center text-sm md:text-lg text-[#fff] bg-[#690cc6] px-2 py-2 md:py-2 br border-[#690cc6] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500 "
 							href="#projects"
-							aria-label="Head over to Projects Section"
+							aria-label="Projects Section"
 						>
 							My Work <FaAnglesDown />
 						</a>

@@ -10,7 +10,7 @@ const Navbar = () => {
 			className="m-o z-10 w-[100vw] h-16 flex items-center transition ease-in-out"
 		>
 			<div className=" w-[95%] md:w-[90%] ms-auto me-auto flex justify-between items-center">
-				<a href="#" aria-label="Go back to page top">
+				<a href="#" aria-label="Home">
 					<img
 						className="w-[85px] hidden md:block"
 						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318467/new_portfolio/logogm_gyayg9.webp"
@@ -33,25 +33,25 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#about" aria-label="Head over to About Section">
+						<a href="#about" aria-label="About Section">
 							About Me
 						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#projects" aria-label="Head over to Projects Section">
+						<a href="#projects" aria-label="Projects Section">
 							Projects
 						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#work" aria-label="Head over to Work Section">
+						<a href="#work" aria-label="Work Section">
 							Work
 						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#blog" aria-label="Head over to Blog Section">
+						<a href="#blog" aria-label="Blog Section">
 							Blog
 						</a>
 					</li>
@@ -59,7 +59,7 @@ const Navbar = () => {
 						{" "}
 						<a
 							href="#achievements"
-							aria-label="Head over to Achievements Section"
+							aria-label="Achievements Section"
 						>
 							Achievements
 						</a>
@@ -70,7 +70,7 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#contact" aria-label="Head over to Contact Section">
+						<a href="#contact" aria-label="Contact Section">
 							Contact
 						</a>
 					</li>

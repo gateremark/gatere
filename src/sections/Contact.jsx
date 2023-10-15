@@ -35,7 +35,7 @@ const Contact = () => {
 							target="_blank"
 							rel="noreferrer"
 							className="font-semibold hover:scale-105 transition ease-in-out duration-200"
-							aria-label="Contact me via email"
+							aria-label="Email"
 						>
 							<h5>mark5gatere@gmail.com</h5>
 						</a>
@@ -57,7 +57,7 @@ const Contact = () => {
 							rel="noreferrer"
 							title="Hashnode"
 							className=" text-5xl font-semibold hover:scale-110 transition ease-in-out duration-200"
-							aria-label="Head over to my Hashnode"
+							aria-label="Hashnode"
 						>
 							<FaHashnode className="text-[#2962FF]" />
 						</a>
@@ -67,7 +67,7 @@ const Contact = () => {
 							rel="noreferrer"
 							title="Dev.to"
 							className="text-5xl font-semibold hover:scale-110 transition ease-in-out duration-200"
-							aria-label="Head over to my Dev.to"
+							aria-label="Dev.to"
 						>
 							<FaDev className="text-[#000000]" />
 						</a>
@@ -77,7 +77,7 @@ const Contact = () => {
 							rel="noreferrer"
 							title="Medium"
 							className=" text-5xl font-semibold hover:scale-110 transition ease-in-out duration-200"
-							aria-label="Head over to my Medium"
+							aria-label="Medium"
 						>
 							<FaMedium className="text-[#000000]" />
 						</a>

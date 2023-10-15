@@ -45,7 +45,7 @@ const ProjectCard = ({
 						href={github}
 						target="_blank"
 						rel="noreferrer"
-						aria-label="Open project on GitHub"
+						aria-label="Project on GitHub"
 					>
 						<IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
 					</a>
@@ -53,7 +53,7 @@ const ProjectCard = ({
 						href={live}
 						target="_blank"
 						rel="noreferrer"
-						aria-label="Open live project"
+						aria-label="Live project"
 					>
 						<BsFillArrowUpRightCircleFill className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
 					</a>

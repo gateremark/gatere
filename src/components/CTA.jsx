@@ -9,14 +9,14 @@ const Cta = () => {
 					href="https://drive.google.com/file/d/1vGSJHXNGGTao-JoUGLumbKljMVe1dKEK/view?usp=drive_link"
 					target="_blank"
 					rel="noreferrer"
-					aria-label="View my resume"
+					aria-label="Resume"
 				>
 					Download Resume
 				</a>
 				<a
 					className="inline-block text-sm md:text-lg text-[#fff] bg-[#690cc6] px-2 py-3 md:py-3 md:px-5 br border-[#690cc6] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500 "
 					href="#contact"
-					aria-label="Move to contact section"
+					aria-label="Contact section"
 				>
 					Let's Talk
 				</a>

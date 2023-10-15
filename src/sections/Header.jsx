@@ -27,7 +27,7 @@ const Header = () => {
 						href="https://www.linkedin.com/in/gateremark/"
 						target="_blank"
 						rel="noreferrer"
-						aria-label="Head over to my LinkedIn"
+						aria-label="LinkedIn"
 					>
 						<IoLogoLinkedin />
 					</a>
@@ -35,7 +35,7 @@ const Header = () => {
 						href="https://twitter.com/gatere_mark"
 						target="_blank"
 						rel="noreferrer"
-						aria-label="Head over to my Twitter"
+						aria-label="Twitter"
 					>
 						<IoLogoTwitter />
 					</a>
@@ -43,7 +43,7 @@ const Header = () => {
 						href="https://github.com/gateremark"
 						target="_blank"
 						rel="noreferrer"
-						aria-label="Head over to my GitHub"
+						aria-label="GitHub"
 					>
 						<IoLogoGithub />
 					</a>
@@ -65,7 +65,7 @@ const Header = () => {
 				<a
 					href="#about"
 					className=" animate-bounce text-2xl md:text-3xl text-[#30144d] mb-0 md:mb-10"
-					aria-label="Head over to About Section"
+					aria-label="About Section"
 				>
 					<FaAnglesDown />
 				</a>
