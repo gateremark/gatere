@@ -7,6 +7,7 @@ const Nav = ({ className, item }) => {
 					// Check if the current item is active
 					className.includes("active") ? "bg-[#430680]" : ""
 				} `}
+				aria-label="Go to section"
 			>
 				{item.icon}
 			</a>

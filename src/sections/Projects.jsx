@@ -85,6 +85,7 @@ const Projects = () => {
 					target="_blank"
 					rel="noreferrer"
 					className="flex flex-col justify-center items-center mt-10 text-xl font-semibold hover:scale-110 transition ease-in-out duration-200"
+					aria-label="Head over to my GitHub to view more projects"
 				>
 					<BsFillArrowUpRightCircleFill />
 					<TypingText title="More Projects" textStyles="" />

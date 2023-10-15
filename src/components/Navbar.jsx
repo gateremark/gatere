@@ -10,7 +10,7 @@ const Navbar = () => {
 			className="m-o z-10 w-[100vw] h-16 flex items-center transition ease-in-out"
 		>
 			<div className=" w-[95%] md:w-[90%] ms-auto me-auto flex justify-between items-center">
-				<a href="#">
+				<a href="#" aria-label="Go back to page top">
 					<img
 						className="w-[85px] hidden md:block"
 						src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318467/new_portfolio/logogm_gyayg9.webp"
@@ -33,23 +33,36 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#about">About Me</a>
+						<a href="#about" aria-label="Head over to About Section">
+							About Me
+						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#projects">Projects</a>
+						<a href="#projects" aria-label="Head over to Projects Section">
+							Projects
+						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#work">Work</a>
+						<a href="#work" aria-label="Head over to Work Section">
+							Work
+						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#blog">Blog</a>
+						<a href="#blog" aria-label="Head over to Blog Section">
+							Blog
+						</a>
 					</li>
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#achievements">Achievements</a>
+						<a
+							href="#achievements"
+							aria-label="Head over to Achievements Section"
+						>
+							Achievements
+						</a>
 					</li>
 					{/* <li>
 						{" "}
@@ -57,7 +70,9 @@ const Navbar = () => {
 					</li> */}
 					<li className=" hover:scale-110 transition ease-in-out duration-150">
 						{" "}
-						<a href="#contact">Contact</a>
+						<a href="#contact" aria-label="Head over to Contact Section">
+							Contact
+						</a>
 					</li>
 				</ul>
 			</div>
