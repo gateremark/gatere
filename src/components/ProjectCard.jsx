@@ -23,7 +23,7 @@ const ProjectCard = ({
 	>
 		<img
 			src={imgUrl}
-			alt="planet-04"
+			alt="project-img"
 			className="absolute w-full h-full object-cover rounded-[24px]"
 		/>
 		{active !== id ? (

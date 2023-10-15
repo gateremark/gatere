@@ -8,7 +8,7 @@ const AchievementCard = ({ imgUrl, title }) => {
 		>
 			<img
 				src={imgUrl}
-				alt=""
+				alt="achievement-img"
 				className="w-[30%] object-contain mb-4 rounded-lg min-h-[7rem] max-h-[15rem]"
 			/>
 			<span className="font-semibold text-center">{title}</span>

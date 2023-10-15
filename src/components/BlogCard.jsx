@@ -9,7 +9,7 @@ const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (
 	>
 		<img
 			src={imgUrl}
-			alt="planet-01"
+			alt="blog-img"
 			className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
 			width="270px"
 			height="250px"

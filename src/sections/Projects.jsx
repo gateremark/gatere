@@ -11,7 +11,7 @@ const Projects = () => {
 			id: "proj-1",
 			imgUrl:
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206829/plan1_as9lz6.webp",
-			title: "Jambo Chat",
+			title: "JamboChat",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
 			live: "https://github.com/gateremark",
