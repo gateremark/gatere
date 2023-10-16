@@ -10,7 +10,7 @@ const Projects = () => {
 		{
 			id: "proj-1",
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206829/plan1_as9lz6.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697419784/proj-img2_kgbuk3.webp",
 			title: "JamboChat",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
@@ -19,7 +19,7 @@ const Projects = () => {
 		{
 			id: "proj-2",
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207197/plan2_forovj.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697419784/proj-img1_hhobyt.webp",
 			title: "Tubonge",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
@@ -28,7 +28,7 @@ const Projects = () => {
 		{
 			id: "proj-3",
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207195/plan3_sjiki7.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697419784/proj-img3_x7wlfh.webp",
 			title: "StoryScribe",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
@@ -37,7 +37,7 @@ const Projects = () => {
 		{
 			id: "proj-4",
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207025/plan4_tuiyjj.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697419793/proj-img4_finitj.webp",
 			title: "Pixagram",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
@@ -46,7 +46,7 @@ const Projects = () => {
 		{
 			id: "proj-5",
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697207036/plan5_pkbwsu.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697419795/proj-img5_edl4pe.webp",
 			title: "Nettlix",
 			desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
 			github: "https://github.com/gateremark",
