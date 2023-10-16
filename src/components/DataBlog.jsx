@@ -2,7 +2,7 @@ export const blogData = [
 	{
 		category: "frontend",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418364/new_portfolio/react3_rzzlaj.webp",
 		title: "ReactJS 101: Let's Build Robust Web Applications with React",
 		subtitle:
 			"Unlock the potential of ReactJS to create web applications that are not just robust but also highly dynamic and user-friendly.",
@@ -11,7 +11,7 @@ export const blogData = [
 	{
 		category: "backend",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418364/new_portfolio/python2_djexpp.webp",
 		title: "Python from the word ...Go",
 		subtitle:
 			"Begin your exciting coding adventure from the very first step as you delve into the world of Python.",
@@ -20,7 +20,7 @@ export const blogData = [
 	{
 		category: "design",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418364/new_portfolio/design2_zo2rzx.webp",
 		title: "Mastering the Art of Web Design (Pt1)",
 		subtitle:
 			"Not many people are good at both writing code and designing, therefore, this will set you apart from many developers out there.",
@@ -29,7 +29,7 @@ export const blogData = [
 	{
 		category: "backend",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418362/new_portfolio/python3_y1zlka.webp",
 		title: "Python from the word ...Go (Pt2)",
 		subtitle:
 			"Continue your Python journey and dive deeper into programming excellence with part 2 of the Python programming article.",
@@ -38,7 +38,7 @@ export const blogData = [
 	{
 		category: "backend",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418363/new_portfolio/rust_aehs4x.webp",
 		title: "Rust 101: Unleashing the Power of Rust",
 		subtitle:
 			"A comprehensive guide to high-performance programming: Uncover the potential of Rust and harness its power.",
@@ -47,7 +47,7 @@ export const blogData = [
 	{
 		category: "others",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418363/new_portfolio/dsa_knr095.webp",
 		title: "Introduction to Data Structures and Algorithms",
 		subtitle:
 			"Embark on a foundational exploration of Data Structures and Algorithms.",
@@ -56,7 +56,7 @@ export const blogData = [
 	{
 		category: "others",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418364/new_portfolio/big_afpoeb.webp",
 		title: "Big (O) Notation",
 		subtitle:
 			"Demystify the world of algorithm efficiency with an in-depth look at Big O Notation.",
@@ -65,7 +65,7 @@ export const blogData = [
 	{
 		category: "others",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418364/new_portfolio/ml_e7tkrs.webp",
 		title: "Understanding Machine Learning and its Basic WorkFlow",
 		subtitle:
 			"Gain a comprehensive grasp of Machine Learning and its fundamental workflow.",
@@ -74,7 +74,7 @@ export const blogData = [
 	{
 		category: "others",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418362/new_portfolio/ds_ubk0r5.webp",
 		title: "The Ultimate Guide to Getting Started in Data Science",
 		subtitle:
 			"Begin your data science journey with a comprehensive introduction to this exciting field.",
@@ -83,7 +83,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418364/new_portfolio/ts_on0kp5.webp",
 		title: "Typescript to the Rescue...",
 		subtitle:
 			"Discover how TypeScript comes to the rescue in web development with practical insights.",
@@ -92,7 +92,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418362/new_portfolio/react2_atw89y.webp",
 		title: "ReactJS 102: A Deeper Dive into React",
 		subtitle:
 			"Dive deeper into the world of React as we explore advanced concepts and techniques.",
@@ -101,7 +101,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418365/new_portfolio/sql_vhpyqk.webp",
 		title: "A Comprehensive Guide to MySQL",
 		subtitle:
 			"Master the art of MySQL with a comprehensive guide that covers everything you need to know.",
@@ -110,7 +110,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418365/new_portfolio/design3_fvtvmk.webp",
 		title: "Mastering the Art of Web Design (Pt2)",
 		subtitle:
 			"Continue your journey of mastering web design with advanced techniques and insights.",
@@ -119,7 +119,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418365/new_portfolio/rust2_bql2x6.webp",
 		title: "Rust 102: Beyond the Fundamentals",
 		subtitle:
 			"Explore the advanced realms of Rust programming, moving beyond the fundamentals.",
@@ -128,7 +128,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418365/new_portfolio/ll_pzrmht.webp",
 		title: "Linked Lists",
 		subtitle:
 			"Dive into the world of linked lists and understand their structure and applications in computer science.",
@@ -137,7 +137,7 @@ export const blogData = [
 	{
 		category: "in-draft",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1697418362/new_portfolio/numpy_iya80b.webp",
 		title: "Why NumPy?",
 		subtitle:
 			"Discover the importance and versatility of NumPy in scientific computing and data analysis.",

@@ -9,7 +9,7 @@ const Blog = () => {
 	const blogData = [
 		{
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206762/blog1_x1t6g5.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697418362/new_portfolio/react_ssewqz.webp",
 			title: "ReactJS 101: Let's Build Robust Web Applications with React.",
 			subtitle:
 				"Unlock the potential of ReactJS to create web applications that are not just robust but also highly dynamic and user-friendly.",
@@ -17,15 +17,15 @@ const Blog = () => {
 		},
 		{
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206761/blog2_xlzwpr.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697418363/new_portfolio/python_imatnk.webp",
 			title: "Python from the word ...Go",
 			subtitle:
 				"Begin your exciting coding adventure from the very first step as you delve into the world of Python.",
-			url: "https://dev.to/gateremark/python-from-the-word-go-pt2-31k0",
+			url: "https://dev.to/gateremark/python-from-the-word-go-4h93",
 		},
 		{
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1697206776/blog3_bhrvf4.webp",
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1697418363/new_portfolio/design_purr2k.webp",
 			title: "Mastering the Art of Web Design",
 			subtitle:
 				"Not many people are good at both writing code and designing, therefore, this will set you apart from many developers out there.",
