@@ -20,6 +20,7 @@
 	box-sizing: border-box;
 	/* font-family: "Victor Mono", monospace; */
 	font-family: "Eudoxus Sans", "Victor Mono", sans-serif;
+	font-display: swap;
 }
 
 /* ::-webkit-scrollbar {
@@ -59,6 +60,7 @@ body {
 .new__alert {
 	font-family: "Dot Matrix", "Eudoxus Sans", sans-serif !important;
 	font-weight: bold !important;
+	font-display: swap;
 }
 .other__alert {
 	font-family: "Press Start 2P", sans-serif;
