@@ -77,22 +77,6 @@ body {
 	}
 }
 
-/* StartPage Typewriter animation */
-.typewriter {
-	overflow: hidden; /* Hide overflow content */
-	white-space: nowrap; /* Display content on a single line */
-	animation: typing 5s steps(50, end); /* Typing animation */
-}
-
-@keyframes typing {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
-}
-
 .typewrite {
 	position: relative;
 }

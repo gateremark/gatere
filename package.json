@@ -27,7 +27,8 @@
 		"react-vertical-timeline-component": "^3.6.0",
 		"swiper": "^10.3.1",
 		"three": "^0.154.0",
-		"tsparticles": "^2.11.0"
+		"tsparticles": "^2.11.0",
+		"typed.js": "^2.0.16"
 	},
 	"devDependencies": {
 		"@types/react": "^18.2.14",
