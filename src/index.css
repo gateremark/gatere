@@ -56,6 +56,48 @@ html {
 body {
 	background-color: #e1f7ff;
 }
+
+.hero-img {
+	position: relative;
+	animation: about-radius infinite 4s ease-in-out;
+	box-shadow: 0px 0px 100px #43068070;
+}
+@keyframes about-radius {
+	0% {
+		border-radius: 63% 37% 27% 73% / 66% 47% 53% 34%;
+	}
+	30% {
+		border-radius: 25% 75% 16% 84% / 79% 21% 79% 21%;
+	}
+	60% {
+		border-radius: 34% 66% 57% 43% / 40% 31% 69% 60%;
+	}
+	100% {
+		border-radius: 63% 37% 27% 73% / 66% 47% 53% 34%;
+	}
+}
+
+/* .typewrite {
+	position: relative;
+}
+
+.typewrite::after {
+	--width: 3px;
+	content: "";
+	width: var(--width);
+	right: calc(var(--width) * -1 - 5px);
+	top: 0;
+	bottom: 0;
+	background-color: #000000;
+	position: absolute;
+	animation: blink 900ms steps(2, start) infinite;
+}
+@keyframes blink {
+	to {
+		visibility: hidden;
+	}
+} */
+
 .new__alert {
 	font-family: "Dot Matrix", "Eudoxus Sans", sans-serif !important;
 	font-weight: bold !important;

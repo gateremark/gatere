@@ -13,12 +13,14 @@ const Header = () => {
 			animate={{ opacity: 1, y: 0 }}
 			exit={{ opacity: 0, y: 30 }}
 			transition={{ duration: 3 }}
-			className="pt-[1rem] ms-auto me-auto w-[95%] md:w-full"
+			className="pt-[0.5rem] ms-auto me-auto w-[95%] md:w-full"
 		>
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
 				<p className=" text-base md:text-lg mb-2">Hello, I'm</p>
 				<p className=" text-4xl  md:text-6xl mb-2 head">Mark Gatere</p>
-				<p className=" text-base md:text-xl mb-3">Frontend Developer</p>
+				<p className=" text-base md:text-xl mb-3 typewrite">
+					Frontend Developer
+				</p>
 				<Cta />
 			</div>
 			<div className="flex justify-evenly md:justify-around items-end">
@@ -49,9 +51,16 @@ const Header = () => {
 					</a>
 					<AiOutlineSwap className=" rotate-90 h-15 text-4xl text-[#30144d]" />
 				</div>
-				<img
+				{/* <img
 					className=" w-52 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-12 px-2 md:pt-14"
 					src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751292/new_portfolio/myself_ovbc7w.webp"
+					alt="Mark Gatere"
+					width="288px"
+					height="315px"
+				/> */}
+				<img
+					className="hero-img w-52 md:w-72"
+					src="https://res.cloudinary.com/dvuazircp/image/upload/v1697713079/new_portfolio/gatereimg_xk2p8v.webp"
 					alt="Mark Gatere"
 					width="288px"
 					height="315px"
