@@ -1,9 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import StarsCanvas from "../canvas/Stars";
 import { Tilt } from "react-tilt";
 
 const StartPage = () => {
 	const [pageHidden, setPageHidden] = useState(false);
+
+	// Add the "typewriter" class to the text element when pageHidden is false.
+	useEffect(() => {
+		if (!pageHidden) {
+			const textElements = document.querySelectorAll(".typewriter-text");
+			textElements.forEach((element) => {
+				element.classList.add("typewriter");
+			});
+		}
+	}, [pageHidden]);
+
 	return (
 		<div
 			className={`${
@@ -13,7 +24,7 @@ const StartPage = () => {
 			}`}
 		>
 			<div className="flex flex-col items-center w-[90%]">
-				<p className="pt-5 md:pt-10 text-[#ffffff] new__alert text-3xl text-center md:text-5xl">
+				<p className="pt-5 md:pt-10 text-[#ffffff] new__alert text-3xl text-center md:text-5xl typewriter-text">
 					Welcome to My Out-of-This-World Portfolio...
 				</p>
 				<p className="pt-6 text-[#ffffff] other__alert text-base md:text-xl text-center">
