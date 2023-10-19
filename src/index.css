@@ -93,7 +93,7 @@ body {
 	}
 }
 
-/* .typewrite {
+.typewrite {
 	position: relative;
 }
 
@@ -104,15 +104,15 @@ body {
 	right: calc(var(--width) * -1 - 5px);
 	top: 0;
 	bottom: 0;
-	background-color: #000000;
+	background-color: #ffffff;
 	position: absolute;
-	animation: blink 900ms steps(2, start) infinite;
+	animation: blink 1050ms steps(2, start) infinite;
 }
 @keyframes blink {
 	to {
 		visibility: hidden;
 	}
-} */
+}
 
 .new__alert {
 	font-family: "Dot Matrix", "Eudoxus Sans", sans-serif !important;
