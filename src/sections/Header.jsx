@@ -18,9 +18,7 @@ const Header = () => {
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
 				<p className=" text-base md:text-lg mb-2">Hello, I'm</p>
 				<p className=" text-4xl  md:text-6xl mb-2 head">Mark Gatere</p>
-				<p className=" text-base md:text-xl mb-3 typewrite">
-					Frontend Developer
-				</p>
+				<p className=" text-base md:text-xl mb-3">Frontend Developer</p>
 				<Cta />
 			</div>
 			<div className="flex justify-evenly md:justify-around items-end">
