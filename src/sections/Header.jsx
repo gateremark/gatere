@@ -13,12 +13,12 @@ const Header = () => {
 			animate={{ opacity: 1, y: 0 }}
 			exit={{ opacity: 0, y: 30 }}
 			transition={{ duration: 3 }}
-			className="pt-[0.4rem] ms-auto me-auto w-[95%] md:w-full"
+			className="pt-[0.5rem] ms-auto me-auto w-[95%] md:w-full"
 		>
 			<div className="flex flex-col justify-center items-center font-medium mb-6">
-				<p className=" text-base md:text-lg mb-2">Hello, I'm</p>
+				<p className=" text-base md:text-xl mb-2">Hello, I'm</p>
 				<p className=" text-4xl  md:text-6xl mb-2 head">Mark Gatere</p>
-				<p className=" text-base md:text-xl mb-3">Frontend Developer</p>
+				<p className=" text-base md:text-2xl mb-3">Frontend Developer</p>
 				<Cta />
 			</div>
 			<div className="flex justify-evenly md:justify-around items-end">
