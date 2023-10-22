@@ -69,7 +69,7 @@ const Projects = () => {
 					title="| Projects"
 					textStyles="text-4xl mb-10 font-semibold"
 				/>
-				<div className="w-[90%] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+				<div className="w-[90%] 2xl:w-[85%] flex lg:flex-row flex-col min-h-[70vh] gap-5">
 					{projectData.map((proj, index) => (
 						<ProjectCard
 							key={proj.id}
