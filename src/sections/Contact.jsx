@@ -31,12 +31,12 @@ const Contact = () => {
 						<h4>Email</h4>
 
 						<a
-							href="mailto:mark5gatere@gmail.com"
+							href="mailto:gateremg@gmail.com"
 							target="_blank"
 							rel="noreferrer"
 							className="font-semibold hover:scale-105 transition ease-in-out duration-200"
 						>
-							<h5>mark5gatere@gmail.com</h5>
+							<h5>gateremg@gmail.com</h5>
 						</a>
 					</article>
 					<article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-3xl hover:bg-[#00000010] hover:translate-y-1 transition ease-in-out duration-200">
