@@ -6,23 +6,23 @@ import Typed from "typed.js";
 const StartPage = () => {
 	const [pageHidden, setPageHidden] = useState(false);
 
-	// const typedTextRef = useRef(null);
+	const typedTextRef = useRef(null);
 
-	// useEffect(() => {
-	// 	if (!pageHidden) {
-	// 		const options = {
-	// 			strings: ["Welcome to My Out-of-This-World Portfolio..."],
-	// 			typeSpeed: 50,
-	// 			backSpeed: 25,
-	// 		};
+	useEffect(() => {
+		if (!pageHidden) {
+			const options = {
+				strings: ["Welcome to My Out-of-This-World Portfolio..."],
+				typeSpeed: 50,
+				backSpeed: 25,
+			};
 
-	// 		const typed = new Typed(typedTextRef.current, options);
+			const typed = new Typed(typedTextRef.current, options);
 
-	// 		return () => {
-	// 			typed.destroy();
-	// 		};
-	// 	}
-	// }, [pageHidden]);
+			return () => {
+				typed.destroy();
+			};
+		}
+	}, [pageHidden]);
 
 	return (
 		<div
@@ -35,7 +35,7 @@ const StartPage = () => {
 			<div className="flex flex-col items-center w-[90%]">
 				<div className="flex">
 					<p
-						
+						ref={typedTextRef}
 						className="pt-5 md:pt-10 text-[#ffffff] new__alert text-3xl text-center md:text-5xl w-[100%]"
 					></p>
 					<span className="hidden xl:inline typewrite"></span>
