@@ -71,13 +71,13 @@ const Skills = () => {
 					title="Skills"
 					textStyles="text-2xl mb-4 font-semibold text-center"
 				/>
-				{/* <div className=" flex flex-wrap justify-center items-center gap-10">
+				<div className=" flex flex-wrap justify-center items-center gap-10">
 					{skillData.map((skill) => (
 						<div className="w-28 h-28" key={skill.name}>
 							<BallCanvas icon={skill.icon} />
 						</div>
 					))}
-				</div> */}
+				</div>
 			</div>
 		</section>
 	);
