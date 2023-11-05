@@ -1,7 +1,9 @@
+import { useState, useEffect } from "react";
 import BallCanvas from "../canvas/Ball";
 import { TypingText } from "../components/TypingText";
 
 const Skills = () => {
+	const [displaySkills, setDisplaySkills] = useState(false);
 	const skillData = [
 		{
 			name: "HTML 5",
@@ -64,6 +66,16 @@ const Skills = () => {
 			icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697207414/new_portfolio/docker_ncnelj.webp",
 		},
 	];
+
+	useEffect(() => {
+		// Use setTimeout to set displaySkills to true after 5 seconds
+		const timeoutId = setTimeout(() => {
+			setDisplaySkills(true);
+		}, 5000);
+
+		// Clear the timeout if the component unmounts
+		return () => clearTimeout(timeoutId);
+	}, []);
 	return (
 		<section className="mt-6 ms-auto me-auto w-[90%]">
 			<div className=" flex flex-col justify-center items-center font-medium">
@@ -71,13 +83,16 @@ const Skills = () => {
 					title="Skills"
 					textStyles="text-2xl mb-4 font-semibold text-center"
 				/>
-				<div className=" flex flex-wrap justify-center items-center gap-10">
-					{skillData.map((skill) => (
-						<div className="w-28 h-28" key={skill.name}>
-							<BallCanvas icon={skill.icon} />
-						</div>
-					))}
-				</div>
+				{/* Conditional rendering when displaySkills is true */}
+				{displaySkills && (
+					<div className=" flex flex-wrap justify-center items-center gap-10">
+						{skillData.map((skill) => (
+							<div className="w-28 h-28" key={skill.name}>
+								<BallCanvas icon={skill.icon} />
+							</div>
+						))}
+					</div>
+				)}
 			</div>
 		</section>
 	);
