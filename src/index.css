@@ -11,15 +11,15 @@
 @tailwind utilities;
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	list-style: none;
-	text-decoration: none;
-	box-sizing: border-box;
-	/* font-family: "Victor Mono", monospace; */
-	font-family: "Eudoxus Sans", "Victor Mono", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* font-family: "Victor Mono", monospace; */
+    font-family: "Eudoxus Sans", "Victor Mono", sans-serif;
 }
 
 /* ::-webkit-scrollbar {
@@ -27,15 +27,15 @@
 } */
 
 ::-webkit-scrollbar {
-	width: 5px;
-	height: 0;
+    width: 5px;
+    height: 0;
 }
 ::-webkit-scrollbar-track {
-	background: #484e5c;
+    background: #484e5c;
 }
 ::-webkit-scrollbar-thumb {
-	background: #0bd3fd;
-	opacity: 1;
+    background: #0bd3fd;
+    opacity: 1;
 }
 
 /* ----------------------------------------- */
@@ -47,92 +47,92 @@
 --color-dark: color: hsl(270, 5%, 44%); #706b76; */
 
 .br {
-	border: 1px solid #690cc6;
+    border: 1px solid #690cc6;
 }
 
 html {
-	scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
 }
 body {
-	background-color: #e1f7ff;
+    background-color: #e1f7ff;
 }
 
 .hero-img {
-	position: relative;
-	animation: about-radius infinite 4s ease-in-out;
-	box-shadow: 0px 0px 100px #43068070;
+    position: relative;
+    animation: about-radius infinite 4s ease-in-out;
+    box-shadow: 0px 0px 100px #43068070;
 }
 @keyframes about-radius {
-	0% {
-		border-radius: 63% 37% 27% 73% / 66% 47% 53% 34%;
-	}
-	30% {
-		border-radius: 25% 75% 16% 84% / 79% 21% 79% 21%;
-	}
-	60% {
-		border-radius: 34% 66% 57% 43% / 40% 31% 69% 60%;
-	}
-	100% {
-		border-radius: 63% 37% 27% 73% / 66% 47% 53% 34%;
-	}
+    0% {
+        border-radius: 63% 37% 27% 73% / 66% 47% 53% 34%;
+    }
+    30% {
+        border-radius: 25% 75% 16% 84% / 79% 21% 79% 21%;
+    }
+    60% {
+        border-radius: 34% 66% 57% 43% / 40% 31% 69% 60%;
+    }
+    100% {
+        border-radius: 63% 37% 27% 73% / 66% 47% 53% 34%;
+    }
 }
 
 .typewrite {
-	position: relative;
+    position: relative;
 }
 
 .typewrite::after {
-	--width: 3px;
-	content: "";
-	width: var(--width);
-	right: calc(var(--width) * -1 - 5px);
-	top: 0;
-	bottom: 0;
-	background-color: #ffffff;
-	position: absolute;
-	animation: blink 1050ms steps(2, start) infinite;
+    --width: 3px;
+    content: "";
+    width: var(--width);
+    right: calc(var(--width) * -1 - 5px);
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    position: absolute;
+    animation: blink 1050ms steps(2, start) infinite;
 }
 @keyframes blink {
-	to {
-		visibility: hidden;
-	}
+    to {
+        visibility: hidden;
+    }
 }
 
 .new__alert {
-	font-family: "Dot Matrix", "Eudoxus Sans", sans-serif !important;
-	font-weight: bold !important;
+    font-family: "Dot Matrix", "Eudoxus Sans", sans-serif !important;
+    font-weight: bold !important;
 }
 .other__alert {
-	font-family: "Press Start 2P", sans-serif;
+    font-family: "Press Start 2P", sans-serif;
 }
 
 .p__alert {
-	font-family: "Victor Mono", monospace;
+    font-family: "Victor Mono", monospace;
 }
 
 .curly__name {
-	font-family: "Zeyada", cursive;
+    font-family: "Zeyada", cursive;
 }
 
 .glassmorphism {
-	background: rgba(255, 255, 255, 0.25);
-	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(4px);
-	border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .vertical-timeline-element .vertical-timeline-element-icon {
-	box-shadow: 0 0 0 4px #1d1836, inset 0 2px 0 rgba(0, 0, 0, 0.08),
-		0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px #1d1836, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+        0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
-	color: #000000;
+    color: #000000;
 }
 
 @media only screen and (max-width: 1170px) {
-	.vertical-timeline-element .vertical-timeline-element-date {
-		color: #ffffff;
-	}
+    .vertical-timeline-element .vertical-timeline-element-date {
+        color: #ffffff;
+    }
 }
