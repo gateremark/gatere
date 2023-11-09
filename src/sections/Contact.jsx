@@ -15,7 +15,6 @@ const Contact = () => {
     function handleSubmit(e) {
         // e.preventDefault();
         // console.log(e.target);
-
         // useEffect(() => {
         //     // Use setTimeout to set fields to empty after 5 seconds
         //     const timeoutId = setTimeout(() => {
@@ -24,7 +23,6 @@ const Contact = () => {
         //         setSubject("");
         //         setMessage("");
         //     }, 5000);
-
         //     // Clear the timeout if the component unmounts
         //     return () => clearTimeout(timeoutId);
         // }, []);
@@ -115,7 +113,7 @@ const Contact = () => {
                     <form
                         action="https://formspree.io/f/xgebporq"
                         method="post"
-                        onSubmit={handleSubmit}
+                        onSubmit={() => handleSubmit}
                         className="flex flex-col items-center md:items-start gap-5 mt-1"
                     >
                         <input
