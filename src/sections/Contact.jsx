@@ -4,8 +4,32 @@ import { staggerContainer } from "../motion";
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
 import { FaDev, FaHashnode, FaMedium } from "react-icons/fa6";
+import { useState } from "react";
 
 const Contact = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
+
+    function handleSubmit(e) {
+        // e.preventDefault();
+        // console.log(e.target);
+
+        // useEffect(() => {
+        //     // Use setTimeout to set fields to empty after 5 seconds
+        //     const timeoutId = setTimeout(() => {
+        //         setName("");
+        //         setEmail("");
+        //         setSubject("");
+        //         setMessage("");
+        //     }, 5000);
+
+        //     // Clear the timeout if the component unmounts
+        //     return () => clearTimeout(timeoutId);
+        // }, []);
+    }
+
     return (
         <motion.div
             id="contact"
@@ -91,12 +115,15 @@ const Contact = () => {
                     <form
                         action="https://formspree.io/f/xgebporq"
                         method="post"
+                        onSubmit={handleSubmit}
                         className="flex flex-col items-center md:items-start gap-5 mt-1"
                     >
                         <input
                             type="text"
                             name="Name"
                             placeholder="Full Name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
                             required
                             className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
                         />
@@ -104,6 +131,8 @@ const Contact = () => {
                             type="text"
                             name="Email"
                             placeholder="Email Address"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                             required
                             className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
                         />
@@ -111,6 +140,8 @@ const Contact = () => {
                             type="text"
                             name="Subject"
                             placeholder="Subject"
+                            value={subject}
+                            onChange={(e) => setSubject(e.target.value)}
                             required
                             className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
                         />
@@ -119,6 +150,8 @@ const Contact = () => {
                             cols="30"
                             rows="6"
                             placeholder="Message"
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
                             required
                             className="text-[#430680] resize-none w-[100%] py-6 px-4 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
                         ></textarea>
