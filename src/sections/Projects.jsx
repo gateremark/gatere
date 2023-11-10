@@ -26,7 +26,7 @@ const Projects = () => {
         {
             id: "proj-3",
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697419784/proj-img3_x7wlfh.webp",
-            title: "Story-Fy",
+            title: "BlogBox",
             desc: "A comprehensive and user‐friendly web platform designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
             github: "https://github.com/gateremark",
             live: "https://github.com/gateremark",
