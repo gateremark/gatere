@@ -1,5 +1,5 @@
 import AnimatedCursor from "react-animated-cursor";
-import { Toaster, toast } from "sonner";
+
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Home from "./sections/Home";
@@ -32,10 +32,10 @@ function App() {
         // starting from v2 you can add only the features you need reducing the bundle size
         await loadFull(main);
     };
-    toast.info("Work Experience - Incomplete!");
+    
     return (
         <div className=" transition-all ease-in-out duration-500">
-            <Toaster richColors position="top-right" closeButton />
+            
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/blogs" element={<BlogsPage />} />

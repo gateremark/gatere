@@ -1,11 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import Cta from "../components/CTA";
+
 import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { FaLink } from "react-icons/fa6";
 import { FaAnglesDown } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const Header = () => {
+    
     return (
         <motion.div
             id="#"
@@ -15,6 +17,7 @@ const Header = () => {
             transition={{ duration: 3 }}
             className="pt-[0.5rem] ms-auto me-auto w-[95%] md:w-full"
         >
+            
             <div className="flex flex-col justify-center items-center font-medium mb-6">
                 <p className=" text-lg md:text-xl mb-2">Hello, I'm</p>
                 <p className=" text-4xl  md:text-6xl mb-2 head">Mark Gatere</p>
