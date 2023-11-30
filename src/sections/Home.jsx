@@ -1,6 +1,6 @@
 // import StartPage from "./StartPage";
 import Navbar from "../components/Navbar";
-import { Toaster, toast } from "sonner";
+
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
@@ -12,7 +12,6 @@ import FloatingNav from "../components/FloatingNav";
 import { useRef, useState, useEffect } from "react";
 
 function Home() {
-    toast.info("Work Experience Section - Incomplete!");
     const mainRef = useRef();
 
     const [showFloatingNav, setShowFloatingNav] = useState(true);
@@ -44,7 +43,6 @@ function Home() {
     }, [siteYPosition]);
     return (
         <div className=" transition-all ease-in-out duration-500" ref={mainRef}>
-            <Toaster richColors position="top-right" />
             <div>
                 {/* <StartPage /> */}
                 <Navbar />
