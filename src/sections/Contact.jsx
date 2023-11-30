@@ -155,7 +155,7 @@ const Contact = () => {
                         ></textarea>
                         <button
                             type="submit"
-                            className=" w-fit flex justify-center gap-2 items-center md:text-lg text-[#fff] bg-[#690cc6] px-2 py-2 md:py-2 br border-[#690cc6] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500"
+                            className=" w-fit flex justify-center gap-2 items-center md:text-lg text-[#fff] bg-[#430680] px-2 py-2 md:py-2 br border-[#430680] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500"
                         >
                             {" "}
                             Send Message

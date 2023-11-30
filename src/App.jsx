@@ -35,7 +35,7 @@ function App() {
         <div className=" transition-all ease-in-out duration-500">
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/blogspage" element={<BlogsPage />} />
+                <Route path="/blogs" element={<BlogsPage />} />
                 <Route path="/*" element={<ErrorPage />} />
             </Routes>
             <AnimatedCursor

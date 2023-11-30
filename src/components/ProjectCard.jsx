@@ -24,10 +24,11 @@ const ProjectCard = ({
         <img
             src={imgUrl}
             alt="project-img"
-            className="absolute w-full h-full object-cover rounded-[24px]"
+            className="absolute w-full h-full object-cover rounded-[24px] border border-[#430680] border-opacity-30 border-solid"
         />
+
         {active !== id ? (
-            <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
+            <h3 className="font-semibold p-2 rounded-lg sm:text-[24px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] glassmorphism___card">
                 {title}
             </h3>
         ) : (

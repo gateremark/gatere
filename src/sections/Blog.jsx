@@ -53,7 +53,7 @@ const Blog = () => {
                     ))}
                 </div>
                 <Link
-                    to="/blogspage"
+                    to="/blogs"
                     className="flex flex-col justify-center items-center mt-10 text-xl font-semibold hover:scale-110 transition ease-in-out duration-200"
                 >
                     <BsFillArrowUpRightCircleFill />

@@ -46,7 +46,7 @@ const About = () => {
                             <div className=" my-2 grid grid-cols-2 gap-5 justify-between items-center">
                                 {data.map((item) => (
                                     <Card key={item.id} className="">
-                                        <i className=" text-[20px] md:text-[40px] text-[#690cc6]">
+                                        <i className=" text-[20px] md:text-[40px] text-[#430680]">
                                             {item.icon}
                                         </i>
                                         <h5 className=" text-[13px] md:text-[15px] text-center">
@@ -70,7 +70,7 @@ const About = () => {
                         </motion.div>
 
                         <a
-                            className=" mt-4 w-fit flex justify-center gap-2 items-center text-sm md:text-lg text-[#fff] bg-[#690cc6] px-2 py-2 md:py-2 br border-[#690cc6] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500 "
+                            className=" mt-4 w-fit flex justify-center gap-2 items-center text-sm md:text-lg text-[#fff] bg-[#430680] px-2 py-2 md:py-2 br border-[#430680] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500 "
                             href="#projects"
                         >
                             My Work <FaAnglesDown />

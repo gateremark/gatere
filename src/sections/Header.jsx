@@ -22,7 +22,7 @@ const Header = () => {
                 <Cta />
             </div>
             <div className="flex justify-evenly md:justify-around items-end">
-                <div className=" flex flex-col gap-4 text-[#690cc6] text-sm md:text-xl justify-center items-center mb-0 md:mb-6">
+                <div className=" flex flex-col gap-4 text-[#430680] text-sm md:text-xl justify-center items-center mb-0 md:mb-6">
                     <a
                         href="https://www.linkedin.com/in/gateremark/"
                         target="_blank"
@@ -78,7 +78,7 @@ const Header = () => {
 				</a> */}
                 <a
                     href="#about"
-                    className=" animate-bounce text-2xl md:text-3xl text-[#30144d] mb-0 md:mb-10"
+                    className=" animate-bounce text-2xl md:text-3xl text-[#430680] mb-0 md:mb-10"
                     aria-label="About Section"
                 >
                     <FaAnglesDown />
