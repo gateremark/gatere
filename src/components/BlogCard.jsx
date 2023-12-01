@@ -23,9 +23,10 @@ const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (
                 aria-label="Open blog"
             >
                 <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px] md:hover:scale-100 hover:scale-105 transition ease-in-out duration-500">
-                    <h4 className="font-normal lg:text-[42px] text-[26px] flex items-center justify-between">
-                        {title}{" "}
-                        <BsArrowUpRightSquare className="md:hidden text-xl" />{" "}
+                    <h4 className="font-normal lg:text-[42px] text-[26px] flex items-center justify-between text-center md:text-left">
+                        {title}
+                        {/* <span className="md:hidden">🔗</span> */}
+                        {/* <BsArrowUpRightSquare className="md:hidden text-xl" /> */}
                     </h4>
                     <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
                         {subtitle}
