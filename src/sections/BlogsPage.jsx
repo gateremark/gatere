@@ -8,6 +8,7 @@ import { GiReturnArrow } from "react-icons/gi";
 import { useState } from "react";
 import { blogData } from "../components/DataBlog";
 import BlogCategory from "../components/BlogCategory";
+import StarsCanvas from "../canvas/Stars";
 
 const BlogsPage = () => {
     const [blogs, setBlogs] = useState(blogData);
@@ -35,7 +36,7 @@ const BlogsPage = () => {
             variants={staggerContainer}
             initial="hidden"
             animate="show"
-            className="ms-auto me-auto w-[95%] md:w-full pb-10"
+            className="ms-auto me-auto w-[95%] md:w-full pb-10 h-fit"
         >
             <Link
                 to="/"
@@ -63,6 +64,7 @@ const BlogsPage = () => {
                     ))}
                 </div>
             </div>
+            <StarsCanvas />
         </motion.div>
     );
 };
