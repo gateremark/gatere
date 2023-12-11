@@ -23,6 +23,10 @@ const Achievements = () => {
             title: "Keynote Speaker, EnhanceMind AI Conference",
         },
         {
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1702278864/new_portfolio/globalai_cz5o7m.svg",
+            title: "Host, Global AI Conference - Student Edition",
+        },
+        {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061541/new_portfolio/ysk_fwqpaf.webp",
             title: "Young Scientists Kenya, Mentor",
         },
