@@ -1,5 +1,5 @@
 import AnimatedCursor from "react-animated-cursor";
-
+import { Toaster, toast } from "sonner";
 import Home from "./sections/Home";
 import BlogsPage from "./sections/BlogsPage";
 import ErrorPage from "./sections/ErrorPage";
@@ -8,7 +8,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 function App() {
-    
+    toast.info("Work Experience Section - Incomplete!");
     const firebaseConfig = {
         apiKey: "AIzaSyAuAKF6IQdM5s_fp8c4qp2fDfwRTe8GHeo",
         authDomain: "gateremark.firebaseapp.com",
@@ -23,10 +23,9 @@ function App() {
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
     // ----------------------------------------------------
-
     return (
         <div className=" transition-all ease-in-out duration-500">
-            
+            <Toaster richColors position="top-right" />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/blogs" element={<BlogsPage />} />
@@ -59,7 +58,6 @@ function App() {
                     ".have__cursor",
                 ]}
             />
-            
         </div>
     );
 }
