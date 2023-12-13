@@ -27,6 +27,10 @@ const Achievements = () => {
             title: "Host, Global AI Conference - Student Edition",
         },
         {
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1702495519/new_portfolio/msreactor_xu9ye8.svg",
+            title: "Featured - Microsoft Reactor",
+        },
+        {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061541/new_portfolio/ysk_fwqpaf.webp",
             title: "Young Scientists Kenya, Mentor",
         },
