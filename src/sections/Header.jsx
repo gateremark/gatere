@@ -22,9 +22,9 @@ const Header = () => {
                     Hello, I'm
                 </p>
                 {/* <p className=" text-4xl  md:text-6xl mb-2">Mark Gatere</p> */}
-                <span className="text-4xl md:text-6xl mb-2 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent font-semibold drop-shadow">
+                <p className="text-4xl md:text-6xl mb-2 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent font-semibold drop-shadow">
                     Mark Gatere
-                </span>
+                </p>
                 <p className=" text-lg md:text-2xl mb-3 text-slate-600 font-semibold">
                     Software Engineer
                 </p>
