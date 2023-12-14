@@ -17,11 +17,17 @@ const Header = () => {
             transition={{ duration: 3 }}
             className="pt-[0.5rem] ms-auto me-auto w-[95%] md:w-full"
         >
-            
-            <div className="flex flex-col justify-center items-center font-medium mb-6">
-                <p className=" text-lg md:text-xl mb-2">Hello, I'm</p>
-                <p className=" text-4xl  md:text-6xl mb-2 head">Mark Gatere</p>
-                <p className=" text-lg md:text-2xl mb-3">Frontend Developer</p>
+            <div className="flex flex-col justify-center items-center font-medium mb-6 tracking-wide">
+                <p className=" text-lg md:text-xl mb-2 text-slate-600 font-semibold">
+                    Hello, I'm
+                </p>
+                {/* <p className=" text-4xl  md:text-6xl mb-2">Mark Gatere</p> */}
+                <span className="text-4xl md:text-6xl mb-2 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent font-semibold drop-shadow">
+                    Mark Gatere
+                </span>
+                <p className=" text-lg md:text-2xl mb-3 text-slate-600 font-semibold">
+                    Software Engineer
+                </p>
                 <Cta />
             </div>
             <div className="flex justify-evenly md:justify-around items-end">

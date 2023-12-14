@@ -35,7 +35,7 @@ const Contact = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
-            className="py-10 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full"
+            className="py-10 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full text-slate-800"
         >
             <TypingText
                 title="| Contact"

@@ -36,7 +36,7 @@ const BlogsPage = () => {
             variants={staggerContainer}
             initial="hidden"
             animate="show"
-            className="ms-auto me-auto w-[95%] md:w-full pb-10 h-fit"
+            className="ms-auto me-auto w-[95%] md:w-full pb-10 h-fit text-slate-800"
         >
             <Link
                 to="/"

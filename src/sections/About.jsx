@@ -14,7 +14,7 @@ const About = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
-            className="ms-auto me-auto md:w-full"
+            className="ms-auto me-auto md:w-full text-slate-800"
         >
             <div className=" pt-16 flex flex-col justify-center items-center font-medium">
                 <div className="md:flex justify-between w-[90%] md:w-[90%] lg:w-[75%]">
