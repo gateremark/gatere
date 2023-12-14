@@ -1,38 +1,21 @@
-import { useState, useEffect, useRef } from "react";
-import StarsCanvas from "../canvas/Stars";
+import { useState } from "react";
+// import StarsCanvas from "../canvas/Stars";
 import { Tilt } from "react-tilt";
-import Typed from "typed.js";
+import { Toaster, toast } from "sonner";
 
 const StartPage = () => {
     const [pageHidden, setPageHidden] = useState(false);
-
-    const typedTextRef = useRef(null);
-
-    useEffect(() => {
-        if (!pageHidden) {
-            const options = {
-                strings: ["Welcome to My Out-of-This-World Portfolio..."],
-                typeSpeed: 50,
-                backSpeed: 25,
-            };
-
-            const typed = new Typed(typedTextRef.current, options);
-
-            return () => {
-                typed.destroy();
-            };
-        }
-    }, [pageHidden]);
+    toast.info("Work Experience Section - Incomplete!");
 
     return (
         <div
             className={`${
                 pageHidden
                     ? "hidden"
-                    : "bg-[#000000] flex justify-center fixed left-0 right-0 bottom-0 top-0 z-50"
+                    : "bg-[#00000090] flex justify-center items-center fixed left-0 right-0 bottom-0 top-0 z-50 h-screen"
             }`}
         >
-            <div className="flex flex-col items-center w-[90%]">
+            {/* <div className="flex flex-col items-center w-[90%]">
                 <div className="flex">
                     <p
                         ref={typedTextRef}
@@ -88,8 +71,21 @@ const StartPage = () => {
                         Continue
                     </Tilt>
                 </button>
-            </div>
-            <StarsCanvas />
+            </div> */}
+            {/* <StarsCanvas /> */}
+            <Toaster richColors position="top-right" />
+            <Tilt className="flex flex-col bg-white px-2 py-2 rounded-md gap-2">
+                <p className="text-slate-600 font-semibold">
+                    {" "}
+                    Work Experience Section - Incomplete!
+                </p>
+                <button
+                    onClick={() => setPageHidden(true)}
+                    className=" bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent font-semibold drop-shadow"
+                >
+                    Click here to Continue
+                </button>
+            </Tilt>
         </div>
     );
 };
