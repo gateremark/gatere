@@ -7,6 +7,10 @@ const WorkCard = ({ work }) => {
             contentStyle={{
                 background: "#1d1836",
                 color: "#ffffff",
+                borderBottom: "6px",
+                borderStyle: "solid",
+                borderBottomColor: "#03dac6",
+                boxShadow: "0px 12px 20px -8px #1d183670",
             }}
             contentArrowStyle={{ borderRight: "7px solid  #1d1836" }}
             date={work.date}
