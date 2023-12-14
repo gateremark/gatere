@@ -51,7 +51,7 @@ const ProjectCard = ({
                     >
                         <IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
                     </a>
-                    <span className=" flex flex-wrap gap-2 px-2 justify-center items-center">
+                    <span className=" flex flex-wrap gap-[2px] md:gap-1 lg:gap-2 justify-center items-center">
                         {tech.map((t, index) => (
                             <span
                                 key={index}
