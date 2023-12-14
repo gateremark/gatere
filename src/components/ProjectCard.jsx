@@ -13,6 +13,7 @@ const ProjectCard = ({
     handleClick,
     github,
     live,
+    tech,
 }) => (
     <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -50,6 +51,16 @@ const ProjectCard = ({
                     >
                         <IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
                     </a>
+                    <span className=" flex flex-wrap gap-2 px-2 justify-center items-center">
+                        {tech.map((t, index) => (
+                            <span
+                                key={index}
+                                className="text-[#ffffff] text-[14px] font-medium "
+                            >
+                                {t}
+                            </span>
+                        ))}
+                    </span>
                     <a
                         href={live}
                         target="_blank"
