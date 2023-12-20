@@ -10,7 +10,7 @@ const Projects = () => {
     const projectData = [
         {
             id: "proj-1",
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1701374675/new_portfolio/proj/ccnywp9d7e9b0jdvjxh9.webp",
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/blog_rwxm7q.webp",
             title: "BlogBox",
             desc: "Offering an intuitive and collaborative space for crafting and sharing insightful technical blogs; with AI-powered autocompletions.",
             github: "https://github.com/gateremark/blogbox",
@@ -26,7 +26,7 @@ const Projects = () => {
         },
         {
             id: "proj-2",
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1701374675/new_portfolio/proj/qhlgti4vu5yyunsamaru.webp",
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/home_vm6hdd.webp",
             title: "HomeTopia",
             desc: "Designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
             github: "https://github.com/gateremark/hometopia",
@@ -41,7 +41,7 @@ const Projects = () => {
         },
         {
             id: "proj-3",
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1701374675/new_portfolio/proj/lkge556pqrw6p4thz8ur.webp",
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109022/new_portfolio/bot_pyp3fk.webp",
             title: "gaterebot",
             desc: "Leveraging advanced natural language processing techniques to provide users with an interactive conversational experience.",
             github: "https://github.com/gateremark/gaterebot",
@@ -56,7 +56,7 @@ const Projects = () => {
         },
         {
             id: "proj-4",
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1701374675/new_portfolio/proj/wikka86xknybn4unrbyj.webp",
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/maps2_ezsfin.webp",
             title: "Gatere Maps",
             desc: "A Google Maps‐inspired project, allowing users to explore interactive maps, and search for locations using a built‐in search feature.",
             github: "https://github.com/gateremark/google_maps_clone",
@@ -65,7 +65,7 @@ const Projects = () => {
         },
         {
             id: "proj-5",
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1701374675/new_portfolio/proj/dgde5pl8su4x7pijku73.webp",
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/movie_dwo2xb.webp",
             title: "FilMere",
             desc: "A movie app utilizing the TMDB API to fetch movie data and provides a user-friendly interface for users to browse and explore various movies.",
             github: "https://github.com/gateremark/FilMere",
