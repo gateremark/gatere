@@ -8,7 +8,6 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 function App() {
-    
     const firebaseConfig = {
         apiKey: "AIzaSyAuAKF6IQdM5s_fp8c4qp2fDfwRTe8GHeo",
         authDomain: "gateremark.firebaseapp.com",
@@ -26,7 +25,6 @@ function App() {
 
     return (
         <div className=" transition-all ease-in-out duration-500">
-            
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/blogs" element={<BlogsPage />} />
@@ -55,11 +53,9 @@ function App() {
                     "button",
                     ".link",
                     ".customize",
-                    ".achCard",
                     ".have__cursor",
                 ]}
             />
-            
         </div>
     );
 }
