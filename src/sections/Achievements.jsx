@@ -63,12 +63,12 @@ const Achievements = () => {
         {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697066232/new_portfolio/dsaic_flfyo4.webp",
             title: "Data Science and Artificial Intelligence Club, Vice President",
-            link: "#",
+            link: "https://twitter.com/dsaic_dekut",
         },
         {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061969/new_portfolio/csok_ue6tpp.webp",
             title: "Computer Society of Kimathi, Vice President",
-            link: "#",
+            link: "https://web.facebook.com/ComputerSocietyOfKimathi",
         },
     ];
 
