@@ -7,26 +7,20 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            className="m-o z-10 w-[100vw] h-16 flex items-center transition ease-in-out"
+            className="m-o z-10 w-[100vw] h-16 md:flex items-center transition ease-in-out hidden"
         >
             <div className=" w-[95%] md:w-[90%] ms-auto me-auto flex justify-between items-center">
-                <a href="#">
+                <a href="#" >
                     <img
                         className="w-20 p-[10px] hidden md:block"
-                        src="https://res.cloudinary.com/dvuazircp/image/upload/v1697410111/new_portfolio/gatere_purple_n4o6be.webp"
+                        src="https://res.cloudinary.com/dvuazircp/image/upload/v1697786446/new_portfolio/gatere_green_abwdom.webp"
                         alt="gateremark"
                         width="56px"
                         height="60.219px"
                     />
-                    <img
-                        className="w-64 md:hidden"
-                        src="https://res.cloudinary.com/dvuazircp/image/upload/v1697318468/new_portfolio/logogm2_hid3vb.webp"
-                        alt="gateremark"
-                        width="860px"
-                        height="142px"
-                    />
+                    
                 </a>
-                <ul className="w-[70%] md:flex items-center justify-around hidden text-[#430680] text-xl font-bold">
+                <ul className="w-[70%] md:flex items-center justify-around hidden text-[#01f53f] text-xl font-bold">
                     {/* <li>
 						{" "}
 						<a href="#">Home</a>

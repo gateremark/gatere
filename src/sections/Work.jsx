@@ -14,7 +14,7 @@ const Work = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
-            className="ms-auto me-auto w-[95%] md:w-full text-slate-800"
+            className="ms-auto me-auto w-[95%] md:w-full text-slate-200"
         >
             <div className="pt-12 flex flex-col justify-center items-center font-medium">
                 <TypingText
@@ -22,7 +22,7 @@ const Work = () => {
                     textStyles="text-4xl mb-10 font-semibold"
                 />
                 <div className="">
-                    <VerticalTimeline lineColor={"#1d1836"}>
+                    <VerticalTimeline lineColor={"#00701c"}>
                         {workData.map((work, index) => (
                             <WorkCard key={`work-${index}`} work={work} />
                         ))}

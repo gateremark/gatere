@@ -36,11 +36,11 @@ const BlogsPage = () => {
             variants={staggerContainer}
             initial="hidden"
             animate="show"
-            className="ms-auto me-auto w-[95%] md:w-full pb-10 h-fit text-slate-800"
+            className="ms-auto me-auto w-[95%] md:w-full pb-10 h-fit text-slate-200"
         >
             <Link
                 to="/"
-                className="flex absolute justify-center items-center text-[#430680] top-5 md:top-10 left-5 md:left-20 gap-3 hover:scale-110 transition ease-in-out duration-200"
+                className="flex absolute justify-center items-center text-[#01f53f] top-5 md:top-10 left-5 md:left-20 gap-3 hover:scale-110 transition ease-in-out duration-200"
             >
                 <GiReturnArrow className="text-xl sm:text-3xl md:text-5xl" />
                 <span className="text-xl sm:text-2xl md:text-4xl ">Home</span>

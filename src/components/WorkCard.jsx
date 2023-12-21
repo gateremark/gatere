@@ -5,14 +5,14 @@ const WorkCard = ({ work }) => {
         <VerticalTimelineElement
             className="vertical-timeline-element"
             contentStyle={{
-                background: "#1d1836",
+                background: "#005c1700",
                 color: "#ffffff",
-                borderBottom: "6px",
-                borderStyle: "solid",
-                borderBottomColor: "#03dac6",
-                boxShadow: "0px 12px 20px -8px #1d183670",
+                // borderBottom: "6px",
+                // borderStyle: "solid",
+                // borderBottomColor: "#01f53f",
+                boxShadow: "0px 0px 20px -1px #01f53f80",
             }}
-            contentArrowStyle={{ borderRight: "7px solid  #1d1836" }}
+            contentArrowStyle={{ borderRight: "7px solid  #0B1120" }}
             date={work.date}
             iconStyle={{ background: work.iconBg }}
             icon={

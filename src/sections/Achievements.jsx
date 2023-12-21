@@ -84,7 +84,7 @@ const Achievements = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
-            className="pt-12 flex flex-col ms-auto me-auto w-[95%] md:w-full z-10 text-slate-800"
+            className="pt-12 flex flex-col ms-auto me-auto w-[95%] md:w-full z-10 text-slate-200"
         >
             <div className="flex flex-col justify-center items-center font-medium">
                 <TypingText
