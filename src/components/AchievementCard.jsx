@@ -4,8 +4,8 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 const AchievementCard = ({ imgUrl, title, link }) => {
     return (
         <Tilt
-            options={{ scale: 1.2 }}
-            className="bg-[#ffffff] h-[200px] rounded-xl flex flex-col justify-center items-center mb-16 hover:bg-[#00000003] transition ease-in-out duration-[100ms] achCard"
+            options={{ scale: 1.15 }}
+            className="h-[200px] rounded-xl flex flex-col justify-center items-center mb-16 shadow-xl transition ease-in-out duration-[100ms] achCard bg-[#00000000] backdrop-blur-[2px]"
         >
             <img
                 src={imgUrl}

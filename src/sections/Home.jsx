@@ -55,7 +55,6 @@ function Home() {
 
     return (
         <div className=" transition-all ease-in-out duration-500" ref={mainRef}>
-            
             <StartPage />
             <Navbar />
             <Header />
@@ -341,7 +340,7 @@ function Home() {
                             mode: "bounce",
                         },
                         color: {
-                            value: ["#690cc6", "#03dac6"],
+                            value: ["#00c431", "#03dac6"],
                             animation: {
                                 enable: false,
                                 speed: 100,

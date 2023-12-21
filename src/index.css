@@ -20,6 +20,7 @@
     box-sizing: border-box;
     /* font-family: "Victor Mono", monospace; */
     font-family: "Eudoxus Sans", "Victor Mono", sans-serif;
+    /* color: #b1aba0; */
 }
 
 /* ::-webkit-scrollbar {
@@ -46,21 +47,17 @@
 --color-black: color: hsl(270, 5%, 15%); #262428;
 --color-dark: color: hsl(270, 5%, 44%); #706b76; */
 
-.br {
-    border: 1px solid #690cc6;
-}
-
 html {
     scroll-behavior: smooth !important;
 }
 body {
-    background-color: #e1f7ff;
+    background-color: #0B1120;
 }
 
 .hero-img {
     position: relative;
     animation: about-radius infinite 4s ease-in-out;
-    box-shadow: 0px 0px 100px #43068070;
+    box-shadow: 0px 0px 50px #01f53f80;
 }
 @keyframes about-radius {
     0% {
@@ -131,16 +128,21 @@ body {
 }
 
 .vertical-timeline-element .vertical-timeline-element-icon {
-    box-shadow: 0 0 0 4px #1d1836, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    box-shadow: 0 0 0 4px #00701c, inset 0 2px 0 rgba(0, 0, 0, 0.08),
         0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
-    color: #000000;
+    color: #ffffff;
 }
 
-@media only screen and (max-width: 1170px) {
+/* @media only screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
         color: #ffffff;
     }
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #01f53f !important;
 }
+

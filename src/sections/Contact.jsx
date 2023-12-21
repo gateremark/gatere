@@ -35,7 +35,7 @@ const Contact = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
-            className="py-10 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full text-slate-800"
+            className="py-10 flex flex-col justify-center items-center font-medium ms-auto me-auto w-[95%] md:w-full text-slate-200"
         >
             <TypingText
                 title="| Contact"
@@ -43,16 +43,16 @@ const Contact = () => {
             />
             <div className="w-[90%] md:w-[65%] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32">
                 <div className=" flex flex-col items-center gap-5">
-                    <article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-3xl hover:bg-[#00000010] hover:translate-y-1 transition ease-in-out duration-200">
-                        <MdOutlineLocationOn className="text-3xl text-[#430680] font-bold" />
+                    <article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-2xl hover:shadow-3xl hover:bg-[#00000010] hover:scale-[1.01] transition ease-in-out duration-200">
+                        <MdOutlineLocationOn className="text-3xl text-[#01f53f] font-bold" />
                         <h4>Location</h4>
 
                         <h5 className="font-semibold hover:scale-105 transition ease-in-out duration-200">
                             Nyeri, Kenya
                         </h5>
                     </article>
-                    <article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-3xl hover:bg-[#00000010] hover:translate-y-1 transition ease-in-out duration-200">
-                        <MdOutlineEmail className="text-3xl text-[#430680] font-bold" />
+                    <article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-2xl hover:shadow-3xl hover:bg-[#00000010] hover:scale-[1.01] transition ease-in-out duration-200">
+                        <MdOutlineEmail className="text-3xl text-[#01f53f] font-bold" />
                         <h4>Email</h4>
 
                         <a
@@ -64,8 +64,8 @@ const Contact = () => {
                             <h5>gateremg@gmail.com</h5>
                         </a>
                     </article>
-                    <article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-3xl hover:bg-[#00000010] hover:translate-y-1 transition ease-in-out duration-200">
-                        <FiPhone className="text-3xl text-[#430680] font-bold" />
+                    <article className=" w-[90%] px-5 py-7 rounded-xl text-lg flex flex-col items-center justify-center gap-3 bg-[#00000000] backdrop-blur-[2px] shadow-2xl hover:shadow-3xl hover:bg-[#00000010] hover:scale-[1.01] transition ease-in-out duration-200">
+                        <FiPhone className="text-3xl text-[#01f53f] font-bold" />
                         <h4>Phone</h4>
 
                         <h5 className="font-semibold hover:scale-105 transition ease-in-out duration-200">
@@ -93,7 +93,7 @@ const Contact = () => {
                             className="text-5xl font-semibold hover:scale-110 transition ease-in-out duration-200"
                             aria-label="Dev.to"
                         >
-                            <FaDev className="text-[#000000]" />
+                            <FaDev className="text-[#01f53f]" />
                         </a>
                         <a
                             href="https://gateremark.medium.com/"
@@ -103,7 +103,7 @@ const Contact = () => {
                             className=" text-5xl font-semibold hover:scale-110 transition ease-in-out duration-200"
                             aria-label="Medium"
                         >
-                            <FaMedium className="text-[#000000]" />
+                            <FaMedium className="text-[#01f53f]" />
                         </a>
                     </div>
                     <TypingText
@@ -123,7 +123,7 @@ const Contact = () => {
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                             required
-                            className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
+                            className="text-[#01f53f] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#01f53f] focus:bg-[#ffffff00]"
                         />
                         <input
                             type="text"
@@ -132,7 +132,7 @@ const Contact = () => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             required
-                            className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
+                            className="text-[#01f53f] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#01f53f] focus:bg-[#ffffff00]"
                         />
                         <input
                             type="text"
@@ -141,7 +141,7 @@ const Contact = () => {
                             value={subject}
                             onChange={(e) => setSubject(e.target.value)}
                             required
-                            className="text-[#430680] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
+                            className="text-[#01f53f] resize-none w-[100%] px-4 py-2 rounded bg-[#00000000] border-2 border-solid border-[#01f53f] focus:bg-[#ffffff00]"
                         />
                         <textarea
                             name="Message"
@@ -151,11 +151,11 @@ const Contact = () => {
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             required
-                            className="text-[#430680] resize-none w-[100%] py-6 px-4 rounded bg-[#00000000] border-2 border-solid border-[#430680] focus:bg-[#ffffff99]"
+                            className="text-[#01f53f] resize-none w-[100%] py-6 px-4 rounded bg-[#00000000] border-2 border-solid border-[#01f53f] focus:bg-[#ffffff00]"
                         ></textarea>
                         <button
                             type="submit"
-                            className=" w-fit flex justify-center gap-2 items-center md:text-lg text-[#fff] bg-[#430680] px-2 py-2 md:py-2 br border-[#430680] rounded-md hover:bg-[#380d63] transition ease-in-out duration-500"
+                            className=" w-fit flex justify-center gap-2 items-center md:text-lg text-[#0B1120] bg-[#01f53f] px-2 py-2 md:py-2 br border-[#01f53f] rounded-md hover:bg-[#00701c] transition ease-in-out duration-500"
                         >
                             {" "}
                             Send Message
