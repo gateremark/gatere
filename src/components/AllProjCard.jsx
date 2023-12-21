@@ -25,7 +25,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                     }}
                     className=" absolute inset-0 w-full h-full bg-black bg-opacity-50 rounded-lg opacity-0 transition-all duration-300 ease-in-out flex flex-col justify-center items-center text-[#ffffff] gap-8"
                 >
-                    <div className="flex justify-around items-center w-full">
+                    <div className="flex justify-evenly items-center w-full">
                         <a
                             href={live}
                             target="_blank"
@@ -38,7 +38,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                                 transition={{ duration: 0.25 }}
                                 className="flex justify-center items-center"
                             >
-                                <AiFillEye className="text-4xl " />
+                                <AiFillEye className="text-3xl " />
                             </motion.div>
                         </a>
                         <a
@@ -53,7 +53,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                                 transition={{ duration: 0.25 }}
                                 className="flex justify-center items-center"
                             >
-                                <AiFillGithub className=" text-4xl" />
+                                <AiFillGithub className=" text-3xl" />
                             </motion.div>
                         </a>
                     </div>
