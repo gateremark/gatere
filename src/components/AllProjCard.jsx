@@ -23,7 +23,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                         ease: "easeInOut",
                         staggerChildren: 0.5,
                     }}
-                    className=" absolute inset-0 w-full h-full bg-black bg-opacity-50 rounded-lg opacity-0 transition-all duration-300 ease-in-out flex flex-col justify-center items-center text-[#ffffff] gap-8"
+                    className=" absolute inset-0 w-full h-full bg-black bg-opacity-60 rounded-lg opacity-0 transition-all duration-300 ease-in-out flex flex-col justify-center items-center text-[#ffffff] gap-8"
                 >
                     <div className="flex justify-evenly items-center w-full">
                         <a

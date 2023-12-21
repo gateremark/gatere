@@ -83,7 +83,7 @@ const Contact = () => {
                             className=" text-5xl font-semibold hover:scale-110 transition ease-in-out duration-200"
                             aria-label="Hashnode"
                         >
-                            <FaHashnode className="text-[#2962FF]" />
+                            <FaHashnode className="text-[#01f53f]" />
                         </a>
                         <a
                             href="https://dev.to/gateremark"
