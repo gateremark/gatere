@@ -11,6 +11,8 @@ const AchievementCard = ({ imgUrl, title, link }) => {
                 src={imgUrl}
                 alt="achievement-img"
                 className="w-[30%] object-contain rounded-lg min-h-[7rem] max-h-[15rem]"
+                width="85.797px"
+                height="112px"
             />
             <span className="font-semibold text-center flex flex-col items-center gap-2 justify-between h-[100%]">
                 {title}{" "}

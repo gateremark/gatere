@@ -13,8 +13,8 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                     src={imgUrl}
                     alt={title}
                     className="w-[100%] mb-4 h-full object-contain rounded-lg"
-                    width="372.5px"
-                    height="186.25px"
+                    width="240px"
+                    height="240px"
                 />
                 <motion.div
                     whileHover={{ opacity: [0, 1] }}
