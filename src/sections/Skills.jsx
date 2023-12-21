@@ -96,7 +96,7 @@ const Skills = () => {
                             >
                                 <BallCanvas icon={skill.icon} />
 
-                                <Tilt className="md:hidden">
+                                {/* <Tilt className="md:hidden">
                                     <img
                                         src={skill.icon}
                                         alt={skill.name}
@@ -104,7 +104,7 @@ const Skills = () => {
                                         height="96px"
                                         className="object-contain"
                                     />
-                                </Tilt>
+                                </Tilt> */}
                             </div>
                         ))}
                     </div>
