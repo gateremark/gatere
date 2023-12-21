@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import BallCanvas from "../canvas/Ball";
 import { TypingText } from "../components/TypingText";
+import { Tilt } from "react-tilt";
+// import { SiHtml5 } from "react-icons/si";
 
 const Skills = () => {
     const [displaySkills, setDisplaySkills] = useState(false);
@@ -8,6 +10,7 @@ const Skills = () => {
         {
             name: "HTML 5",
             icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1697207416/new_portfolio/html_ge46fk.webp",
+            // icon: <SiHtml5 className="text-[#01f53f]" />,
         },
         {
             name: "CSS 3",
@@ -87,8 +90,21 @@ const Skills = () => {
                 {displaySkills && (
                     <div className=" flex flex-wrap justify-center items-center gap-10">
                         {skillData.map((skill) => (
-                            <div className="w-28 h-28" key={skill.name}>
+                            <div
+                                className=" w-28 h-28 flex items-center justify-center flex-wrap"
+                                key={skill.name}
+                            >
                                 <BallCanvas icon={skill.icon} />
+
+                                <Tilt className="md:hidden">
+                                    <img
+                                        src={skill.icon}
+                                        alt={skill.name}
+                                        width="96px"
+                                        height="96px"
+                                        className="object-contain"
+                                    />
+                                </Tilt>
                             </div>
                         ))}
                     </div>
