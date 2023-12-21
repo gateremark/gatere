@@ -46,9 +46,9 @@ const BlogsPage = () => {
                 <span className="text-xl sm:text-2xl md:text-4xl ">Home</span>
             </Link>
             <div className="pt-16 flex flex-col justify-center items-center font-medium">
-                <TypingText
-                    title="| Blogs"
-                    textStyles="text-4xl mb-6 font-semibold"
+                <SpringyText
+                    className="text-4xl mb-6 font-semibold"
+                    text="| Blogs"
                 />
                 <BlogCategory
                     categories={uniqueCategories}

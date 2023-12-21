@@ -7,6 +7,7 @@ import { GiReturnArrow } from "react-icons/gi";
 import StarsCanvas from "../canvas/Stars";
 import { projsData } from "../components/ProjsData";
 import AllProjCard from "../components/AllProjCard";
+import SpringyText from "../components/springtext/SpringyText";
 
 const ProjectsPage = () => {
 
@@ -30,9 +31,9 @@ const ProjectsPage = () => {
                 <span className="text-xl sm:text-2xl md:text-4xl ">Home</span>
             </Link>
             <div className="pt-16 flex flex-col justify-center items-center font-medium">
-                <TypingText
-                    title="| Projects"
-                    textStyles="text-4xl mb-6 font-semibold"
+                <SpringyText
+                    className="text-4xl mb-6 font-semibold"
+                    text="| Projects"
                 />
                 <div className="px-6 md:px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-start gap-6">
                     {projsData.map((proj, index) => (
