@@ -36,6 +36,11 @@ const Achievements = () => {
             link: "https://developer.microsoft.com/en-us/reactor/events/21444/",
         },
         {
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703161663/new_portfolio/gdg_efz2ec.webp",
+            title: "Google Developer Groups, Organizer",
+            link: "https://gdg.community.dev/gdg-nyeri/",
+        },
+        {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703093623/new_portfolio/gdl-ml_ncui8y.webp",
             title: "Technical Blogger, Google Dev Library",
             link: "https://devlibrary.withgoogle.com/authors/gateremark",
