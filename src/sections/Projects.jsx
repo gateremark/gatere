@@ -4,7 +4,8 @@ import { TypingText } from "../components/TypingText";
 import ProjectCard from "../components/ProjectCard";
 import { staggerContainer } from "../motion";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
-import testimg from "../assets/testimg.png";
+// import testimg from "../assets/testimg.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
     const projectData = [
@@ -100,16 +101,13 @@ const Projects = () => {
                         />
                     ))}
                 </div>
-                <a
-                    href="https://github.com/gateremark"
-                    target="_blank"
-                    rel="noreferrer"
+                <Link
+                    to="/projects"
                     className="flex flex-col justify-center items-center mt-10 text-xl font-semibold hover:scale-110 transition ease-in-out duration-200"
-                    aria-label="More projects"
                 >
                     <BsFillArrowUpRightCircleFill />
-                    <TypingText title="More Projects" textStyles="" />
-                </a>
+                    <TypingText title="All Projects" textStyles="" />
+                </Link>
             </div>
         </motion.div>
     );

@@ -2,6 +2,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 import Home from "./sections/Home";
 import BlogsPage from "./sections/BlogsPage";
+import ProjectsPage from "./sections/ProjectsPage";
 import ErrorPage from "./sections/ErrorPage";
 import { Routes, Route } from "react-router-dom";
 import { initializeApp } from "firebase/app";
@@ -28,6 +29,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/blogs" element={<BlogsPage />} />
+                <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/*" element={<ErrorPage />} />
             </Routes>
             <AnimatedCursor
