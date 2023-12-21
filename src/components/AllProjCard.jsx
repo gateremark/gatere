@@ -6,7 +6,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
     return (
         <motion.div
             variants={fadeIn("right", "spring", index * 0.4, 0.75)}
-            className=" flex flex-col py-6 px-5 bg-[#ffffff] rounded-xl items-center text-center transition-shadow duration-300 ease-in-out hover:shadow-large"
+            className=" flex flex-col py-6 px-5 sm:h-[440px] bg-[#ffffff] rounded-xl items-center text-center transition-shadow duration-300 ease-in-out hover:shadow-large"
         >
             <div className=" relative h-[240px]">
                 <img

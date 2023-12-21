@@ -5,7 +5,7 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 const AllBlogCard = ({ category, imgUrl, title, subtitle, url, index }) => (
     <motion.div
         variants={fadeIn("right", "spring", index * 0.4, 0.75)}
-        className="relative flex flex-col py-6 px-5 bg-[#ffffff] rounded-xl items-center transition-shadow duration-300 ease-in-out hover:shadow-large"
+        className="relative flex flex-col py-6 px-5 sm:h-[445px] bg-[#ffffff] rounded-xl items-center transition-shadow duration-300 ease-in-out hover:shadow-large"
     >
         <span className="absolute glassmorphism rounded px-2 py-1 top-6 left-5 text-[#ffffff] capitalize">
             {category}
@@ -13,7 +13,7 @@ const AllBlogCard = ({ category, imgUrl, title, subtitle, url, index }) => (
         <img
             src={imgUrl}
             alt={title}
-            className="w-[100%] mb-4 h-fit rounded-lg min-h-[7rem] max-h-[15rem]"
+            className="w-[100%] mb-4 h-fit rounded-lg min-h-[7rem] max-h-[15rem] object-contain"
             width="372.5px"
             height="186.25px"
         />
