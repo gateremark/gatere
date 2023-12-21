@@ -19,7 +19,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                 <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{
-                        duration: 0.25,
+                        duration: 0.3,
                         ease: "easeInOut",
                         staggerChildren: 0.5,
                     }}
