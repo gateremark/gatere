@@ -9,6 +9,7 @@ import { useState } from "react";
 import { blogData } from "../components/DataBlog";
 import BlogCategory from "../components/BlogCategory";
 import StarsCanvas from "../canvas/Stars";
+import SpringyText from "../components/springtext/SpringyText";
 
 const BlogsPage = () => {
     const [blogs, setBlogs] = useState(blogData);

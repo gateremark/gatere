@@ -10,8 +10,6 @@ import AllProjCard from "../components/AllProjCard";
 import SpringyText from "../components/springtext/SpringyText";
 
 const ProjectsPage = () => {
-
-
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
         window.scrollTo(0, 0);
