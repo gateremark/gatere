@@ -3,7 +3,7 @@ export const projsData = [
         id: "proj-1",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/blog_rwxm7q.webp",
         title: "BlogBox",
-        desc: "Offering an intuitive and collaborative space for crafting and sharing insightful technical blogs; with AI-powered autocompletions.",
+        desc: "Offering an intuitive and collaborative space for crafting and sharing insightful technical blogs; with AI-powered autocompletions, and real-time collaboration.",
         github: "https://github.com/gateremark/blogbox",
         live: "https://myblogbox.vercel.app/",
         tech: [
