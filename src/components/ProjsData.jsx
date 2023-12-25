@@ -12,7 +12,7 @@ export const projsData = [
             "OpenAI API,",
             "NeonDB,",
             "Drizzle ORM,",
-            "Next Auth",
+            "Y-WebRTC",
         ],
     },
     {
