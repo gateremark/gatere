@@ -55,12 +55,12 @@ function Home() {
 
     return (
         <div className=" transition-all ease-in-out duration-500" ref={mainRef}>
-            <StartPage />
+            {/* <StartPage /> */}
             <Navbar />
             <Header />
             <About />
             <Projects />
-            <Work />
+            {/* <Work /> */}
             <Blog />
             <Achievements />
             <Contact />
