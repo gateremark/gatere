@@ -127,4 +127,12 @@ export const blogData = [
             "Discover the importance and versatility of NumPy in scientific computing and data analysis.",
         url: "#",
     },
+    {
+        category: "in-draft",
+        imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1705095029/new_portfolio/intonextjs_tqp3es.webp",
+        title: "Into NextJS",
+        subtitle:
+            "Discover the power of NextJS and how it can be leveraged to build powerful web applications.",
+        url: "#",
+    },
 ];
