@@ -36,7 +36,7 @@ const Projects = () => {
                 "React,",
                 "TailwindCSS,",
                 "Firebase,",
-                "SwiperJS,",
+                "Maps API,",
                 "Leaflet",
             ],
         },
