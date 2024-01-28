@@ -21,7 +21,7 @@ const AllBlogCard = ({ category, imgUrl, title, subtitle, url, index }) => (
             <h6 className="text-lg font-bold mb-2">{title}</h6>
             <p>{subtitle}</p>
         </div>
-        <a href={url} target="_blank" rel="noreferrer" aria-label="Blog Page">
+        <a href={url} target="_blank" rel="noreferrer" aria-label="Blog Page" className=" sm:absolute md:bottom-5 sm:bottom-8">
             <BsArrowUpRightSquare className="text-5xl text-[#01f53f] hover:scale-110 transition ease-in-out duration-150" />
         </a>
     </motion.div>
