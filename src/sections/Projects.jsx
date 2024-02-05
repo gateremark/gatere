@@ -66,12 +66,18 @@ const Projects = () => {
         },
         {
             id: "proj-5",
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/movie_dwo2xb.webp",
-            title: "FilMere",
-            desc: "A movie app utilizing the TMDB API to fetch movie data and provides a user-friendly interface for users to browse and explore various movies.",
-            github: "https://github.com/gateremark/FilMere",
-            live: "https://gateremark.github.io/FilMere/",
-            tech: ["HTML,", "CSS,", "JavaScript,", "TMDB API"],
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1707142432/new_portfolio/devcard_l6jrca.webp",
+            title: "Hashnode DevCard",
+            desc: "A GraphQL server and ReactJS frontend that fetches Hashnode users’ information from Hashnode’s API, and generates a Hashnode DevCard.",
+            github: "https://github.com/gateremark/hashnode_dev_api",
+            live: "https://hashnodedev.vercel.app/",
+            tech: [
+                "React,",
+                "NodeJS,",
+                "GraphQL,",
+                "Hashnode API,",
+                "TailwindCSS",
+            ],
         },
     ];
 

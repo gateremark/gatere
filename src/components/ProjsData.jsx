@@ -50,6 +50,15 @@ export const projsData = [
     },
     {
         id: "proj-5",
+        imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1707142432/new_portfolio/devcard_l6jrca.webp",
+        title: "Hashnode DevCard",
+        desc: "A GraphQL server and ReactJS frontend that fetches Hashnode users’ information from Hashnode’s API, and generates a Hashnode DevCard.",
+        github: "https://github.com/gateremark/hashnode_dev_api",
+        live: "https://hashnodedev.vercel.app/",
+        tech: ["React,", "NodeJS,", "GraphQL,", "Hashnode API,", "TailwindCSS"],
+    },
+    {
+        id: "proj-6",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/movie_dwo2xb.webp",
         title: "FilMere",
         desc: "A movie app utilizing the TMDB API to fetch movie data and provides a user-friendly interface for users to browse and explore various movies.",
@@ -58,7 +67,7 @@ export const projsData = [
         tech: ["HTML,", "CSS,", "JavaScript,", "TMDB API"],
     },
     {
-        id: "proj-6",
+        id: "proj-7",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/nindmatch_mkdeem.webp",
         title: "MindMatch",
         desc: "A React practice project. A simple memory game where the user has to match the cards with the same images.",
@@ -67,7 +76,7 @@ export const projsData = [
         tech: ["ReactJS"],
     },
     {
-        id: "proj-7",
+        id: "proj-8",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/droppi_rtspsa.webp",
         title: "Droppi",
         desc: "A simple Kanban board project that allows one to create tasks and organize them into different stages.",
@@ -76,7 +85,7 @@ export const projsData = [
         tech: ["HTML,", "CSS,", "JavaScript"],
     },
     {
-        id: "proj-8",
+        id: "proj-9",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/secretno_ihqsiu.webp",
         title: "Secret Numbers",
         desc: "DOM Manipulation practice project. A simple game where the user has to guess a secret number between 1 and 20.",
@@ -85,7 +94,7 @@ export const projsData = [
         tech: ["HTML,", "CSS,", "JavaScript"],
     },
     {
-        id: "proj-9",
+        id: "proj-10",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/makifoods_evlwgs.webp",
         title: "MakiFoods",
         desc: "HTML and CSS practice project. A simple meals website with a responsive design and a mobile-first approach.",
