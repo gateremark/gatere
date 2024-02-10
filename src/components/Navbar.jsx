@@ -7,7 +7,7 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            className="m-o z-10 w-[100vw] h-16 md:flex items-center transition ease-in-out hidden max-w-[1532px]"
+            className="m-o z-10 w-[100vw] h-16 md:flex items-center transition ease-in-out hidden xl:max-w-[1332px]"
         >
             <div className=" w-[95%] md:w-[90%] ms-auto me-auto flex justify-between items-center">
                 <a href="#">

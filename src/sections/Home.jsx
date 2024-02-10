@@ -54,10 +54,10 @@ function Home() {
 
     return (
         <div
-            className=" transition-all ease-in-out duration-500 w-full flex flex-col justify-center items-center"
+            className=" transition-all ease-in-out duration-500 xl:w-full xl:flex flex-col justify-center items-center"
             ref={mainRef}
         >
-            <div className="max-w-[1532px]">
+            <div className="xl:max-w-[1330px]">
                 {/* <StartPage /> */}
                 <Navbar />
                 <Header />
