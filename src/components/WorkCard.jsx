@@ -27,7 +27,17 @@ const WorkCard = ({ work }) => {
                 </div>
             }
         >
-            <div>
+            <div className="relative">
+                {work.supported && (
+                    <a
+                        href="https://www.linkedin.com/posts/gateremark_lishebora-activity-7175619257274118146-NmOi?utm_source=share&utm_medium=member_desktop"
+                        target="_blank"
+                    >
+                        <span className=" absolute text-xs -top-9 -right-6 bg-[#00701c] hover:bg-[#11471f] p-1 rounded-full text-[#ffffff] transition duration-300 ease-in-out">
+                            {work.supported}
+                        </span>
+                    </a>
+                )}
                 <h3 className="text-[#ffffff] text-[24px] font-bold">
                     {work.title}
                 </h3>

@@ -63,7 +63,7 @@ function Home() {
                 <Header />
                 <About />
                 <Projects />
-                {/* <Work /> */}
+                <Work />
                 <Blog />
                 <Achievements />
                 <Contact />
