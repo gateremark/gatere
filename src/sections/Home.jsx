@@ -67,6 +67,12 @@ function Home() {
                 <Blog />
                 <Achievements />
                 <Contact />
+                <div className="w-full flex justify-center">
+                    <span className="text-3xl text-center font-semibold text-white kite-one-regular">
+                        Schedule a Call
+                    </span>
+                </div>
+
                 {showFloatingNav && <FloatingNav />}
 
                 <Particles

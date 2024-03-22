@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
@@ -144,4 +145,8 @@ body {
 
 .swiper-pagination-bullet-active {
   background-color: #01f53f !important;
+}
+
+.kite-one-regular {
+  font-family: "Kite One", sans-serif;
 }

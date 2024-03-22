@@ -153,6 +153,7 @@ const Contact = () => {
                             required
                             className="text-[#01f53f] resize-none w-[100%] py-6 px-4 rounded bg-[#00000000] border-2 border-solid border-[#01f53f] focus:bg-[#ffffff00]"
                         ></textarea>
+
                         <button
                             type="submit"
                             className=" w-fit flex justify-center gap-2 items-center md:text-lg text-[#0B1120] bg-[#01f53f] px-2 py-2 md:py-2 br border-[#01f53f] rounded-md hover:bg-[#00701c] transition ease-in-out duration-500"
