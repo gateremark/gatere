@@ -12,7 +12,7 @@ export const workData = [
         supported: "Supported by Microsoft for Startups",
     },
     {
-        title: "Founding Developer",
+        title: "Software Engineer",
         company_name: "Digitalfarmer",
         icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1711112685/digitalfarmer_avsvkc.webp",
         iconBg: "#E6DEDD",
