@@ -18,8 +18,8 @@ export const workData = [
         iconBg: "#E6DEDD",
         date: "August 2023 - April 2024",
         points: [
-            "● Coordinate with a team of 4 developers to architect and implement the user interface and functionality of the Digitalfarmer platform.",
-            "● Play a pivotal role in the creation of a B2B and B2C platform that streamlines the agricultural supply chain.",
+            "● Coordinated with a team of 4 developers to architect and implement the user interface and functionality of the Digitalfarmer platform with NextJS and Talwind CSS.",
+            "● Played a pivotal role in the creation of a B2B and B2C platform that streamlines the agricultural supply chain.",
         ],
         supported: "",
     },
