@@ -18,7 +18,7 @@ const Header = () => {
         >
             <div className="flex flex-col justify-center items-center font-medium mb-6 tracking-wide">
                 <p className=" text-lg md:text-xl mb-2 text-slate-200 font-semibold">
-                    Hello, I'm
+                    Hello, I&apos;m
                 </p>
                 {/* <p className=" text-4xl  md:text-6xl mb-2">Mark Gatere</p> */}
                 <p className="text-4xl md:text-6xl mb-2 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent font-semibold drop-shadow">

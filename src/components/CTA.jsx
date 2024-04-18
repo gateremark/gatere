@@ -16,7 +16,7 @@ const Cta = () => {
                     className="inline-block text-sm md:text-lg text-[#0B1120] bg-[#01f53f] px-2 py-3 md:py-3 md:px-5 border-[#01f53f] border-solid border rounded-md hover:bg-[#00701c] hover:border-[#00701c] transition ease-in-out duration-500 "
                     href="#contact"
                 >
-                    Let's Talk
+                    Let&apos;s Talk
                 </a>
             </div>
         </>
