@@ -1,4 +1,4 @@
-import StartPage from "./StartPage";
+// import StartPage from "./StartPage";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Navbar from "../components/Navbar";
@@ -67,11 +67,11 @@ function Home() {
                 <Blog />
                 <Achievements />
                 <Contact />
-                <div className="w-full flex justify-center">
+                {/* <div className="w-full flex justify-center">
                     <span className="text-3xl text-center font-semibold text-white kite-one-regular">
                         Schedule a Call
                     </span>
-                </div>
+                </div> */}
 
                 {showFloatingNav && <FloatingNav />}
 
