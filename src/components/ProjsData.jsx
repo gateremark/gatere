@@ -7,7 +7,7 @@ export const projsData = [
         github: "#",
         live: "https://www.expoafrica.co.ke/",
         tech: [
-            "NextJS,",
+            "Next.js,",
             "TailwindCSS,",
             "Paystack,",
             "Framermotion,",
@@ -21,7 +21,7 @@ export const projsData = [
         desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
         github: "#",
         live: "https://ahaditek.vercel.app/",
-        tech: ["React,", "TailwindCSS,", "Firebase,", "React Parallax"],
+        tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
     },
     {
         id: "proj-3",
@@ -31,7 +31,7 @@ export const projsData = [
         github: "https://github.com/gateremark/blogbox",
         live: "https://myblogbox.vercel.app/",
         tech: [
-            "NextJS,",
+            "Next.js,",
             "TailwindCSS,",
             "OpenAI API,",
             "NeonDB,",
@@ -46,7 +46,7 @@ export const projsData = [
         desc: "Designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
         github: "https://github.com/gateremark/hometopia",
         live: "https://hometopia.vercel.app/",
-        tech: ["React,", "TailwindCSS,", "Firebase,", "SwiperJS,", "Leaflet"],
+        tech: ["React.js,", "TailwindCSS,", "Firebase,", "SwiperJS,", "Leaflet"],
     },
     {
         id: "proj-5",
@@ -56,7 +56,7 @@ export const projsData = [
         github: "https://github.com/gateremark/gaterebot",
         live: "https://gaterebot.vercel.app/",
         tech: [
-            "NextJS,",
+            "Next.js,",
             "TailwindCSS,",
             "OpenAI API,",
             "MongoDB,",
@@ -70,7 +70,7 @@ export const projsData = [
         desc: "A Google Maps‐inspired project, allowing users to explore interactive maps, and search for locations using a built‐in search feature.",
         github: "https://github.com/gateremark/google_maps_clone",
         live: "https://gateremaps.vercel.app/",
-        tech: ["React,", "TailwindCSS,", "Maps API,", "GeoCoding API"],
+        tech: ["React.js,", "TailwindCSS,", "Maps API,", "GeoCoding API"],
     },
     {
         id: "proj-7",
@@ -79,7 +79,7 @@ export const projsData = [
         desc: "A GraphQL server and ReactJS frontend that fetches Hashnode users’ information from Hashnode’s API, and generates a Hashnode DevCard.",
         github: "https://github.com/gateremark/hashnode_dev_api",
         live: "https://hashnodedev.vercel.app/",
-        tech: ["React,", "NodeJS,", "GraphQL,", "Hashnode API,", "TailwindCSS"],
+        tech: ["React.js,", "NodeJS,", "GraphQL,", "Hashnode API,", "TailwindCSS"],
     },
     {
         id: "proj-8",
@@ -97,7 +97,7 @@ export const projsData = [
         desc: "A React practice project. A simple memory game where the user has to match the cards with the same images.",
         github: "https://github.com/gateremark/mind-match",
         live: "https://mind-match.vercel.app/",
-        tech: ["ReactJS"],
+        tech: ["React.js"],
     },
     {
         id: "proj-10",

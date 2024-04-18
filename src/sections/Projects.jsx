@@ -17,7 +17,7 @@ const Projects = () => {
             github: "#",
             live: "https://www.expoafrica.co.ke/",
             tech: [
-                "NextJS,",
+                "Next.js,",
                 "TailwindCSS,",
                 "Paystack,",
                 "Framermotion,",
@@ -31,7 +31,7 @@ const Projects = () => {
             desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
             github: "#",
             live: "https://ahaditek.vercel.app/",
-            tech: ["React,", "TailwindCSS,", "Firebase,", "React Parallax"],
+            tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
         },
         {
             id: "proj-3",
@@ -41,7 +41,7 @@ const Projects = () => {
             github: "https://github.com/gateremark/blogbox",
             live: "https://myblogbox.vercel.app/",
             tech: [
-                "NextJS,",
+                "Next.js,",
                 "TailwindCSS,",
                 "OpenAI API,",
                 "NeonDB,",
@@ -57,7 +57,7 @@ const Projects = () => {
             github: "https://github.com/gateremark/hometopia",
             live: "https://hometopia.vercel.app/",
             tech: [
-                "React,",
+                "React.js,",
                 "TailwindCSS,",
                 "Firebase,",
                 "Maps API,",
@@ -72,7 +72,7 @@ const Projects = () => {
             github: "https://github.com/gateremark/gaterebot",
             live: "https://gaterebot.vercel.app/",
             tech: [
-                "NextJS,",
+                "Next.js,",
                 "TailwindCSS,",
                 "OpenAI API,",
                 "MongoDB,",
