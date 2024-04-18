@@ -6,7 +6,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
     return (
         <motion.div
             variants={fadeIn("right", "spring", index * 0.4, 0.75)}
-            className=" flex flex-col py-6 px-5 sm:h-[460px] bg-[#00000000] backdrop-blur-[1px] shadow-2xl rounded-xl items-center text-center transition-shadow duration-300 ease-in-out hover:shadow-3xl"
+            className=" flex flex-col py-6 px-5 sm:h-[465px] bg-[#00000000] backdrop-blur-[1px] shadow-2xl rounded-xl items-center text-center transition-shadow duration-300 ease-in-out hover:shadow-3xl"
         >
             <div className=" relative h-[240px]">
                 <img
@@ -41,10 +41,16 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                                 <AiFillEye className="text-3xl " />
                             </motion.div>
                         </a>
-                        <a
+                        {/* <a
                             href={github}
                             target="_blank"
                             rel="noreferrer"
+                            className=" bg-[#00000080] p-[6px] rounded-full flex justify-center items-center"
+                        > */}
+                        <button
+                            disabled={github === "#"}
+                            onClick={() => window.open(github, "_blank")}
+                            aria-label="Project on GitHub"
                             className=" bg-[#00000080] p-[6px] rounded-full flex justify-center items-center"
                         >
                             <motion.div
@@ -55,7 +61,8 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                             >
                                 <AiFillGithub className=" text-3xl" />
                             </motion.div>
-                        </a>
+                        </button>
+                        {/* </a> */}
                     </div>
                     <span className=" w-full flex flex-wrap gap-1 justify-center items-center px-1">
                         {tech.map((t, index) => (

@@ -43,14 +43,26 @@ const ProjectCard = ({
                 </p>
 
                 <div className="flex w-full text-[#ffffff] justify-between items-center px-2 h-[65px] glassmorphism rounded-full">
-                    <a
+                    {/* <a
                         href={github}
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Project on GitHub"
+                        disabled={github === "#"}
+                    > */}
+                    <button
+                        disabled={github === "#"}
+                        onClick={() => window.open(github, "_blank")}
+                        aria-label="Project on GitHub"
                     >
-                        <IoLogoGithub className="text-5xl hover:scale-110 transition ease-in-out duration-150 have__cursor" />
-                    </a>
+                        <IoLogoGithub
+                            className={`text-5xl hover:scale-110 ${
+                                github === "#" ? "cursor-not-allowed" : ""
+                            } transition ease-in-out duration-150 `}
+                        />
+                    </button>
+
+                    {/* </a> */}
                     <span className=" flex flex-wrap gap-[2px] md:gap-1 lg:gap-[6px] justify-center items-center">
                         {tech.map((t, index) => (
                             <span

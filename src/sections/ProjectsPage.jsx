@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import { TypingText } from "../components/TypingText";
+// import { TypingText } from "../components/TypingText";
 import { staggerContainer } from "../motion";
 import { Link } from "react-router-dom";
 import { GiReturnArrow } from "react-icons/gi";

@@ -1,6 +1,30 @@
 export const projsData = [
     {
         id: "proj-1",
+        imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/expo2_tt90ia.webp",
+        title: "Expo Africa",
+        desc: "A responsive web application, for the East Africa Real Estate Expo 2024, with payment integration catering to both Kenyan mobile users (Mpesa) and international users (Card).",
+        github: "#",
+        live: "https://www.expoafrica.co.ke/",
+        tech: [
+            "NextJS,",
+            "TailwindCSS,",
+            "Paystack,",
+            "Framermotion,",
+            "NeonDB",
+        ],
+    },
+    {
+        id: "proj-2",
+        imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/ahaditek2_ow8cob.webp",
+        title: "Ahadi-Tek",
+        desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi -> Simplifying Property Management.",
+        github: "#",
+        live: "https://ahaditek.vercel.app/",
+        tech: ["React,", "TailwindCSS,", "Firebase,", "React Parallax"],
+    },
+    {
+        id: "proj-3",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/blog_rwxm7q.webp",
         title: "BlogBox",
         desc: "Offering an intuitive and collaborative space for crafting and sharing insightful technical blogs; with AI-powered autocompletions, and real-time collaboration.",
@@ -16,7 +40,7 @@ export const projsData = [
         ],
     },
     {
-        id: "proj-2",
+        id: "proj-4",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/home_vm6hdd.webp",
         title: "HomeTopia",
         desc: "Designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.",
@@ -25,7 +49,7 @@ export const projsData = [
         tech: ["React,", "TailwindCSS,", "Firebase,", "SwiperJS,", "Leaflet"],
     },
     {
-        id: "proj-3",
+        id: "proj-5",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109022/new_portfolio/bot_pyp3fk.webp",
         title: "gaterebot",
         desc: "Leveraging advanced natural language processing techniques to provide users with an interactive conversational experience.",
@@ -40,7 +64,7 @@ export const projsData = [
         ],
     },
     {
-        id: "proj-4",
+        id: "proj-6",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/maps2_ezsfin.webp",
         title: "Gatere Maps",
         desc: "A Google Maps‐inspired project, allowing users to explore interactive maps, and search for locations using a built‐in search feature.",
@@ -49,7 +73,7 @@ export const projsData = [
         tech: ["React,", "TailwindCSS,", "Maps API,", "GeoCoding API"],
     },
     {
-        id: "proj-5",
+        id: "proj-7",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1707142432/new_portfolio/devcard_l6jrca.webp",
         title: "Hashnode DevCard",
         desc: "A GraphQL server and ReactJS frontend that fetches Hashnode users’ information from Hashnode’s API, and generates a Hashnode DevCard.",
@@ -58,7 +82,7 @@ export const projsData = [
         tech: ["React,", "NodeJS,", "GraphQL,", "Hashnode API,", "TailwindCSS"],
     },
     {
-        id: "proj-6",
+        id: "proj-8",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703109021/new_portfolio/movie_dwo2xb.webp",
         title: "FilMere",
         desc: "A movie app utilizing the TMDB API to fetch movie data and provides a user-friendly interface for users to browse and explore various movies.",
@@ -67,7 +91,7 @@ export const projsData = [
         tech: ["HTML,", "CSS,", "JavaScript,", "TMDB API"],
     },
     {
-        id: "proj-7",
+        id: "proj-9",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/nindmatch_mkdeem.webp",
         title: "MindMatch",
         desc: "A React practice project. A simple memory game where the user has to match the cards with the same images.",
@@ -76,7 +100,7 @@ export const projsData = [
         tech: ["ReactJS"],
     },
     {
-        id: "proj-8",
+        id: "proj-10",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/droppi_rtspsa.webp",
         title: "Droppi",
         desc: "A simple Kanban board project that allows one to create tasks and organize them into different stages.",
@@ -85,7 +109,7 @@ export const projsData = [
         tech: ["HTML,", "CSS,", "JavaScript"],
     },
     {
-        id: "proj-9",
+        id: "proj-11",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/secretno_ihqsiu.webp",
         title: "Secret Numbers",
         desc: "DOM Manipulation practice project. A simple game where the user has to guess a secret number between 1 and 20.",
@@ -94,7 +118,7 @@ export const projsData = [
         tech: ["HTML,", "CSS,", "JavaScript"],
     },
     {
-        id: "proj-10",
+        id: "proj-12",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1703148140/new_portfolio/makifoods_evlwgs.webp",
         title: "MakiFoods",
         desc: "HTML and CSS practice project. A simple meals website with a responsive design and a mobile-first approach.",
