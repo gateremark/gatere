@@ -25,7 +25,7 @@ const ProjectCard = ({
         <img
             src={imgUrl}
             alt="project-img"
-            className="absolute w-full h-full object-cover rounded-[24px] border border-[#430680] border-opacity-30 border-solid"
+            className="absolute w-full h-full object-cover rounded-[24px] border border-[#01f53f] border-opacity-30 border-solid"
         />
 
         {active !== id ? (
@@ -33,7 +33,7 @@ const ProjectCard = ({
                 {title}
             </h3>
         ) : (
-            <div className="absolute bottom-0 px-5 md:px-8 pb-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+            <div className="absolute bottom-0 px-5 md:px-8 pb-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.7)] rounded-b-[24px]">
                 <h2 className="font-semibold sm:text-[32px] text-[24px] text-white">
                     {title}
                 </h2>
