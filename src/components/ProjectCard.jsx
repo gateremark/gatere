@@ -29,7 +29,7 @@ const ProjectCard = ({
         />
 
         {active !== id ? (
-            <h3 className="font-semibold p-2 rounded-2xl sm:text-[24px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] glassmorphism___card">
+            <h3 className="font-semibold p-[6px] sm:p-2 rounded-2xl sm:text-[24px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] glassmorphism___card">
                 {title}
             </h3>
         ) : (
