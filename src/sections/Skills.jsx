@@ -46,7 +46,7 @@ const Skills = () => {
         },
         {
             name: "MongoDB",
-            icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1713460404/new_portfolio/mongodb_fiwzej.svg",
+            icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1713460620/mongodbicon_uc1vmz.svg",
         },
         {
             name: "sql",
