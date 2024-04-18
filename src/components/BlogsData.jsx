@@ -41,6 +41,14 @@ export const blogData = [
     },
     {
         category: "others",
+        imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1713445695/new_portfolio/new_proj_images/aws_rcxplp.webp",
+        title: "AWS 101: Your Easy Start to Amazon Web Services",
+        subtitle:
+            "Step-by-Step AWS Series where we cover everything AWS from the word go.",
+        url: "https://dev.to/gateremark/aws-101-your-easy-start-to-amazon-web-services-37km",
+    },
+    {
+        category: "others",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697418363/new_portfolio/dsa_knr095.webp",
         title: "Introduction to Data Structures and Algorithms",
         subtitle:

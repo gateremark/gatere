@@ -18,7 +18,7 @@ export const projsData = [
         id: "proj-2",
         imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/ahaditek2_ow8cob.webp",
         title: "Ahadi-Tek",
-        desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi -> Simplifying Property Management.",
+        desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
         github: "#",
         live: "https://ahaditek.vercel.app/",
         tech: ["React,", "TailwindCSS,", "Firebase,", "React Parallax"],

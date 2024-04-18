@@ -6,7 +6,7 @@ import AllBlogCard from "../components/AllBlogCard";
 import { Link } from "react-router-dom";
 import { GiReturnArrow } from "react-icons/gi";
 import { useState } from "react";
-import { blogData } from "../components/DataBlog";
+import { blogData } from "../components/BlogsData";
 import BlogCategory from "../components/BlogCategory";
 import StarsCanvas from "../canvas/Stars";
 import SpringyText from "../components/springtext/SpringyText";
