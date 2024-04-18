@@ -18,7 +18,7 @@ export const workData = [
         iconBg: "#E6DEDD",
         date: "August 2023 - April 2024",
         points: [
-            "● Coordinated with a team of 4 developers to architect and implement the user interface and functionality of the Digitalfarmer platform with NextJS and Talwind CSS.",
+            "● Coordinated with a team of 4 developers to architect and implement the user interface and functionality of the Digitalfarmer platform with Next.js, Tailwind CSS and AWS.",
             "● Played a pivotal role in the creation of a B2B and B2C platform that streamlines the agricultural supply chain.",
         ],
         supported: "",
@@ -30,7 +30,7 @@ export const workData = [
         iconBg: "#383E56",
         date: "April 2023 - July 2023",
         points: [
-            "● Collaborated with a team of 7 developers to implement user‐friendly interfaces for Quizardhq’s web application using ReactJS and Tailwind CSS.",
+            "● Collaborated with a team of 7 developers to implement user‐friendly interfaces for Quizardhq’s web application using React.js and Tailwind CSS.",
             "● Conducted the identification and fixing of frontend issues ensuring high‐quality and bug‐free user experiences, resulting in 30% improvement in user engagement and overall satisfaction.",
         ],
         supported: "",
