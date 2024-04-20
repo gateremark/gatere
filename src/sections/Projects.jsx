@@ -36,7 +36,7 @@ const Projects = () => {
         {
             id: "proj-3",
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1713639786/new_portfolio/nanaai_wmogea.webp",
-            title: "Nana AI",
+            title: "nanaAI",
             desc: "An AI-powered SaaS web application that enables users to interact with PDFs, and online blogs using voice commands.",
             github: "#",
             live: "https://nana-ai.vercel.app/",
