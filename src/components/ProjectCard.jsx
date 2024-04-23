@@ -14,6 +14,7 @@ const ProjectCard = ({
     github,
     live,
     tech,
+    type,
 }) => (
     <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -34,8 +35,9 @@ const ProjectCard = ({
             </h3>
         ) : (
             <div className="absolute bottom-0 px-5 md:px-8 pb-4 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.7)] rounded-b-[24px]">
-                <h2 className="font-semibold sm:text-[32px] text-[24px] text-white">
-                    {title}
+                <h2 className="font-semibold sm:text-[32px] text-[24px] text-white flex gap-[1px]">
+                    {title}{" "}
+                    <span className="sm:text-[16px] text-[16px]">{type}</span>
                 </h2>
 
                 <p className="font-normal text-[16px] leading-[20.16px] text-white my-4">

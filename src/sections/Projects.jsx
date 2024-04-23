@@ -23,6 +23,7 @@ const Projects = () => {
                 "Framermotion,",
                 "NeonDB",
             ],
+            type: "(Client's)",
         },
         {
             id: "proj-2",
@@ -32,6 +33,7 @@ const Projects = () => {
             github: "#",
             live: "https://ahaditek.vercel.app/",
             tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
+            type: "(Client's)",
         },
         {
             id: "proj-3",
@@ -48,6 +50,7 @@ const Projects = () => {
                 "Deepgram,",
                 "Elevenlabs API",
             ],
+            type: "",
         },
         {
             id: "proj-4",
@@ -64,6 +67,7 @@ const Projects = () => {
                 "Drizzle ORM,",
                 "Y-WebRTC",
             ],
+            type: "",
         },
         {
             id: "proj-5",
@@ -79,6 +83,7 @@ const Projects = () => {
                 "MongoDB,",
                 "Next Auth",
             ],
+            type: "",
         },
     ];
 
