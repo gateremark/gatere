@@ -32,6 +32,7 @@ const WorkCard = ({ work }) => {
                     <a
                         href="https://www.linkedin.com/posts/gateremark_lishebora-activity-7175619257274118146-NmOi"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <span className=" absolute text-xs -top-9 -right-6 bg-[#00701c] hover:bg-[#11471f] p-1 rounded-full text-[#ffffff] transition duration-300 ease-in-out">
                             {work.supported}
