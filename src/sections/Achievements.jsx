@@ -11,14 +11,14 @@ import AchievementCard from "../components/AchievementCard";
 const Achievements = () => {
     const achievementData = [
         {
-            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061485/new_portfolio/gdsc_ddlz0h.webp",
-            title: "Google Developer Student Clubs, Lead",
-            link: "https://gdsc.community.dev/dedan-kimathi-university-of-technology/",
-        },
-        {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061515/new_portfolio/mlsa_ruvsls.webp",
             title: "Microsoft Learn Student Ambassador",
             link: "https://mvp.microsoft.com/en-US/studentambassadors/profile/5fa3a46c-5ba5-4864-b963-19a5d2b2b939",
+        },
+        {
+            imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061485/new_portfolio/gdsc_ddlz0h.webp",
+            title: "Google Developer Student Clubs, Lead",
+            link: "https://gdsc.community.dev/dedan-kimathi-university-of-technology/",
         },
         {
             imgUrl: "https://res.cloudinary.com/dvuazircp/image/upload/v1697061470/new_portfolio/emai_lfxjtq.webp",
