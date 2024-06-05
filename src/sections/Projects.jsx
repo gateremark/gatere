@@ -31,7 +31,7 @@ const Projects = () => {
             title: "Ahadi-Tek",
             desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
             github: "#",
-            live: "https://ahaditek.vercel.app/",
+            live: "https://ahaditek.com/",
             tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
             type: "(Client's)",
         },
