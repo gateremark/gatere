@@ -76,7 +76,7 @@ const Skills = () => {
 				/>
 				{/* Conditional rendering when displaySkills is true */}
 				{displaySkills && (
-					<div className=" flex flex-wrap justify-center items-center gap-10 xl:px-10">
+					<div className=" flex flex-wrap justify-center items-center gap-10 xl:px-10 2xl:px-40">
 						{skillData.map((skill) => (
 							<div
 								className=" w-28 h-28 flex items-center justify-center flex-wrap"
