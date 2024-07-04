@@ -20,10 +20,7 @@ const Navbar = () => {
                     />
                 </a>
                 <ul className="w-[70%] md:flex items-center justify-around hidden text-[#01f53f] text-xl font-bold">
-                    {/* <li>
-						{" "}
-						<a href="#">Home</a>
-					</li> */}
+                    
                     <li className=" hover:scale-110 transition ease-in-out duration-150">
                         {" "}
                         <a href="#about">About Me</a>
@@ -44,10 +41,7 @@ const Navbar = () => {
                         {" "}
                         <a href="#achievements">Achievements</a>
                     </li>
-                    {/* <li>
-						{" "}
-						<a href="#Testimonials">Testimonials</a>
-					</li> */}
+                   
                     <li className=" hover:scale-110 transition ease-in-out duration-150">
                         {" "}
                         <a href="#contact">Contact</a>

@@ -20,7 +20,7 @@ const Header = () => {
                 <p className=" text-lg md:text-xl mb-2 text-slate-200 font-semibold">
                     Hello, I&apos;m
                 </p>
-                {/* <p className=" text-4xl  md:text-6xl mb-2">Mark Gatere</p> */}
+               
                 <p className="text-4xl md:text-6xl mb-2 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent font-semibold drop-shadow">
                     Mark Gatere
                 </p>
@@ -64,13 +64,7 @@ const Header = () => {
                         <FaLink />
                     </a>
                 </div>
-                {/* <img
-					className=" w-52 md:w-72 bg-gradient-to-b from-[#690cc6] to-[#690cc600] rounded-t-full pt-12 px-2 md:pt-14"
-					src="https://res.cloudinary.com/dvuazircp/image/upload/v1696751292/new_portfolio/myself_ovbc7w.webp"
-					alt="Mark Gatere"
-					width="288px"
-					height="315px"
-				/> */}
+                
                 <img
                     className="hero-img w-52 md:w-72"
                     src="https://res.cloudinary.com/dvuazircp/image/upload/v1697713079/new_portfolio/gatereimg_xk2p8v.webp"
@@ -78,12 +72,7 @@ const Header = () => {
                     width="288px"
                     height="315px"
                 />
-                {/* <a
-					href="#About"
-					className=" hidden md:block rotate-90 text-sm md:text-lg md:mb-12 text-[#30144d]"
-				>
-					Scroll Down
-				</a> */}
+               
                 <a
                     href="#about"
                     className=" animate-bounce text-2xl md:text-3xl text-[#01f53f] mb-0 md:mb-10"

@@ -45,13 +45,7 @@ const ProjectCard = ({
                 </p>
 
                 <div className="flex w-full text-[#ffffff] justify-between items-center px-2 h-[65px] glassmorphism rounded-full">
-                    {/* <a
-                        href={github}
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="Project on GitHub"
-                        disabled={github === "#"}
-                    > */}
+                    
                     <button
                         disabled={github === "#"}
                         onClick={() => window.open(github, "_blank")}
@@ -64,7 +58,7 @@ const ProjectCard = ({
                         />
                     </button>
 
-                    {/* </a> */}
+                
                     <span className=" flex flex-wrap gap-[2px] md:gap-1 lg:gap-[6px] justify-center items-center">
                         {tech.map((t, index) => (
                             <span

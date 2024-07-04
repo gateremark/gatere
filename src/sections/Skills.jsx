@@ -74,7 +74,7 @@ const Skills = () => {
 					title="Skills"
 					textStyles="text-2xl mb-4 font-semibold text-center"
 				/>
-				{/* Conditional rendering when displaySkills is true */}
+				
 				{displaySkills && (
 					<div className=" flex flex-wrap justify-center items-center gap-10 xl:px-10 2xl:px-40">
 						{skillData.map((skill) => (
@@ -83,16 +83,6 @@ const Skills = () => {
 								key={skill.name}
 							>
 								<BallCanvas icon={skill.icon} />
-
-								{/* <Tilt className="md:hidden">
-                                    <img
-                                        src={skill.icon}
-                                        alt={skill.name}
-                                        width="96px"
-                                        height="96px"
-                                        className="object-contain"
-                                    />
-                                </Tilt> */}
 							</div>
 						))}
 					</div>

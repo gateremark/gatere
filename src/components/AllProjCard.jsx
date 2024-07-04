@@ -41,12 +41,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                                 <AiFillEye className="text-3xl " />
                             </motion.div>
                         </a>
-                        {/* <a
-                            href={github}
-                            target="_blank"
-                            rel="noreferrer"
-                            className=" bg-[#00000080] p-[6px] rounded-full flex justify-center items-center"
-                        > */}
+                        
                         <button
                             disabled={github === "#"}
                             onClick={() => window.open(github, "_blank")}
@@ -62,7 +57,7 @@ const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {
                                 <AiFillGithub className=" text-3xl" />
                             </motion.div>
                         </button>
-                        {/* </a> */}
+                        
                     </div>
                     <span className=" w-full flex flex-wrap gap-1 justify-center items-center px-1">
                         {tech.map((t, index) => (
