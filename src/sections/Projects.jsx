@@ -42,7 +42,7 @@ const Projects = () => {
 			imgUrl:
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1720094948/new_portfolio/_a4af2359-96b0-4421-9c5b-2456ef73e227_y8vle4.webp",
 			title: "MasomoNet",
-			desc: " An e-learning platform that provides a comprehensive revision tool for students across various academic levels, from Competency-Based Curriculum (CBC) to University level.",
+			desc: " An e-learning platform that provides a comprehensive revision materials for students across various academic levels, from Competency-Based Curriculum (CBC) to University level.",
 			github: "#",
 			live: "https://masomonet-live.vercel.app/",
 			tech: [
