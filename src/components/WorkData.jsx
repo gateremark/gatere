@@ -16,9 +16,9 @@ export const workData = [
         company_name: "Digitalfarmer",
         icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1711112685/digitalfarmer_avsvkc.webp",
         iconBg: "#E6DEDD",
-        date: "August 2023 - April 2024",
+        date: "August 2023 - May 2024",
         points: [
-            "● Coordinated with a team of 4 developers to architect and implement the user interface and functionality of the Digitalfarmer platform with Next.js, Tailwind CSS and AWS.",
+            "● Coordinated with a team of 4 developers to architect and implement the user interface and functionality of the Digitalfarmer platform with Next.js, Tailwind CSS, React Query, Supabase and AWS.",
             "● Played a pivotal role in the creation of a B2B and B2C platform that streamlines the agricultural supply chain.",
         ],
         supported: "",
