@@ -7,6 +7,7 @@ export const blogData = [
 		subtitle:
 			"Unlock the potential of ReactJS to create web applications that are not just robust but also highly dynamic and user-friendly.",
 		url: "https://gateremark.hashnode.dev/reactjs-101-lets-build-robust-web-applications-with-react",
+		featured: false,
 	},
 	{
 		category: "backend",
@@ -16,6 +17,7 @@ export const blogData = [
 		subtitle:
 			"Begin your exciting coding adventure from the very first step as you delve into the world of Python.",
 		url: "https://dev.to/gateremark/python-from-the-word-go-4h93",
+		featured: false,
 	},
 	{
 		category: "design",
@@ -25,6 +27,7 @@ export const blogData = [
 		subtitle:
 			"Not many people are good at both writing code and designing, therefore, this will set you apart from many developers out there.",
 		url: "https://gateremark.hashnode.dev/mastering-the-art-of-web-design-part-1",
+		featured: false,
 	},
 	{
 		category: "backend",
@@ -34,6 +37,7 @@ export const blogData = [
 		subtitle:
 			"Continue your Python journey and dive deeper into programming excellence with part 2 of the Python programming article.",
 		url: "https://dev.to/gateremark/python-from-the-word-go-pt2-31k0",
+		featured: false,
 	},
 	{
 		category: "backend",
@@ -43,6 +47,7 @@ export const blogData = [
 		subtitle:
 			"A comprehensive guide to high-performance programming: Uncover the potential of Rust and harness its power.",
 		url: "https://gateremark.hashnode.dev/rust-101-unleashing-the-power-of-rust",
+		featured: true,
 	},
 	{
 		category: "backend",
@@ -52,6 +57,7 @@ export const blogData = [
 		subtitle:
 			"Let's create a Hashnode DevCard using Hashnode’s GraphQL API - #APIHackathon.",
 		url: "https://gateremark.hashnode.dev/leveraging-hashnodes-graphql-api-to-build-a-devcard-apihackathon#clsc3n4kf000009k1c8veeoqq",
+		featured: false,
 	},
 	{
 		category: "others",
@@ -61,6 +67,7 @@ export const blogData = [
 		subtitle:
 			"Step-by-Step AWS Series where we cover everything AWS from the word go.",
 		url: "https://dev.to/gateremark/aws-101-your-easy-start-to-amazon-web-services-37km",
+		featured: false,
 	},
 	{
 		category: "others",
@@ -70,6 +77,7 @@ export const blogData = [
 		subtitle:
 			"Embark on a foundational exploration of Data Structures and Algorithms.",
 		url: "https://dev.to/gateremark/data-structures-101-introduction-to-data-structures-and-algorithms-4oib",
+		featured: false,
 	},
 	{
 		category: "others",
@@ -79,6 +87,7 @@ export const blogData = [
 		subtitle:
 			"Demystify the world of algorithm efficiency with an in-depth look at Big O Notation.",
 		url: "https://dev.to/gateremark/say-hello-to-big-oh-5a28",
+		featured: false,
 	},
 	{
 		category: "others",
@@ -88,6 +97,7 @@ export const blogData = [
 		subtitle:
 			"Gain a comprehensive grasp of Machine Learning and its fundamental workflow.",
 		url: "https://gateremark.medium.com/understanding-machine-learning-and-its-basic-workflow-1-fe85a412bb21",
+		featured: false,
 	},
 	{
 		category: "others",
@@ -97,6 +107,7 @@ export const blogData = [
 		subtitle:
 			"Begin your data science journey with a comprehensive introduction to this exciting field.",
 		url: "https://dev.to/gateremark/the-ultimate-guide-to-getting-started-in-data-science-2c7a",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -106,6 +117,7 @@ export const blogData = [
 		subtitle:
 			"Discover how TypeScript comes to the rescue in web development with practical insights.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -115,6 +127,7 @@ export const blogData = [
 		subtitle:
 			"Dive deeper into the world of React as we explore advanced concepts and techniques.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -124,6 +137,7 @@ export const blogData = [
 		subtitle:
 			"Master the art of MySQL with a comprehensive guide that covers everything you need to know.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -133,6 +147,7 @@ export const blogData = [
 		subtitle:
 			"Continue your journey of mastering web design with advanced techniques and insights.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -142,6 +157,7 @@ export const blogData = [
 		subtitle:
 			"Explore the advanced realms of Rust programming, moving beyond the fundamentals.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -151,6 +167,7 @@ export const blogData = [
 		subtitle:
 			"Dive into the world of linked lists and understand their structure and applications in computer science.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -160,6 +177,7 @@ export const blogData = [
 		subtitle:
 			"Discover the importance and versatility of NumPy in scientific computing and data analysis.",
 		url: "#",
+		featured: false,
 	},
 	{
 		category: "in-draft",
@@ -169,5 +187,6 @@ export const blogData = [
 		subtitle:
 			"Discover the power of NextJS and how it can be leveraged to build powerful web applications.",
 		url: "#",
+		featured: false,
 	},
 ];
