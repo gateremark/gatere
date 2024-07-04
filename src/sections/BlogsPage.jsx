@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
-import { TypingText } from "../components/TypingText";
+// import { TypingText } from "../components/TypingText";
 import { staggerContainer } from "../motion";
 import AllBlogCard from "../components/AllBlogCard";
 import { Link } from "react-router-dom";
