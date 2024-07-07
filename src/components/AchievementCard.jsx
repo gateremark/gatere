@@ -14,7 +14,7 @@ const AchievementCard = ({ imgUrl, title, link }) => {
                 width="85.797px"
                 height="112px"
             />
-            <span className="font-semibold text-center flex flex-col items-center gap-2 justify-between h-[100%]">
+            <span className="font-semibold text-center flex flex-col items-center gap-2 justify-between h-[100%] px-2">
                 {title}{" "}
                 <a
                     href={link}
