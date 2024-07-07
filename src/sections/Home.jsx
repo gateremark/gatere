@@ -2,7 +2,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Navbar from "../components/Navbar";
 
-import Header from "./Header";
+import Hero from "./Hero";
 import About from "./About";
 import Projects from "./Projects";
 import Work from "./Work";
@@ -58,7 +58,7 @@ function Home() {
 		>
 			<div className="2xl:max-w-[1530px]">
 				<Navbar />
-				<Header />
+				<Hero />
 				<About />
 				<Projects />
 				<Work />

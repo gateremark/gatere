@@ -58,7 +58,7 @@ body {
 .hero-img {
     position: relative;
     animation: about-radius infinite 4s ease-in-out;
-    box-shadow: 0px 0px 50px #01f53f80;
+    box-shadow: 0px 0px 50px #8C8FEA90;
 }
 @keyframes about-radius {
     0% {
