@@ -44,7 +44,7 @@ const Projects = () => {
 			title: "MasomoNet",
 			desc: " An e-learning platform that provides a comprehensive revision materials for students across various academic levels, from Competency-Based Curriculum (CBC) to University level.",
 			github: "#",
-			live: "https://masomonet-live.vercel.app/",
+			live: "https://masomonet-prod.vercel.app/",
 			tech: [
 				"Next.js,",
 				"TailwindCSS,",

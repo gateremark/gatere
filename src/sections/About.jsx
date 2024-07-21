@@ -64,7 +64,7 @@ const About = () => {
                             <p className="text-center md:text-left">
                                 • Strong proficiency in{" "}
                                 <strong>JavaScript</strong> and a thorough{" "}
-                                <br /> understanding of <strong>ReactJS</strong>{" "}
+                                <br /> understanding of <strong>React.js</strong>{" "}
                                 and its core principles.
                             </p>
                         </motion.div>
