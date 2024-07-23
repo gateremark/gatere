@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../motion";
+import { fadeIn } from "../../motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
 const AllProjCard = ({ imgUrl, title, desc, github, live, tech, index }) => {

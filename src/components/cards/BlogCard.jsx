@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../motion";
+import { fadeIn } from "../../motion";
 import { BsArrowUpRightSquare } from "react-icons/bs";
 
 const BlogCard = ({ imgUrl, title, subtitle, url, index }) => (

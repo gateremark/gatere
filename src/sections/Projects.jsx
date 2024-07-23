@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { TypingText } from "../components/TypingText";
-import ProjectCard from "../components/ProjectCard";
+import { TypingText } from "../components/animationtext/TypingText";
+import ProjectCard from "../components/cards/ProjectCard";
 import { staggerContainer } from "../motion";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 // import testimg from "../assets/testimg.png";

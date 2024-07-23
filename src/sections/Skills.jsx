@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import BallCanvas from "../canvas/Ball";
-import { TypingText } from "../components/TypingText";
+import { TypingText } from "../components/animationtext/TypingText";
 // import { Tilt } from "react-tilt";
 // import { SiHtml5 } from "react-icons/si";
 
@@ -74,7 +74,7 @@ const Skills = () => {
 					title="Skills"
 					textStyles="text-2xl mb-4 font-semibold text-center"
 				/>
-				
+
 				{displaySkills && (
 					<div className=" flex flex-wrap justify-center items-center gap-10 xl:px-10 2xl:px-40">
 						{skillData.map((skill) => (
