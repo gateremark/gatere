@@ -1,10 +1,10 @@
 import { FaAnglesDown } from "react-icons/fa6";
-import data from "../components/Data/AboutData";
-import Card from "../components/cards/AboutCard";
+import data from "../../components/Data/AboutData";
+import Card from "../../components/cards/AboutCard";
 import Skills from "./Skills";
 import { motion } from "framer-motion";
-import { TypingText } from "../components/animationtext/TypingText";
-import { fadeIn, staggerContainer } from "../motion";
+import { TypingText } from "../../components/animationtext/TypingText";
+import { fadeIn, staggerContainer } from "../../motion";
 
 const About = () => {
 	return (

@@ -3,7 +3,7 @@ import AnimatedCursor from "react-animated-cursor";
 import Home from "./sections/Home";
 import BlogsPage from "./sections/BlogsPage";
 import ProjectsPage from "./sections/ProjectsPage";
-import ErrorPage from "./sections/ErrorPage";
+import ErrorPage from "./sections/404";
 import { Routes, Route } from "react-router-dom";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";

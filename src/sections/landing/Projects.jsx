@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { TypingText } from "../components/animationtext/TypingText";
-import ProjectCard from "../components/cards/ProjectCard";
-import { staggerContainer } from "../motion";
+import { TypingText } from "../../components/animationtext/TypingText";
+import ProjectCard from "../../components/cards/ProjectCard";
+import { staggerContainer } from "../../motion";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 // import testimg from "../assets/testimg.png";
 import { Link } from "react-router-dom";
@@ -29,17 +29,6 @@ const Projects = () => {
 		{
 			id: "proj-2",
 			imgUrl:
-				"https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/ahaditek2_ow8cob.webp",
-			title: "Ahadi-Tek",
-			desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
-			github: "#",
-			live: "https://ahaditek.com/",
-			tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
-			type: "(Client's)",
-		},
-		{
-			id: "proj-3",
-			imgUrl:
 				"https://res.cloudinary.com/dvuazircp/image/upload/v1720094948/new_portfolio/_a4af2359-96b0-4421-9c5b-2456ef73e227_y8vle4.webp",
 			title: "MasomoNet",
 			desc: " An e-learning platform that provides a comprehensive revision materials for students across various academic levels, from Competency-Based Curriculum (CBC) to University level.",
@@ -53,6 +42,17 @@ const Projects = () => {
 				"Paystack,",
 				"Node.js",
 			],
+			type: "(Client's)",
+		},
+		{
+			id: "proj-3",
+			imgUrl:
+				"https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/ahaditek2_ow8cob.webp",
+			title: "Ahadi-Tek",
+			desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
+			github: "#",
+			live: "https://ahaditek.com/",
+			tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
 			type: "(Client's)",
 		},
 		{

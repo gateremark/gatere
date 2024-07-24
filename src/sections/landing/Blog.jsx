@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { TypingText } from "../components/animationtext/TypingText";
-import { staggerContainer } from "../motion";
-import BlogCard from "../components/cards/BlogCard";
+import { TypingText } from "../../components/animationtext/TypingText";
+import { staggerContainer } from "../../motion";
+import BlogCard from "../../components/cards/BlogCard";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 

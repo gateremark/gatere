@@ -12,16 +12,6 @@ export const projsData = [
 	{
 		id: "proj-2",
 		imgUrl:
-			"https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/ahaditek2_ow8cob.webp",
-		title: "Ahadi-Tek",
-		desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
-		github: "#",
-		live: "https://ahaditek.vercel.app/",
-		tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
-	},
-	{
-		id: "proj-3",
-		imgUrl:
 			"https://res.cloudinary.com/dvuazircp/image/upload/v1720094948/new_portfolio/_a4af2359-96b0-4421-9c5b-2456ef73e227_y8vle4.webp",
 		title: "MasomoNet",
 		desc: " An e-learning platform that provides a comprehensive revision materials for students across various academic levels, from Competency-Based Curriculum (CBC) to University level.",
@@ -35,6 +25,16 @@ export const projsData = [
 			"Paystack,",
 			"Node.js",
 		],
+	},
+	{
+		id: "proj-3",
+		imgUrl:
+			"https://res.cloudinary.com/dvuazircp/image/upload/v1713443790/new_portfolio/new_proj_images/ahaditek2_ow8cob.webp",
+		title: "Ahadi-Tek",
+		desc: "A responsive web application for Ahadi-Tek, an innovative tech startup behind Digi-Kodi; Simplifying Property Management.",
+		github: "#",
+		live: "https://ahaditek.vercel.app/",
+		tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
 	},
 	{
 		id: "proj-4",

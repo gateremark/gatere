@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { TypingText } from "../components/animationtext/TypingText";
-import { staggerContainer } from "../motion";
+import { TypingText } from "../../components/animationtext/TypingText";
+import { staggerContainer } from "../../motion";
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
 import { FaDev, FaHashnode, FaMedium } from "react-icons/fa6";

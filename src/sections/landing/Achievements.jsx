@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { TypingText } from "../components/animationtext/TypingText";
-import { staggerContainer } from "../motion";
+import { TypingText } from "../../components/animationtext/TypingText";
+import { staggerContainer } from "../../motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Pagination, Autoplay } from "swiper/modules";
-import AchievementCard from "../components/cards/AchievementCard";
+import AchievementCard from "../../components/cards/AchievementCard";
 
 const Achievements = () => {
 	const achievementData = [

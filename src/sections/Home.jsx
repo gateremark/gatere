@@ -1,12 +1,12 @@
 import Navbar from "../components/Navbars/Navbar";
 
-import Hero from "./Hero";
-import About from "./About";
-import Projects from "./Projects";
-import Work from "./Work";
-import Blog from "./Blog";
-import Achievements from "./Achievements";
-import Contact from "./Contact";
+import Hero from "./landing/Hero";
+import About from "./landing/About";
+import Projects from "./landing/Projects";
+import Work from "./landing/Work";
+import Blog from "./landing/Blog";
+import Achievements from "./landing/Achievements";
+import Contact from "./landing/Contact";
 import FloatingNav from "../components/Navbars/FloatingNav";
 import { useRef, useState, useEffect } from "react";
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import BallCanvas from "../canvas/Ball";
-import { TypingText } from "../components/animationtext/TypingText";
+import BallCanvas from "../../canvas/Ball";
+import { TypingText } from "../../components/animationtext/TypingText";
 // import { Tilt } from "react-tilt";
 // import { SiHtml5 } from "react-icons/si";
 
