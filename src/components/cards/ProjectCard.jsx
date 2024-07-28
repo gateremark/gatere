@@ -42,7 +42,7 @@ const ProjectCard = ({
 						target="_blank"
 						rel="noreferrer"
 						aria-label="Live project"
-						className="absolute top-0 right-0 p-2 bg-[#138d32] hover:bg-[#145e26]  text-white font-medium rounded-bl-[24px] cursor-pointer transition duration-300 ease-in-out"
+						className="absolute text-sm md:text-base top-0 right-0 p-2 bg-[#138d32] hover:bg-[#145e26] text-white font-medium rounded-bl-[24px] cursor-pointer transition duration-300 ease-in-out"
 					>
 						Video Explanation
 					</a>
