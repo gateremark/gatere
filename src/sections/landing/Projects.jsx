@@ -25,6 +25,7 @@ const Projects = () => {
 				"NeonDB",
 			],
 			type: "(Client's)",
+			videoExp: "",
 		},
 		{
 			id: "proj-2",
@@ -43,6 +44,7 @@ const Projects = () => {
 				"Node.js",
 			],
 			type: "(Client's)",
+			videoExp: "https://youtu.be/L8DbDA72ml4",
 		},
 		{
 			id: "proj-3",
@@ -54,6 +56,7 @@ const Projects = () => {
 			live: "https://ahaditek.com/",
 			tech: ["React.js,", "TailwindCSS,", "Firebase,", "React Parallax"],
 			type: "(Client's)",
+			videoExp: "",
 		},
 		{
 			id: "proj-4",
@@ -72,6 +75,7 @@ const Projects = () => {
 				"Elevenlabs API",
 			],
 			type: "",
+			videoExp: "",
 		},
 		{
 			id: "proj-5",
@@ -90,6 +94,7 @@ const Projects = () => {
 				"Y-WebRTC",
 			],
 			type: "",
+			videoExp: "",
 		},
 	];
 
