@@ -69,8 +69,8 @@ const Projects = () => {
 			tech: [
 				"Next.js,",
 				"TailwindCSS,",
-				"AWS,",
 				"Langchain,",
+				"AWS,",
 				"Deepgram,",
 				"Elevenlabs API",
 			],
