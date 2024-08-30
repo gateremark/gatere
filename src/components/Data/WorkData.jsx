@@ -1,6 +1,6 @@
 export const workData = [
   {
-    title: "Ecosystem and Garage Intern",
+    title: "Ecosystems and Garage Intern",
     company_name: "Microsoft",
     icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1725022450/msgarage/ms_rfzeov.webp",
     iconBg: "#383E56",
