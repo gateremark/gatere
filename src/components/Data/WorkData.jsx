@@ -1,6 +1,6 @@
 export const workData = [
   {
-    title: "Ecosystems and Garage Intern",
+    title: "Ecosystem and Microsoft Garage Intern",
     company_name: "Microsoft",
     icon: "https://res.cloudinary.com/dvuazircp/image/upload/v1725022450/msgarage/ms_rfzeov.webp",
     iconBg: "#383E56",
@@ -15,8 +15,8 @@ export const workData = [
     iconBg: "#E6DEDD",
     date: "July 2024 - Present",
     points: [
-      "● Leading the development of Charge24's payment portal, Admin and Partner dashboard, integrating with 100+ power bank dispensing machines to serve 3,000+ customers and streamline operations.",
-      "● Developing NextGen Gym's membership payment portal and Admin dashboard to manage 700+ active members, handle membership tiers and automate payment processes, improving administrative efficiency by 70%.",
+      "● Leading the development of Charge24's payment portal, Admin and Partner dashboard using Next.js, AWS, PostgreSQL, and Daraja API, integrating with 100+ power bank dispensing machines to serve 3,000+ customers and streamline operations.",
+      "● Developing NextGen Gym's and Afrofit Gym’s membership payment portal and Admin dashboard using Next.js and Node.js to manage 700+ active members, handle membership tiers and automate payment processes, improving administrative efficiency by 70%.",
       "● Implementing real-time revenue tracking and data visualisation features across client dashboards, enabling real-time analysis to provide actionable insights for businesses, and to handle 500 - 1,000+ daily transactions.",
     ],
     supported: "",

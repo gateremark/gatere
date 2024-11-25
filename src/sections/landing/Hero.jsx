@@ -1,11 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import Cta from "../../components/CTA";
-
 import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import { FaLink } from "react-icons/fa6";
 import { FaAnglesDown } from "react-icons/fa6";
 import { motion } from "framer-motion";
-// import { gateremark } from "../assets";
 
 const Hero = () => {
     return (
